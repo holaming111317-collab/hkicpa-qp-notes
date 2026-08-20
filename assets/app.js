@@ -156,4 +156,53 @@
         });
     }
   }
+
+  /* ---------- Flashcard 翻卡 ---------- */
+  var fcards = document.querySelectorAll(".fcard");
+  if (fcards.length) {
+    var fcardIsFlipped = function (card) {
+      return card.getAttribute("data-flipped") === "true";
+    };
+    var fcardFit = function (card) {
+      // container 高度跟住而家顯示緊嘅一面，back 內容再長都唔會被裁
+      var inner = card.querySelector(".fcard-inner");
+      var face = card.querySelector(
+        fcardIsFlipped(card) ? ".fcard-back" : ".fcard-front"
+      );
+      if (inner && face) {
+        inner.style.minHeight =
+          Math.max(face.offsetHeight, face.scrollHeight) + "px";
+      }
+    };
+    var fcardFlip = function (card, flipped) {
+      card.setAttribute("data-flipped", flipped ? "true" : "false");
+      fcardFit(card);
+    };
+    fcards.forEach(function (card) {
+      fcardFit(card);
+      card.addEventListener("click", function (e) {
+        if (e.target.closest && e.target.closest("a")) return;
+        fcardFlip(card, !fcardIsFlipped(card));
+      });
+    });
+    var fcardFitAll = function () {
+      fcards.forEach(fcardFit);
+    };
+    window.addEventListener("load", fcardFitAll);
+    window.addEventListener("resize", fcardFitAll);
+
+    var toggleAll = document.querySelector(".fcard-toggle-all");
+    if (toggleAll) {
+      var anyUnflipped = function () {
+        return Array.prototype.some.call(fcards, function (c) {
+          return !fcardIsFlipped(c);
+        });
+      };
+      toggleAll.addEventListener("click", function () {
+        var target = anyUnflipped();
+        fcards.forEach(function (c) { fcardFlip(c, target); });
+        toggleAll.textContent = target ? "全部翻返" : "全部翻轉";
+      });
+    }
+  }
 })();

@@ -58,6 +58,9 @@ def collect_notes():
         # 排除網站目錄本身（避免 re-run 時掃到 notes/ 副本）
         if SITE_DIR in path.parents or path.parent == SITE_DIR:
             continue
+        # 排除 app/ 部署目錄入面嘅 notes 副本（同頂層 .md 重複）
+        if (SRC_DIR / "app") in path.parents:
+            continue
         if any(part.startswith(".") for part in path.relative_to(SRC_DIR).parts):
             continue
         if path.name in EXCLUDE_FILES:
@@ -132,6 +135,27 @@ def _protect_fake_ref_defs(md_text: str) -> str:
     return _REF_DEF.sub(repl, md_text)
 
 
+def _ensure_blank_line_before_tables(md_text: str) -> str:
+    """python-markdown 嘅 tables extension 要求表格前有空行，
+    否則表格會被併入上一段變成原碼文本。
+    逐行掃描：凡係表格塊嘅第一行（以 | 開頭，而前一行非空且唔係表格行），
+    就喺佢前面補一個空行。表格中間唔會亂插；fenced code block 入面唔郁。"""
+    lines = md_text.split("\n")
+    out = []
+    in_fence = False
+    in_table = False
+    for line in lines:
+        stripped = line.strip()
+        if stripped.startswith("```") or stripped.startswith("~~~"):
+            in_fence = not in_fence
+        is_table_line = not in_fence and line.lstrip().startswith("|")
+        if is_table_line and not in_table and out and out[-1].strip() != "":
+            out.append("")
+        in_table = is_table_line
+        out.append(line)
+    return "\n".join(out)
+
+
 def render_markdown(md_text: str) -> str:
     """build-time 渲染 markdown → HTML，表格包上可橫向捲動 container。"""
     try:
@@ -140,6 +164,7 @@ def render_markdown(md_text: str) -> str:
         sys.exit(
             "缺少 markdown 模組，請先執行: pip install markdown"
         )
+    md_text = _ensure_blank_line_before_tables(md_text)
     md_text = _protect_fake_ref_defs(md_text)
     body = markdown.markdown(
         md_text, extensions=["tables", "fenced_code", "sane_lists"]
@@ -151,6 +176,172 @@ def render_markdown(md_text: str) -> str:
         flags=re.S,
     )
     return body
+
+
+# ---------- Flashcard 翻卡轉換 ----------
+_FC_MARK = re.compile(r"^\[Flashcard\s+(\d+)\]\s*(.*)$")
+_FRONT_PREFIX = re.compile(r"^Front\s*\(Question in English\)\s*:\s*", re.I)
+_BACK_PREFIX = re.compile(r"^Back\s*\(Answer\s*&\s*Explanation\)\s*:?\s*", re.I)
+
+
+def _li_direct_text(li) -> str:
+    """攞 li 嘅「自己」文字（唔計 nested list），兼容文字被 <p> 包住嘅情況。"""
+    t = "".join(li.find_all(string=True, recursive=False)).strip()
+    if t:
+        return t
+    p = li.find("p", recursive=False)
+    return p.get_text().strip() if p is not None else ""
+
+
+def _move_without_label(src_li, prefix_re, dest, soup):
+    """將 src_li 嘅內容搬入 dest，並剝走開頭嘅標籤前綴（Front:/Back:）。"""
+    from bs4 import NavigableString
+
+    done = False
+    for child in list(src_li.children):
+        if isinstance(child, NavigableString) and not str(child).strip():
+            continue  # 純空白節點，直接丟，唔好當係內容
+        if not done and isinstance(child, NavigableString):
+            new = prefix_re.sub("", str(child).lstrip(), count=1)
+            done = True
+            if new.strip():
+                dest.append(NavigableString(new))
+            continue
+        if not done and getattr(child, "name", None) == "p":
+            txt = child.get_text().strip()
+            m = prefix_re.match(txt)
+            if m:
+                done = True
+                rest = txt[m.end():].strip()
+                child.decompose()
+                if rest:
+                    p = soup.new_tag("p")
+                    p.string = rest
+                    dest.append(p)
+                continue
+        dest.append(child)  # append 會自動 extract，即係搬走
+    return done
+
+
+def _build_fcard(soup, group, total):
+    """由一組 li（[Flashcard N] + Front + Back）砌一張翻卡 div。"""
+    m = _FC_MARK.match(_li_direct_text(group[0]))
+    n = int(m.group(1))
+    suffix = m.group(2).strip()  # 例如「（計算卡）」備註
+    front_li = back_li = None
+    for li in group[1:]:
+        t = _li_direct_text(li)
+        if front_li is None and _FRONT_PREFIX.match(t):
+            front_li = li
+        elif back_li is None and _BACK_PREFIX.match(t):
+            back_li = li
+    if front_li is None or back_li is None:
+        return None
+
+    card = soup.new_tag("div", attrs={"class": "fcard", "data-flipped": "false"})
+    label = soup.new_tag("div", attrs={"class": "fcard-label"})
+    label.string = f"Flashcard {n}{suffix} / 共 {total} 張"
+
+    inner = soup.new_tag("div", attrs={"class": "fcard-inner"})
+
+    front = soup.new_tag("div", attrs={"class": "fcard-face fcard-front"})
+    qb = soup.new_tag("span", attrs={"class": "fcard-badge fcard-badge-q"})
+    qb.string = "Question"
+    q = soup.new_tag("p", attrs={"class": "fcard-q"})
+    _move_without_label(front_li, _FRONT_PREFIX, q, soup)
+    hint = soup.new_tag("div", attrs={"class": "fcard-hint"})
+    hint.string = "撳卡翻面 👆"
+    front.append(qb)
+    front.append(q)
+    front.append(hint)
+
+    back = soup.new_tag("div", attrs={"class": "fcard-face fcard-back"})
+    ab = soup.new_tag("span", attrs={"class": "fcard-badge fcard-badge-a"})
+    ab.string = "Answer"
+    ans = soup.new_tag("div", attrs={"class": "fcard-a"})
+    _move_without_label(back_li, _BACK_PREFIX, ans, soup)
+    back.append(ab)
+    back.append(ans)
+
+    inner.append(front)
+    inner.append(back)
+    card.append(label)
+    card.append(inner)
+    return card
+
+
+def transform_flashcards(body: str) -> str:
+    """將 StudyPack 嘅 [Flashcard N] bullet block 轉成互動翻卡 markup。
+    每張卡：front 顯示問題、back 保留完整答案（英文 points + 中文解釋）。
+    冇 flashcard 嘅頁原樣返回（no-op），保證 idempotent。"""
+    try:
+        from bs4 import BeautifulSoup
+    except ImportError:
+        return body
+    soup = BeautifulSoup(body, "html.parser")
+    markers = [
+        li
+        for li in soup.find_all("li")
+        if _FC_MARK.match(_li_direct_text(li))
+    ]
+    if not markers:
+        return body
+    total = len(markers)
+
+    # 按 parent list 分組處理
+    parents = {}
+    for li in markers:
+        parents.setdefault(li.parent, []).append(li)
+
+    for ul, marks in parents.items():
+        items = ul.find_all("li", recursive=False)
+        groups = []
+        cur = None
+        ok = True
+        for it in items:
+            if any(it is mk for mk in marks):
+                cur = [it]
+                groups.append(cur)
+            elif cur is None:
+                ok = False  # marker 之前有其他內容，安全起見唔郁
+                break
+            else:
+                cur.append(it)
+        if not ok or not groups:
+            continue
+        cards = []
+        for grp in groups:
+            card = _build_fcard(soup, grp, total)
+            if card is None:
+                ok = False
+                break
+            cards.append(card)
+        if not ok:
+            continue
+        container = soup.new_tag("div", attrs={"class": "fcards"})
+        for c in cards:
+            container.append(c)
+        ul.replace_with(container)
+
+    # 「全部翻轉 / 全部翻返」toggle 按鈕，擺喺 Phase 2 標題下面
+    toolbar = soup.new_tag("div", attrs={"class": "fcard-toolbar"})
+    btn = soup.new_tag(
+        "button", attrs={"type": "button", "class": "fcard-toggle-all"}
+    )
+    btn.string = "全部翻轉"
+    toolbar.append(btn)
+    heading = None
+    for h in soup.find_all(["h2", "h3"]):
+        if "Phase 2" in h.get_text():
+            heading = h
+            break
+    if heading is not None:
+        heading.insert_after(toolbar)
+    else:
+        first = soup.find("div", class_="fcards")
+        if first is not None:
+            first.insert_before(toolbar)
+    return str(soup)
 
 
 def esc(s: str) -> str:
@@ -598,6 +789,69 @@ footer.site-footer {
   .pager { flex-direction: column; }
   .pager .next { text-align: left; }
 }
+
+/* ---------- Flashcard 翻卡 ---------- */
+.fcard-toolbar { margin: 0 0 16px; }
+.fcard-toggle-all {
+  font-family: inherit;
+  font-size: .85rem;
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  padding: 7px 18px;
+  cursor: pointer;
+}
+.fcard-toggle-all:hover { background: var(--accent); color: #fff; }
+.fcards { display: grid; gap: 22px; margin: 1.2em 0; }
+.fcard { perspective: 1400px; }
+.fcard-label { font-size: .78rem; color: var(--ink-soft); margin-bottom: 6px; }
+.fcard-inner {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform .55s ease, min-height .35s ease;
+  cursor: pointer;
+}
+.fcard[data-flipped="true"] .fcard-inner { transform: rotateY(180deg); }
+.fcard-face {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--bg);
+  padding: 18px 20px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.fcard-inner:hover .fcard-face { border-color: var(--accent); }
+.fcard-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  min-height: 100%;
+  transform: rotateY(180deg);
+  font-size: .95rem; /* ≥15px */
+}
+.fcard-badge {
+  display: inline-block;
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .05em;
+  padding: 2px 10px;
+  border-radius: 999px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.fcard-badge-q { background: var(--badge-m7); }
+.fcard-badge-a { background: var(--accent); }
+.fcard-q { font-size: 1rem; font-weight: 600; margin: 0 0 14px; }
+.fcard-hint { font-size: .78rem; color: var(--ink-soft); text-align: right; margin: 0; }
+.fcard-a ul { padding-left: 1.4em; margin: .6em 0; }
+.fcard-a li { margin: .3em 0; }
+@media (max-width: 480px) {
+  .fcards { gap: 18px; }
+  .fcard-face { padding: 16px; }
+}
 """
 
 APP_JS = r"""
@@ -757,6 +1011,55 @@ APP_JS = r"""
           resultsBox.innerHTML =
             '<p class="search-empty">搜尋索引載入失敗。</p>';
         });
+    }
+  }
+
+  /* ---------- Flashcard 翻卡 ---------- */
+  var fcards = document.querySelectorAll(".fcard");
+  if (fcards.length) {
+    var fcardIsFlipped = function (card) {
+      return card.getAttribute("data-flipped") === "true";
+    };
+    var fcardFit = function (card) {
+      // container 高度跟住而家顯示緊嘅一面，back 內容再長都唔會被裁
+      var inner = card.querySelector(".fcard-inner");
+      var face = card.querySelector(
+        fcardIsFlipped(card) ? ".fcard-back" : ".fcard-front"
+      );
+      if (inner && face) {
+        inner.style.minHeight =
+          Math.max(face.offsetHeight, face.scrollHeight) + "px";
+      }
+    };
+    var fcardFlip = function (card, flipped) {
+      card.setAttribute("data-flipped", flipped ? "true" : "false");
+      fcardFit(card);
+    };
+    fcards.forEach(function (card) {
+      fcardFit(card);
+      card.addEventListener("click", function (e) {
+        if (e.target.closest && e.target.closest("a")) return;
+        fcardFlip(card, !fcardIsFlipped(card));
+      });
+    });
+    var fcardFitAll = function () {
+      fcards.forEach(fcardFit);
+    };
+    window.addEventListener("load", fcardFitAll);
+    window.addEventListener("resize", fcardFitAll);
+
+    var toggleAll = document.querySelector(".fcard-toggle-all");
+    if (toggleAll) {
+      var anyUnflipped = function () {
+        return Array.prototype.some.call(fcards, function (c) {
+          return !fcardIsFlipped(c);
+        });
+      };
+      toggleAll.addEventListener("click", function () {
+        var target = anyUnflipped();
+        fcards.forEach(function (c) { fcardFlip(c, target); });
+        toggleAll.textContent = target ? "全部翻返" : "全部翻轉";
+      });
     }
   }
 })();
@@ -1033,7 +1336,7 @@ def main():
         n["title"] = extract_title(md_text, n["stem"])
         n["headings"] = extract_headings(md_text)
         n["text"] = plain_text(md_text)
-        n["html"] = render_markdown(md_text)
+        n["html"] = transform_flashcards(render_markdown(md_text))
         n["excerpt"] = n["text"][:160] + ("…" if len(n["text"]) > 160 else "")
 
     groups = group_by_category(notes)

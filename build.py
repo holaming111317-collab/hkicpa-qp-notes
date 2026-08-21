@@ -18,26 +18,67 @@ SITE_DIR = Path(__file__).resolve().parent
 SRC_DIR = SITE_DIR.parent
 EXCLUDE_FILES = {"SPEC.md", "plan.md"}
 
-CATEGORY_ORDER = [
-    "計劃與追蹤",
-    "M7 Financial Management",
-    "M9 Principles of Taxation",
-    "工具表",
-    "其他",
-]
+# 13 週學習計劃：章節 → 週次對照（跨週章節歸入第一週）
+WEEK_DATES = {
+    1: "8/19–25", 2: "8/26–9/1", 3: "9/2–8", 4: "9/9–15",
+    5: "9/16–22", 6: "9/23–29", 7: "9/30–10/6", 8: "10/7–13",
+    9: "10/14–20", 10: "10/21–27", 11: "10/28–11/3", 12: "11/4–10",
+    13: "11/11–19",
+}
+M7_WEEK = {1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8,
+           9: 9, 10: 9, 11: 10, 12: 10, 13: 11, 14: 11, 15: 12, 16: 12}
+M9_WEEK = {1: 1, 2: 2, 3: 3, 4: 5, 5: 7, 6: 7, 7: 8, 8: 9}
+
+# 每週內排序：Study Pack → Quiz → Answers
+TYPE_ORDER = {"StudyPack": 0, "Quiz": 1, "Answers": 2}
+
+CATEGORY_ORDER = (
+    ["計劃與追蹤"]
+    + [f"W{i} · {WEEK_DATES[i]}" for i in range(1, 14)]
+    + ["工具表", "其他"]
+)
 
 
 def categorize(filename: str) -> str:
-    """按檔名自動判斷分類（規則見 SPEC.md）。"""
-    if "詞彙" in filename:
+    """章節檔按 13 週計劃歸入對應週次；其餘按性質分類。"""
+    m = re.match(r"(M[79])_Ch(\d+)", filename)
+    if m:
+        week = (M7_WEEK if m.group(1) == "M7" else M9_WEEK).get(int(m.group(2)))
+        if week:
+            return f"W{week} · {WEEK_DATES[week]}"
+    if "詞彙" in filename or "Master" in filename:
         return "工具表"
-    if re.search(r"Plan|Roadmap|Tracker", filename):
+    if re.search(r"Plan|Roadmap|Tracker|錯題本", filename):
         return "計劃與追蹤"
-    if "M7" in filename:
-        return "M7 Financial Management"
-    if "M9" in filename:
-        return "M9 Principles of Taxation"
     return "其他"
+
+
+def badge_class(cat: str) -> str:
+    """分類 → badge CSS class；週次分類統一用 week。"""
+    if re.match(r"W\d+ ·", cat):
+        return "week"
+    return BADGE_CLASS.get(cat, "tool")
+
+
+def item_badge(note) -> tuple:
+    """週次分組下，逐份筆記用 M7/M9 badge 標示科目。"""
+    stem = note["stem"]
+    if stem.startswith("M7"):
+        return ("m7", "M7")
+    if stem.startswith("M9"):
+        return ("m9", "M9")
+    cat = note["category"]
+    return (badge_class(cat), cat)
+
+
+def note_sort_key(note):
+    """週內排序：科目 → 章號 → 類型（Pack/Quiz/Answers）。"""
+    stem = note["stem"]
+    mod = 0 if stem.startswith("M7") else (1 if stem.startswith("M9") else 2)
+    m = re.match(r"M[79]_Ch(\d+)", stem)
+    ch = int(m.group(1)) if m else 99
+    t = next((v for k, v in TYPE_ORDER.items() if k in stem), 9)
+    return (mod, ch, t, stem)
 
 
 def slugify(stem: str) -> str:
@@ -60,6 +101,9 @@ def collect_notes():
             continue
         # 排除 app/ 部署目錄入面嘅 notes 副本（同頂層 .md 重複）
         if (SRC_DIR / "app") in path.parents:
+            continue
+        # 排除 master_fragments/ 中間產物（已合併入兩份 Master Sheet）
+        if (SRC_DIR / "master_fragments") in path.parents:
             continue
         if any(part.startswith(".") for part in path.relative_to(SRC_DIR).parts):
             continue
@@ -1117,7 +1161,7 @@ def group_by_category(notes):
     for n in notes:
         groups.setdefault(n["category"], []).append(n)
     for g in groups.values():
-        g.sort(key=lambda n: n["rel"])
+        g.sort(key=note_sort_key)
     ordered = []
     for cat in CATEGORY_ORDER:
         if cat in groups:
@@ -1181,26 +1225,26 @@ def build_index(notes, groups, search_index):
     cards = []
     for cat, items in groups:
         cards.append(
-            f'<a class="cat-card" href="#cat-{BADGE_CLASS.get(cat, "tool")}">'
+            f'<a class="cat-card" href="#cat-{slugify(cat)}">'
             f'<div class="cat-name">{esc(cat)}</div>'
             f'<div class="cat-count">{len(items)} 份筆記</div></a>'
         )
     sections = []
     for cat, items in groups:
-        badge = BADGE_CLASS.get(cat, "tool")
         lis = []
         for n in items:
+            bcls, blabel = item_badge(n)
             lis.append(
                 f'<li><a class="note-link" href="pages/{n["slug"]}.html">'
                 f'<span class="memo-dot" data-memo-dot="{n["slug"]}" '
                 f'title="有速記"></span>'
                 f'<span class="note-title">{esc(n["title"])}</span>'
-                f'<span class="badge {badge}">{esc(cat)}</span>'
+                f'<span class="badge {bcls}">{esc(blabel)}</span>'
                 f'<span class="note-date">更新於 {n["mtime"]:%Y-%m-%d}</span>'
                 f"</a></li>"
             )
         sections.append(
-            f'<section class="note-section" id="cat-{badge}" data-searchable-section>'
+            f'<section class="note-section" id="cat-{slugify(cat)}" data-searchable-section>'
             f"<h2>{esc(cat)}</h2>"
             f'<ul class="note-list">{"".join(lis)}</ul></section>'
         )
@@ -1267,7 +1311,7 @@ def build_note_page(note, notes, groups, by_stem):
             f'<a class="pair-btn" href="{hit["slug"]}.html">{SVG_SWAP}{label}：'
             f"{esc(hit['title'])}</a>"
         )
-    badge = BADGE_CLASS.get(note["category"], "tool")
+    badge = badge_class(note["category"])
     meta = (
         '<p class="page-meta">'
         f'<span class="badge {badge}">{esc(note["category"])}</span>'

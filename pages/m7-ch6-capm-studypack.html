@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>M7 Financial Management — Chapter 6: Capital Asset Pricing Model — Study Pack (Week 6) · HKICPA QP 筆記</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<div class="topbar">
+<button class="hamburger" aria-label="開關目錄"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg></button>
+<a class="brand" href="../index.html">HKICPA QP 筆記</a>
+</div>
+<div class="drawer-overlay"></div>
+<div class="layout">
+<aside class="sidebar">
+<a class="brand" href="../index.html">HKICPA QP 筆記</a>
+<p class="tagline">M7 Financial Management · M9 Principles of Taxation</p>
+<nav>
+<div class="nav-cat"><p class="nav-cat-title">計劃與追蹤</p><ul>
+<li><a href="../pages/hkicpa-m7-m9-study-plan.html">HKICPA QP Associate Level 備考作戰計劃</a></li>
+<li><a href="../pages/hkicpa-overall-roadmap-2026-2027.html">HKICPA QP Associate Level 全期作戰路線圖（2026–2027）</a></li>
+<li><a href="../pages/hkicpa-progress-tracker.html">HKICPA M7 &amp; M9 備考進度追蹤表</a></li>
+<li><a href="../pages/錯題本-error-log.html">錯題本 (Error Log)</a></li>
+</ul></div>
+<div class="nav-cat"><p class="nav-cat-title">W1 · 8/19–25</p><ul>
+<li><a href="../pages/m7-ch1-financial-environment-studypack.html">M7 Financial Management — Chapter 1: Financial Environment — Study Pack (Week 1)</a></li>
+<li><a href="../pages/m7-ch1-financial-environment-quiz.html">M7_Ch1_Financial_Environment_Quiz</a></li>
+<li><a href="../pages/m7-ch1-financial-environment-answers.html">M7_Ch1_Financial_Environment_Answers</a></li>
+<li><a href="../pages/m9-ch1-hk-tax-system-studypack.html">M9 Principles of Taxation — Chapter 1: Key Aspects of the Tax System in Hong Kong — Study Pack (Week 1)</a></li>
+<li><a href="../pages/m9-ch1-hk-tax-system-quiz.html">M9_Ch1_HK_Tax_System_Quiz</a></li>
+<li><a href="../pages/m9-ch1-hk-tax-system-answers.html">M9_Ch1_HK_Tax_System_Answers</a></li>
+</ul></div>
+<div class="nav-cat"><p class="nav-cat-title">W2 · 8/26–9/1</p><ul>
+<li><a href="../pages/m7-ch2-sources-of-finance-studypack.html">M7 Sources of Finance — Study Pack (Week 2)</a></li>
+<li><a href="../pages/m7-ch2-sources-of-finance-quiz.html">M7 Sources of Finance — Phase 3 Quiz (100% OTQ, ALL IN ENGLISH)</a></li>
+<li><a href="../pages/m7-ch2-sources-of-finance-answers.html">M7 Sources of Finance — Model Answers（完成測驗後先好睇！）</a></li>
+<li><a href="../pages/m9-ch2-tax-administration-studypack.html">M9 Administration of the Tax System in Hong Kong — Study Pack (Week 2)</a></li>
+<li><a href="../pages/m9-ch2-tax-administration-quiz.html">M9 Administration of the Tax System in Hong Kong — Phase 3 Quiz (100% OTQ, ALL IN ENGLISH)</a></li>
+<li><a href="../pages/m9-ch2-tax-administration-answers.html">M9 Administration of the Tax System in Hong Kong — Model Answers（完成測驗後先好睇！）</a></li>
+</ul></div>
+<div class="nav-cat"><p class="nav-cat-title">W3 · 9/2–8</p><ul>
+<li><a href="../pages/m7-ch3-time-value-of-money-studypack.html">M7 Time Value of Money and Investing Basics — Study Pack (Week 3)</a></li>
+<li><a href="../pages/m7-ch3-time-value-of-money-quiz.html">M7 Time Value of Money and Investing Basics — Phase 3 Quiz (100% OTQ, ALL IN ENGLISH)</a></li>
+<li><a href="../pages/m7-ch3-time-value-of-money-answers.html">M7 Time Value of Money and Investing Basics — Model Answers（完成測驗後先好睇！）</a></li>
+<li><a href="../pages/m9-ch3-profits-tax-studypack.html">M9 Principles of Taxation — Chapter 3 Profits Tax — Study Pack (Weeks 3–4)</a></li>
+<li><a href="../pages/m9-ch3-profits-tax-quiz.html">M9 Principles of Taxation — Chapter 3 Profits Tax — Phase 3 Quiz (100% OTQ, ALL IN ENGLISH)</a></li>
+<li><a href="../pages/m9-ch3-profits-tax-answers.html">M9 Principles of Taxation — Chapter 3 Profits Tax — Model Answers（完成測驗後先好睇！）</a></li>
+</ul></div>
+<div class="nav-cat"><p class="nav-cat-title">W4 · 9/9–15</p><ul>
+<li><a href="../pages/m7-ch4-bond-investments-studypack.html">M7 Introduction to Bond Investments — Study Pack (Week 4)</a></li>
+<li><a href="../pages/m7-ch4-bond-investments-quiz.html">M7 Introduction to Bond Investments — Phase 3 Quiz (100% OTQ, ALL IN ENGLISH)</a></li>
+<li><a href="../pages/m7-ch4-bond-investments-answers.html">M7 Introduction to Bond Investments — Model Answers（完成測驗後先好睇！）</a></li>
+</ul></div>
+<div class="nav-cat"><p class="nav-cat-title">W5 · 9/16–22</p><ul>
+<li><a href="../pages/m7-ch5-equities-valuation-studypack.html">M7 Equities Valuation — Study Pack (Week 5)</a></li>
+<li><a href="../pages/m7-ch5-equities-valuation-quiz.html">M7 Equities Valuation — Phase 3 Quiz (100% OTQ, ALL IN ENGLISH)</a></li>
+<li><a href="../pages/m7-ch5-equities-valuation-answers.html">M7 Equities Valuation — Model Answers（完成測驗後先好睇！）</a></li>
+<li><a href="../pages/m9-ch4-salaries-tax-studypack.html">M9 Chapter 4 Salaries Tax — Study Pack (Weeks 5–6)</a></li>
+<li><a href="../pages/m9-ch4-salaries-tax-quiz.html">M9 Chapter 4 Salaries Tax — Phase 3 Quiz (100% OTQ, ALL IN ENGLISH)</a></li>
+<li><a href="../pages/m9-ch4-salaries-tax-answers.html">M9 Chapter 4 Salaries Tax — Model Answers（完成測驗後先好睇！）</a></li>
+</ul></div>
+<div class="nav-cat"><p class="nav-cat-title">W6 · 9/23–29</p><ul>
+<li><a class="active" href="../pages/m7-ch6-capm-studypack.html">M7 Financial Management — Chapter 6: Capital Asset Pricing Model — Study Pack (Week 6)</a></li>
+<li><a href="../pages/m7-ch6-capm-quiz.html">M7 Financial Management — Chapter 6: Capital Asset Pricing Model — Phase 3 Quiz (100% OTQ, ALL IN ENGLISH)</a></li>
+<li><a href="../pages/m7-ch6-capm-answers.html">M7 Financial Management — Chapter 6: Capital Asset Pricing Model — Model Answers（完成測驗後先好睇！）</a></li>
+</ul></div>
+<div class="nav-cat"><p class="nav-cat-title">W7 · 9/30–10/6</p><ul>
+<li><a href="../pages/m7-ch7-cost-of-capital-studypack.html">M7 Cost of Capital — Study Pack (Week 7)</a></li>
+<li><a href="../pages/m7-ch7-cost-of-capital-quiz.html">M7 Cost of Capital — Phase 3 Quiz (100% OTQ, ALL IN ENGLISH)</a></li>
+<li><a href="../pages/m7-ch7-cost-of-capital-answers.html">M7 Cost of Capital — Model Answers（完成測驗後先好睇！）</a></li>
+<li><a href="../pages/m9-ch5-property-tax-studypack.html">M9 Property Tax — Study Pack (Week 7)</a></li>
+<li><a href="../pages/m9-ch5-property-tax-quiz.html">M9 Property Tax — Phase 3 Quiz (100% OTQ, ALL IN ENGLISH)</a></li>
+<li><a href="../pages/m9-ch5-property-tax-answers.html">M9 Property Tax — Model Answers（完成測驗後先好睇！）</a></li>
+<li><a href="../pages/m9-ch6-personal-assessment-studypack.html">M9 Personal Assessment — Study Pack (Week 7)</a></li>
+<li><a href="../pages/m9-ch6-personal-assessment-quiz.html">M9 Personal Assessment — Phase 3 Quiz (100% OTQ, ALL IN ENGLISH)</a></li>
+<li><a href="../pages/m9-ch6-personal-assessment-answers.html">M9 Personal Assessment — Model Answers（完成測驗後先好睇！）</a></li>
+</ul></div>
+<div class="nav-cat"><p class="nav-cat-title">W8 · 10/7–13</p><ul>
+<li><a href="../pages/m7-ch8-capital-structure-studypack.html">M7 Capital Structure Theories — Study Pack (Week 8)</a></li>
+<li><a href="../pages/m7-ch8-capital-structure-quiz.html">M7 Capital Structure Theories — Phase 3 Quiz (100% OTQ, ALL IN ENGLISH)</a></li>
+<li><a href="../pages/m7-ch8-capital-structure-answers.html">M7 Capital Structure Theories — Model Answers（完成測驗後先好睇！）</a></li>
+<li><a href="../pages/m9-ch7-stamp-duty-studypack.html">M9 Stamp Duty — Study Pack (Week 8)</a></li>
+<li><a href="../pages/m9-ch7-stamp-duty-quiz.html">M9 Stamp Duty — Phase 3 Quiz (100% OTQ, ALL IN ENGLISH)</a></li>
+<li><a href="../pages/m9-ch7-stamp-duty-answers.html">M9 Stamp Duty — Model Answers（完成測驗後先好睇！）</a></li>
+</ul></div>
+<div class="nav-cat"><p class="nav-cat-title">W9 · 10/14–20</p><ul>
+<li><a href="../pages/m7-ch9-financial-analysis-studypack.html">M7 Financial Analysis and Profitability — Study Pack (Week 9)</a></li>
+<li><a href="../pages/m7-ch9-financial-analysis-quiz.html">M7 Financial Analysis and Profitability — Phase 3 Quiz (100% OTQ, ALL IN ENGLISH)</a></li>
+<li><a href="../pages/m7-ch9-financial-analysis-answers.html">M7 Financial Analysis and Profitability — Model Answers（完成測驗後先好睇！）</a></li>
+<li><a href="../pages/m7-ch10-financial-forecasts-studypack.html">M7 Chapter 10 Financial Forecasts and Business Planning — Study Pack (Week 9)</a></li>
+<li><a href="../pages/m7-ch10-financial-forecasts-quiz.html">M7 Chapter 10 Financial Forecasts and Business Planning — Phase 3 Quiz (100% OTQ, ALL IN ENGLISH)</a></li>
+<li><a href="../pages/m7-ch10-financial-forecasts-answers.html">M7 Chapter 10 Financial Forecasts and Business Planning — Model Answers（完成測驗後先好睇！）</a></li>
+<li><a href="../pages/m9-ch8-crossborder-profits-tax-studypack.html">M9 Chapter 8: Profits Tax Liabilities for Cross-border Transactions — Study Pack (Week 9)</a></li>
+<li><a href="../pages/m9-ch8-crossborder-profits-tax-quiz.html">M9 Chapter 8: Profits Tax Liabilities for Cross-border Transactions — Phase 3 Quiz (100% OTQ, ALL IN ENGLISH)</a></li>
+<li><a href="../pages/m9-ch8-crossborder-profits-tax-answers.html">M9 Chapter 8: Profits Tax Liabilities for Cross-border Transactions — Model Answers（完成測驗後先好睇！）</a></li>
+</ul></div>
+<div class="nav-cat"><p class="nav-cat-title">W10 · 10/21–27</p><ul>
+<li><a href="../pages/m7-ch11-strategic-mgmt-accounting-studypack.html">M7 Chapter 11 Strategic Management Accounting Framework — Study Pack (Week 10)</a></li>
+<li><a href="../pages/m7-ch11-strategic-mgmt-accounting-quiz.html">M7 Chapter 11 Strategic Management Accounting Framework — Phase 3 Quiz (100% OTQ, ALL IN ENGLISH)</a></li>
+<li><a href="../pages/m7-ch11-strategic-mgmt-accounting-answers.html">M7 Chapter 11 Strategic Management Accounting Framework — Model Answers（完成測驗後先好睇！）</a></li>
+<li><a href="../pages/m7-ch12-pricing-strategies-studypack.html">M7 Pricing Strategies and Decisions — Study Pack (Week 10)</a></li>
+<li><a href="../pages/m7-ch12-pricing-strategies-quiz.html">M7 Pricing Strategies and Decisions — Phase 3 Quiz (100% OTQ, ALL IN ENGLISH)</a></li>
+<li><a href="../pages/m7-ch12-pricing-strategies-answers.html">M7 Pricing Strategies and Decisions — Model Answers（完成測驗後先好睇！）</a></li>
+</ul></div>
+<div class="nav-cat"><p class="nav-cat-title">W11 · 10/28–11/3</p><ul>
+<li><a href="../pages/m7-ch13-investment-appraisal-studypack.html">M7 Chapter 13 Investment Project Appraisal — Study Pack (Week 11)</a></li>
+<li><a href="../pages/m7-ch13-investment-appraisal-quiz.html">M7 Chapter 13 Investment Project Appraisal — Phase 3 Quiz (100% OTQ, ALL IN ENGLISH)</a></li>
+<li><a href="../pages/m7-ch13-investment-appraisal-answers.html">M7 Chapter 13 Investment Project Appraisal — Model Answers（完成測驗後先好睇！）</a></li>
+<li><a href="../pages/m7-ch14-post-appraisal-audit-studypack.html">M7 Post-Appraisal Audit of Projects — Study Pack (Week 11)</a></li>
+<li><a href="../pages/m7-ch14-post-appraisal-audit-quiz.html">M7 Post-Appraisal Audit of Projects — Phase 3 Quiz (100% OTQ, ALL IN ENGLISH)</a></li>
+<li><a href="../pages/m7-ch14-post-appraisal-audit-answers.html">M7 Post-Appraisal Audit of Projects — Model Answers（完成測驗後先好睇！）</a></li>
+</ul></div>
+<div class="nav-cat"><p class="nav-cat-title">W12 · 11/4–10</p><ul>
+<li><a href="../pages/m7-ch15-performance-measurement-studypack.html">M7 Effective Performance Measurement — Study Pack (Week 12)</a></li>
+<li><a href="../pages/m7-ch15-performance-measurement-quiz.html">M7 Effective Performance Measurement — Phase 3 Quiz (100% OTQ, ALL IN ENGLISH)</a></li>
+<li><a href="../pages/m7-ch15-performance-measurement-answers.html">M7 Effective Performance Measurement — Model Answers（完成測驗後先好睇！）</a></li>
+<li><a href="../pages/m7-ch16-financial-risks-studypack.html">M7 Financial Risks and Their Management — Study Pack (Week 12)</a></li>
+<li><a href="../pages/m7-ch16-financial-risks-quiz.html">M7 Financial Risks and Their Management — Phase 3 Quiz (100% OTQ, ALL IN ENGLISH)</a></li>
+<li><a href="../pages/m7-ch16-financial-risks-answers.html">M7 Financial Risks and Their Management — Model Answers(完成測驗後先好睇!)</a></li>
+</ul></div>
+<div class="nav-cat"><p class="nav-cat-title">工具表</p><ul>
+<li><a href="../pages/m7-master-formula-sheet.html">M7 Financial Management — Master Formula Sheet（累積式總表）</a></li>
+<li><a href="../pages/m9-master-section-list.html">M9 Principles of Taxation — Master Section &amp; Rate List（累積式總表）</a></li>
+<li><a href="../pages/考試英文急救詞彙表.html">考試英文急救詞彙表（M7 &amp; M9 逐章累積）</a></li>
+</ul></div>
+</nav></aside>
+<main class="main"><div class="content">
+
+<nav class="breadcrumb"><a href="../index.html">首頁</a><span class="sep">/</span><span>W6 · 9/23–29</span><span class="sep">/</span><span>M7 Financial Management — Chapter 6: Capital Asset Pricing Model — Study Pack (Week 6)</span></nav>
+<div class="page-toolbar"><a class="back-home" href="../index.html">← 返回首頁</a><a class="edit-btn" data-note-path="Chapters/M7_Ch6_CAPM_StudyPack.md" href="#"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3a2.8 2.8 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5z"/></svg>在 GitHub 編輯</a></div>
+
+<p class="page-meta"><span class="badge week">W6 · 9/23–29</span><span>最後更新：2026-08-21</span></p>
+<article class="note-body">
+<h1>M7 Financial Management — Chapter 6: Capital Asset Pricing Model — Study Pack (Week 6)</h1>
+<h2>Phase 1: Core Concepts &amp; Formula Cheat Sheet 重點梳理與速查表</h2>
+<h3>1. 核心知識架構</h3>
+<ul>
+<li><strong>風險與回報的取捨 (Risk–Return Trade-off)</strong>：風險越高，投資者要求的回報越高。回報有三種量度方法：持有期回報 (Holding Period Return)、平均回報 (Average Return：Arithmetic Mean / Geometric Mean) 及預期回報 (Expected Return)；風險則以變異數 (Variance) 及標準差 (Standard Deviation) 量度。</li>
+<li><strong>分散投資與投資組合 (Diversification and Portfolio)</strong>：將資金分散於回報「非完全正相關 (less than perfectly positively correlated)」的資產可降低組合風險，但只能消除非系統性風險 (Unsystematic Risk)，不能消除系統性風險 (Systematic Risk)；約 40–50 隻證券已可取得大部分分散效益，過度分散 (over-diversification) 反而適得其反。</li>
+<li><strong>系統性風險與 Beta</strong>：市場只獎勵系統性風險 (Systematic Risk Principle)。Beta (β) 量度資產回報對市場回報的敏感度：β = COV(i,M) / σ²M；β = 1 與市場相同、β &gt; 1 高於市場、β &lt; 1 低於市場、β = 0 無系統性風險。</li>
+<li><strong>資本資產定價模型 (CAPM)</strong>：E(Ri) = Rrf + βi[E(Rm) − Rrf]，用以計算個別證券或組合的必要/預期回報率，是估算股本成本 (cost of equity) 的核心工具。</li>
+<li><strong>證券市場線 (Security Market Line, SML)</strong>：圖像化 CAPM，顯示不同 beta 下的必要回報。位於 SML 上方 = 被低估 (undervalued)；位於 SML 下方 = 被高估 (overvalued)；在線上 = 定價正確 (equilibrium)。</li>
+</ul>
+<h3>2. 必背考點清單（公式、變數定義及適用條件）</h3>
+<p><strong>(A) 回報量度 (Measures of Return)</strong></p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>公式</th>
+<th>內容</th>
+<th>備註</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Capital appreciation</td>
+<td>R_CA = ΔP / P₀ = (P₁ − P₀) / P₀</td>
+<td>P₁ = price at period 1；P₀ = price at period 0</td>
+</tr>
+<tr>
+<td>Income return</td>
+<td>R_I = CF₁ / P₀</td>
+<td>CF₁ = cash flow at period 1 (e.g. dividend)</td>
+</tr>
+<tr>
+<td>Total holding period return</td>
+<td>R_T = R_CA + R_I = (ΔP + CF₁) / P₀</td>
+<td>包含 capital gain 及 income 兩部分</td>
+</tr>
+<tr>
+<td>Arithmetic mean</td>
+<td>AM = ΣRᵢ / n</td>
+<td>適用於約 12 個月的投資期；<strong>永遠高估 (overstates)</strong> 回報</td>
+</tr>
+<tr>
+<td>Geometric mean</td>
+<td>GM = [(1+R₁)(1+R₂)…(1+Rₙ)]^(1/n) − 1</td>
+<td>複利增長率，適用多期及較長投資期，結果較準確；波幅越大 AM 與 GM 差距越大</td>
+</tr>
+<tr>
+<td>Expected return</td>
+<td>E(R_Asset) = Σ pᵢRᵢ</td>
+<td>各情境回報以概率加權</td>
+</tr>
+<tr>
+<td>Total return 分解</td>
+<td>R = E(R) + m + ε</td>
+<td>m = systematic portion；ε = unsystematic portion</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>(B) 風險量度 (Measures of Risk)</strong></p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>公式</th>
+<th>內容</th>
+<th>備註</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Variance</td>
+<td>σ² = Σ pᵢ[Rᵢ − E(R)]²</td>
+<td>概率加權的平方偏差</td>
+</tr>
+<tr>
+<td>Standard deviation</td>
+<td>σ = √σ²</td>
+<td>常態分佈下：±1σ 涵蓋 68%、±2σ 涵蓋 95%、±3σ 涵蓋 99.7%</td>
+</tr>
+<tr>
+<td>Coefficient of variation</td>
+<td>CV = σ_Asset / E(R_Asset)</td>
+<td>每單位回報的風險；<strong>CV 越低越好</strong>（風險最小化角度）</td>
+</tr>
+<tr>
+<td>Modified CV</td>
+<td>CV* = σ_Asset / [E(R_Asset) − R_rf]</td>
+<td>以超額回報 (excess return over risk-free) 計算</td>
+</tr>
+<tr>
+<td>VaR vs Expected Shortfall</td>
+<td>VaR: 「99% 機會 10 日內損失不超過 HK$V」；ES = E(L | L ≥ VaR)</td>
+<td>ES 考慮超過 VaR 時的實際損失，永遠認可分散效益；2007–08 金融海嘯後 ES 更常用</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>(C) 投資組合 (Portfolio)</strong></p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>公式</th>
+<th>內容</th>
+<th>備註</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Portfolio expected return</td>
+<td>E(Rp) = Σ wᵢ·E(Rᵢ)</td>
+<td>wᵢ = 投資於資產 i 的比重；<strong>回報永遠是加權平均</strong></td>
+</tr>
+<tr>
+<td>Two-asset portfolio variance</td>
+<td>σ²p = w_A²σ_A² + w_B²σ_B² + 2w_A·w_B·COV(A,B)</td>
+<td>組合風險 ≠ 個別風險的加權平均（除非 ρ = +1）</td>
+</tr>
+<tr>
+<td>Covariance</td>
+<td>COV_AB = Σ pᵢ[R_Ai − E(R_A)][R_Bi − E(R_B)]</td>
+<td>量度兩資產回報的共同變動</td>
+</tr>
+<tr>
+<td>Correlation coefficient</td>
+<td>ρ_AB = COV_AB / (σ_A·σ_B)</td>
+<td>介乎 −1 至 +1；ρ = +1 完全正相關（無分散效益）；ρ = −1 完全負相關（可消除全部風險）；ρ = 0 不相關；一般股票組合 ρ ≈ 0.65</td>
+</tr>
+<tr>
+<td>Beta</td>
+<td>βᵢ = ρ_Mi·σᵢ/σ_M = COV(i,M) / σ²_M</td>
+<td>量度系統性風險</td>
+</tr>
+<tr>
+<td>Portfolio beta</td>
+<td>βp = Σ xᵢ·βᵢ</td>
+<td>組合 beta 是個別 beta 的加權平均</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>(D) CAPM 與 SML</strong></p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>公式</th>
+<th>內容</th>
+<th>備註</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CAPM</td>
+<td>E(Rᵢ) = R_rf + βᵢ[E(R_m) − R_rf]</td>
+<td>[E(R_m) − R_rf] = market risk premium</td>
+</tr>
+<tr>
+<td>Portfolio under CAPM</td>
+<td>E(R_Portfolio) = R_rf + β_Portfolio[E(R_m) − R_rf]</td>
+<td>β_Portfolio = Σ xᵢβᵢ</td>
+</tr>
+<tr>
+<td>SML</td>
+<td>kᵢ = R_rf + [E(R_m) − R_rf]·βᵢ</td>
+<td>SML 的<strong>斜率 (slope) 是 market risk premium</strong>，不是 beta</td>
+</tr>
+<tr>
+<td>CAL / CML</td>
+<td>E(rp) = w_r·E(r_r) + (1 − w_r)·E(r_f)；σp = w_r·σ_r</td>
+<td>風險資產與無風險資產的組合線；切點為 tangency portfolio</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CAPM 假設 (Assumptions) — 必考</strong>：
+- 所有投資者可平等接觸所有投資，並使用單一時期 (one-period) 時間範圍
+- 以 benchmark 的 variance 作為資產風險的唯一量度
+- 無交易成本、佣金及稅項 (no transaction costs / taxes)
+- 所有人均可按無風險利率借貸 (borrow/lend at the risk-free rate)
+- 所有資產類別均有市場及 benchmark
+- 使用歷史數據推算未來預期回報（可能不相關 — 此為限制）</p>
+<p><strong>其他必記事實</strong>：
+- 香港無風險利率代理：香港金融管理局發行的外匯基金票據及債券 (Hong Kong Exchange Fund Bills and Notes)；美國則用 US Treasury securities。
+- 國際分散投資 (international diversification) 理論上比單一本地市場更能減風險，但隨全球市場一體化，效益正在下降。
+- 歷史數據顯示：風險（標準差）越高的證券類別（如 small stocks），平均回報越高；Treasury bills 標準差最小、回報最低。
+- 考試貼士：SML 上 β = 0 時 E(R) = R_rf；β = 1 時 E(R) = E(R_m)。用這兩點可快速驗算 CAPM 答案。</p>
+<h3>3. 易混淆概念對比 (Common Pitfalls)</h3>
+<p><strong>Pitfall 1：Systematic Risk vs Unsystematic Risk</strong>
+- Systematic risk（又稱 market risk / non-diversifiable risk）：影響整個市場的外生因素，如 GDP 變化、利率、通脹 — <strong>不能</strong>透過分散投資消除，市場會給予風險溢價作補償。
+- Unsystematic risk（又稱 unique risk / asset-specific risk / diversifiable risk）：只影響個別或少數資產，如罷工 (strikes)、零件短缺 (parts shortage)、工業意外 (accidents)、收購 (takeovers) — <strong>可以</strong>透過分散投資消除，市場<strong>不會</strong>獎勵，其預期回報為零。
+- 例子：2007–08 全球金融海嘯是典型的 systematic risk — 即使持有分散組合的投資者亦無法倖免；相反，某公司管理層醜聞屬 unsystematic risk，持有 40–50 隻股票的投資者幾乎不受影響。謹記「考官報告指出」類題目常設陷阱：CAPM 補償的是 systematic risk，不是 unique risk。</p>
+<p><strong>Pitfall 2：Security Market Line (SML) vs Capital Market Line / Capital Allocation Line (CML/CAL)</strong>
+- SML：橫軸是 <strong>beta（系統性風險）</strong>，縱軸是 required return，公式 kᵢ = R_rf + [E(R_m) − R_rf]·βᵢ；適用於<strong>任何</strong>個別證券或組合（不論是否有效）；用來判斷證券被高估（SML 下方）或低估（SML 上方）。
+- CAL/CML：橫軸是 <strong>standard deviation（總風險）</strong>，縱軸是 expected return，代表無風險資產與風險資產（market/tangency portfolio）的組合；只適用於<strong>有效組合 (efficient portfolios)</strong>。
+- 例子：一隻 β = 1.5、σ = 40% 的股票，其 σ 含大量 unsystematic risk，在 CAL/CML 圖上會落在線的右下方（非有效），但在 SML 上只要定價正確仍會剛好落在線上。記住：SML 的斜率是 market risk premium，而<strong>不是</strong> beta（考試 MCQ 常見陷阱選項）。</p>
+<hr/>
+<h2>Phase 2: Bilingual Flashcards 雙語記憶閃卡</h2><div class="fcard-toolbar"><button class="fcard-toggle-all" type="button">全部翻轉</button></div>
+<div class="fcards"><div class="fcard" data-flipped="false"><div class="fcard-label">Flashcard 1 / 共 8 張</div><div class="fcard-inner"><div class="fcard-face fcard-front"><span class="fcard-badge fcard-badge-q">Question</span><p class="fcard-q">What are the three main methods to calculate the return of an investment, and why does the arithmetic mean always overstate returns?</p><div class="fcard-hint">撳卡翻面 👆</div></div><div class="fcard-face fcard-back"><span class="fcard-badge fcard-badge-a">Answer</span><div class="fcard-a"><ul>
+<li>[English Point-form Answer]:</li>
+<li>Three methods: (1) holding period returns, (2) average returns (arithmetic mean and geometric mean), (3) expected returns.</li>
+<li>AM = ΣRᵢ/n, suitable for investment horizons of about 12 months.</li>
+<li>GM = [(1+R₁)…(1+Rₙ)]^(1/n) − 1, used for compound growth over multiple periods.</li>
+<li>AM simply averages returns and ignores compounding: after a loss, less capital is available to generate future returns, so AM always overstates the true return; the gap widens with higher volatility.</li>
+<li>[中文白話解釋]：回報有三種計法：持有期回報（capital gain + income）、平均回報（算術平均及幾何平均）、預期回報。算術平均只係簡單將各期回報加埋再除以期數，冇考慮複利效應 — 蝕錢之後本金縮水，之後賺嘅能力都減弱，所以算術平均永遠高估真實回報，波幅越大誤差越大。</li>
+</ul></div></div></div></div><div class="fcard" data-flipped="false"><div class="fcard-label">Flashcard 2 / 共 8 張</div><div class="fcard-inner"><div class="fcard-face fcard-front"><span class="fcard-badge fcard-badge-q">Question</span><p class="fcard-q">Mr. Leung's investment in China Mobile stock has the following possible returns: Weak economy 13% (p = 0.30), OK economy 20% (p = 0.40), Strong economy 25% (p = 0.30). Calculate the expected return.</p><div class="fcard-hint">撳卡翻面 👆</div></div><div class="fcard-face fcard-back"><span class="fcard-badge fcard-badge-a">Answer</span><div class="fcard-a"><ul>
+<li>[English Point-form Answer]:</li>
+<li>E(R) = Σ pᵢRᵢ = (0.30 × 0.13) + (0.40 × 0.20) + (0.30 × 0.25)</li>
+<li>= 0.039 + 0.080 + 0.075 = 0.194</li>
+<li>Expected return = <strong>19.4%</strong></li>
+<li>[中文白話解釋]：預期回報就係將每個情境嘅回報乘以佢發生嘅概率再加埋。呢題三個情境：0.3×13% + 0.4×20% + 0.3×25% = 19.4%。考試見到 probability × return 嘅表格題，直接照呢條式計就得。</li>
+</ul></div></div></div></div><div class="fcard" data-flipped="false"><div class="fcard-label">Flashcard 3 / 共 8 張</div><div class="fcard-inner"><div class="fcard-face fcard-front"><span class="fcard-badge fcard-badge-q">Question</span><p class="fcard-q">Distinguish between systematic risk and unsystematic risk. Which one is rewarded by the market, and why?</p><div class="fcard-hint">撳卡翻面 👆</div></div><div class="fcard-face fcard-back"><span class="fcard-badge fcard-badge-a">Answer</span><div class="fcard-a"><ul>
+<li>[English Point-form Answer]:</li>
+<li>Systematic risk (market risk / non-diversifiable risk): affects a large number of assets; caused by exogenous factors such as changes in GDP, interest rates and inflation; cannot be eliminated by diversification.</li>
+<li>Unsystematic risk (unique / asset-specific / diversifiable risk): affects one or a small number of assets, e.g. strikes, parts shortages, accidents, takeovers; can be eliminated through effective diversification.</li>
+<li>Systematic risk principle: there is reward for bearing risk, but no reward for bearing risk unnecessarily. Asset markets only reward systematic risk; the expected return on unsystematic risk is zero.</li>
+<li>[中文白話解釋]：系統性風險影響成個市場（例如利率、通脹、GDP），點分散都避唔到，所以市場會用風險溢價補償你；非系統性風險只影響個別公司（例如罷工、收購），分散投資就可以消除，市場唔會因此畀多啲回報你。呢個就係點解 CAPM 淨係用 beta（系統性風險）嚟定回報。</li>
+</ul></div></div></div></div><div class="fcard" data-flipped="false"><div class="fcard-label">Flashcard 4 / 共 8 張</div><div class="fcard-inner"><div class="fcard-face fcard-front"><span class="fcard-badge fcard-badge-q">Question</span><p class="fcard-q">A portfolio has HK$800 invested in Stock O (expected return 10%) and HK$1,200 in Stock K (expected return 18%). Calculate the expected return of the portfolio.</p><div class="fcard-hint">撳卡翻面 👆</div></div><div class="fcard-face fcard-back"><span class="fcard-badge fcard-badge-a">Answer</span><div class="fcard-a"><ul>
+<li>[English Point-form Answer]:</li>
+<li>Weight of O = 800 / (800 + 1,200) = 40%; weight of K = 60%</li>
+<li>E(Rp) = Σ wᵢE(Rᵢ) = (40% × 10%) + (60% × 18%)</li>
+<li>= 4% + 10.8% = <strong>14.80%</strong></li>
+<li>[中文白話解釋]：組合預期回報永遠係個別回報按投資金額比重嘅加權平均（注意：係金額加權，唔係簡單平均！）。先計權重 40%/60%，再乘返各自回報，加埋得 14.80%。</li>
+</ul></div></div></div></div><div class="fcard" data-flipped="false"><div class="fcard-label">Flashcard 5 / 共 8 張</div><div class="fcard-inner"><div class="fcard-face fcard-front"><span class="fcard-badge fcard-badge-q">Question</span><p class="fcard-q">What does the correlation coefficient (ρ) measure, and what are the diversification implications of ρ = +1, ρ = 0 and ρ = −1?</p><div class="fcard-hint">撳卡翻面 👆</div></div><div class="fcard-face fcard-back"><span class="fcard-badge fcard-badge-a">Answer</span><div class="fcard-a"><ul>
+<li>[English Point-form Answer]:</li>
+<li>ρ_AB = COV_AB / (σ_A·σ_B); measures how returns on two assets move together; ranges from −1 to +1.</li>
+<li>ρ = +1: perfectly positively correlated — no diversification benefit.</li>
+<li>ρ = 0: uncorrelated — returns not related; diversification benefit exists.</li>
+<li>ρ = −1: perfectly negatively correlated — a properly weighted two-stock portfolio can eliminate all portfolio risk.</li>
+<li>In practice, typical stock portfolios have ρ ≈ 0.65, so risk is lowered but not eliminated.</li>
+<li>[中文白話解釋]：相關係數 = 協方差 ÷ 兩個標準差嘅乘積，數值介乎 −1 同 +1。+1 代表兩隻股票齊上齊落，分散投資冇用；−1 代表一升一跌，啱啱好配重可以完全對沖晒風險；0 代表互不相干。現實中股票之間通常約 +0.65，所以分散只能減低風險而唔係清零。</li>
+</ul></div></div></div></div><div class="fcard" data-flipped="false"><div class="fcard-label">Flashcard 6 / 共 8 張</div><div class="fcard-inner"><div class="fcard-face fcard-front"><span class="fcard-badge fcard-badge-q">Question</span><p class="fcard-q">A stock has a covariance with the market of 0.2, while the variance of the market is 0.12. Calculate the stock's beta and interpret the result.</p><div class="fcard-hint">撳卡翻面 👆</div></div><div class="fcard-face fcard-back"><span class="fcard-badge fcard-badge-a">Answer</span><div class="fcard-a"><ul>
+<li>[English Point-form Answer]:</li>
+<li>βᵢ = COV(i,M) / σ²_M = 0.2 / 0.12 = <strong>1.667</strong></li>
+<li>β &gt; 1: the stock's systematic risk is higher than that of the market.</li>
+<li>Interpretation boundaries: β = 1 → same systematic risk as the market; β &lt; 1 → lower; β = 0 → zero systematic risk.</li>
+<li>[中文白話解釋]：Beta = 股票同市場嘅協方差 ÷ 市場嘅方差 = 0.2 ÷ 0.12 = 1.667。大過 1 代表呢隻股票比大市更波動、系統性風險更高；如果市場升 1%，佢平均會升約 1.67%。記住 β=1 同市場一樣、β=0 冇系統性風險呢兩個基準。</li>
+</ul></div></div></div></div><div class="fcard" data-flipped="false"><div class="fcard-label">Flashcard 7 / 共 8 張</div><div class="fcard-inner"><div class="fcard-face fcard-front"><span class="fcard-badge fcard-badge-q">Question</span><p class="fcard-q">The beta of Tencent is 1.2, the expected market return is 10% and the rate of Hong Kong Exchange Fund Bills and Notes is 3%. Calculate the expected return using CAPM.</p><div class="fcard-hint">撳卡翻面 👆</div></div><div class="fcard-face fcard-back"><span class="fcard-badge fcard-badge-a">Answer</span><div class="fcard-a"><ul>
+<li>[English Point-form Answer]:</li>
+<li>E(Rᵢ) = R_rf + βᵢ[E(R_m) − R_rf]</li>
+<li>= 3% + 1.2 × (10% − 3%) = 3% + 1.2 × 7% = 3% + 8.4%</li>
+<li>E(R_Tencent) = <strong>11.4%</strong></li>
+<li>Note: in Hong Kong the risk-free proxy is HK Exchange Fund Bills and Notes issued by the HKMA.</li>
+<li>[中文白話解釋]：CAPM 一條式搞掂：無風險利率 3% 加 beta 1.2 乘以市場風險溢價 (10% − 3% = 7%)，即 3% + 8.4% = 11.4%。小心唔好將「市場回報」同「市場風險溢價」撈亂 — 如果題目直接畀 market risk premium，就唔使再減無風險利率。</li>
+</ul></div></div></div></div><div class="fcard" data-flipped="false"><div class="fcard-label">Flashcard 8 / 共 8 張</div><div class="fcard-inner"><div class="fcard-face fcard-front"><span class="fcard-badge fcard-badge-q">Question</span><p class="fcard-q">On the Security Market Line (SML), how do you identify undervalued and overvalued securities? What is the slope of the SML?</p><div class="fcard-hint">撳卡翻面 👆</div></div><div class="fcard-face fcard-back"><span class="fcard-badge fcard-badge-a">Answer</span><div class="fcard-a"><ul>
+<li>[English Point-form Answer]:</li>
+<li>SML: kᵢ = R_rf + [E(R_m) − R_rf]·βᵢ; plots required return against beta (systematic risk).</li>
+<li>Slope of the SML = market risk premium [E(R_m) − R_rf] — NOT beta.</li>
+<li>In equilibrium, all accurately priced securities lie on the SML.</li>
+<li>Expected return ABOVE the SML → expected return exceeds required return → undervalued (buy; price will be bid up).</li>
+<li>Expected return BELOW the SML → expected return below required return → overvalued.</li>
+<li>[中文白話解釋]：SML 以 beta 做橫軸、必要回報做縱軸。一隻股票如果實際預期回報高過 CAPM 算出嚟嘅必要回報，佢就會落喺 SML 上方，代表被低估、值得買；反之落喺下方就係被高估。最常見陷阱：SML 嘅斜率係市場風險溢價，唔係 beta！</li>
+</ul></div></div></div></div></div>
+<hr/>
+<p>「Phase 3 測驗題目及答案請見另外兩個檔案：M7_Ch6_CAPM_Quiz.md / M7_Ch6_CAPM_Answers.md」</p>
+</article>
+
+<details class="memo" data-slug="m7-ch6-capm-studypack">
+<summary><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg>速記<svg class="chev" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></summary>
+<div class="memo-inner">
+<textarea placeholder="喺度寫低你嘅速記，會即打即存喺瀏覽器…" aria-label="速記"></textarea>
+<div class="memo-bar">
+<span class="memo-status">未開始編輯</span>
+<button type="button" class="btn btn-copy">複製內容</button>
+<button type="button" class="btn btn-download">下載為 .md</button>
+<button type="button" class="btn btn-clear danger">清除</button>
+</div>
+</div>
+</details>
+
+<nav class="pager"><a class="prev" href="m7-ch6-capm-quiz.html"><span class="dir">上一份</span>M7 Financial Management — Chapter 6: Capital Asset Pricing Model — Phase 3 Quiz (100% OTQ, ALL IN ENGLISH)</a><span class="spacer"></span></nav>
+
+<footer class="site-footer">HKICPA QP 備考筆記 · 由 build.py 自動生成</footer>
+</div></main>
+</div>
+<script src="../assets/config.js"></script>
+<script src="../assets/app.js"></script>
+</body>
+</html>

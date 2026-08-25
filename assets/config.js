@@ -1,1 +1,1 @@
-window.HKICPA_GITHUB_USER = "holaming111317-collab";
+window.HKICPA_GITHUB_USER = "__GITHUB_USER__";

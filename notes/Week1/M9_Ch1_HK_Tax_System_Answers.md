@@ -19,14 +19,14 @@ Model answer: There is no withholding tax on Hong Kong source dividends and inte
 
 【解題思路】揀「NOT correct」題要逐項驗證。B 係答案：香港對股息同利息**完全無 WHT**，只有 royalties（在港使用 IP）同非居民演藝／運動員演出費先按預扣基準課稅——呢個係全章最高頻陷阱。A、C、D 全部係 source 白紙黑字嘅正確描述（schedular system、AFAL、Basic Law Article 106），係干擾項。考試貼士：見到 "withhold" 加 "interest/dividend" 嘅組合，八成都係錯。
 
-**Question 4 — Answer: HK$742,500**
+**Question 4 — Answer: HK$660,000**
 
 Model answer / Working:
 - First HK$2,000,000 of assessable profits @ 8.25% = HK$165,000
 - Remaining HK$3,000,000 (HK$5,000,000 − HK$2,000,000) @ 16.5% = HK$495,000
-- Profits tax payable = HK$165,000 + HK$495,000 = **HK$742,500**
+- Profits tax payable = HK$165,000 + HK$495,000 = **HK$660,000**
 
-【解題思路】兩級制利得稅計算：第一步，公司首 HK$2 million 應評稅利潤用 8.25%（= HK$165,000）；第二步，超出 HK$2 million 嘅 HK$3 million 用標準稅率 16.5%（= HK$495,000）；第三步加埋 = HK$742,500。常見錯誤：(1) 全部利潤直接用 16.5%（會錯得 HK$825,000）；(2) 用錯非公司業務稅率 7.5%/15%（題目講明 corporation）；(3) 分界額記錯（係 HK$2 million，唔係 HK$1 million）。考試貼士：睇清楚題目係 "corporation" 定 "unincorporated business" 先落筆。
+【解題思路】兩級制利得稅計算：第一步，公司首 HK$2 million 應評稅利潤用 8.25%（= HK$165,000）；第二步，超出 HK$2 million 嘅 HK$3 million 用標準稅率 16.5%（= HK$495,000）；第三步加埋 = HK$660,000。常見錯誤：(1) 全部利潤直接用 16.5%（會錯得 HK$825,000）；(2) 用錯非公司業務稅率 7.5%/15%（題目講明 corporation）；(3) 分界額記錯（係 HK$2 million，唔係 HK$1 million）。考試貼士：睇清楚題目係 "corporation" 定 "unincorporated business" 先落筆。
 
 **Question 5 — Answer: HK$43,200**
 

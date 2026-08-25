@@ -21,7 +21,15 @@
 
 ## M9 Principles of Taxation
 
-（仲未有記錄 — 交咗 Ch1 Quiz 批改後就會有。）
+| 日期 | 章節 | 錯題 | 錯因類型 | 正確觀念 / Model Sentence |
+|---|---|---|---|---|
+| 8/22 | Ch1 | Q3：揀「NOT correct」題揀咗 C（AFAL），其實錯嘅係 B——以為 interest paid to non-resident 要預扣 | 概念不清 | "There is NO withholding tax on Hong Kong source dividends and interest. Only royalties (for IP used in HK) and fees of non-resident entertainers/sportsmen are taxed on a withholding basis." 見到 "withhold + interest/dividend" 嘅組合，八成都係錯。 |
+
+## 答案卡更正紀錄 (Errata)
+
+| 日期 | 位置 | 更正 |
+|---|---|---|
+| 8/22 | M9 Ch1 Answers Q4 | 標準答案加總筆誤：HK$165,000 + HK$495,000 應為 **HK$660,000**（原寫 HK$742,500），已修正 |
 
 ## 快問快答遺忘點 (Spaced Repetition)
 

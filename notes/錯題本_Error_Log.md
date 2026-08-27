@@ -36,3 +36,4 @@
 | 日期 | 抽考範圍 | 得分 | 遺忘點 |
 |---|---|---|---|
 | 8/19 | M7 Ch1 對話微測（money market / primary vs secondary / broker vs dealer）| 2/3 | broker ≠ shareholder 混淆 → 已即場糾正並加入詞彙表 |
+| 8/22 | W2 前 Retest（M7 profit maximisation timing / EMH 嵌套 / M9 no-WHT rule，全部新場景）| **3/3** ✅ | 無 — W1 三個錯點已鞏固；下次 W3 前再抽考驗證長期記憶 |

@@ -18,6 +18,9 @@
 |---|---|---|---|---|
 | 8/21 | Ch1 | Q1：誤以為 profit 確認時間有分別（其實兩個項目都係 Y1 確認 HK$2.0M）| 概念不清 | "Under profit maximisation, two projects with identical accounting profits are treated as identical — the goal ignores the timing of cash flows and the time value of money." |
 | 8/21 | Ch1 | Q3：EMH 三層資訊集撈亂（以為 weak form 都被推翻）| 概念不清 | "Weak ⊂ semi-strong ⊂ strong. Earning excess returns from public information contradicts the semi-strong and strong forms — but not the weak form, which only concerns past price and volume data." |
+| 8/23 | Ch2 | Q1：短期 vs 長期融資分類錯（揀咗 demand line of credit；答案係 7 年租約）| 概念不清 | "The dividing line is one year: CP (1–270 days), BAs (1–180 days) and operating lines of credit are short-term; a lease running for more than one year is treated as long-term — effectively 100% debt financing." |
+| 8/23 | Ch2 | Q3：PIPE 唔識（估咗 rights offering）| 概念不清 | "A PIPE is the sale of unregistered shares by an already-listed company to an institutional investor, almost always at a discount, with an undertaking to register the shares (usually within 90 days)." 分類三步：上咗市未？註冊咗未？賣畀邊個？ |
+| 8/23 | Ch2 | Q4：BEY 公式背唔出，超時＋翻筆記先完成（數值 3.62% 本身啱）| 公式誤用/唔熟 | "BEY = (Face − Price) ÷ Price × 360 ÷ Days" — 分母係發行價唔係面值；貨幣市場用 360 日。閉卷下背唔出公式 = 直接失分，揭 flashcard 到反射級 |
 
 ## M9 Principles of Taxation
 

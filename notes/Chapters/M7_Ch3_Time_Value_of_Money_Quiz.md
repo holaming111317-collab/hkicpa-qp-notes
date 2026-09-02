@@ -4,6 +4,34 @@
 
 ---
 
+## 🔄 Retest Section — W2 錯題重測（先做呢 3 條，另計時 7.5 分鐘）
+
+> 呢 3 條測返你 W2 答錯嘅三個點：啱 → 剔除出 Retest 隊列；錯 → 帶落 W4 繼續測。
+
+**Retest R1 (MCQ) — from Ch2 Q1 (short-term vs long-term boundary)**
+
+Which of the following sources of finance would normally be classified as **short-term (money market) financing**?
+
+A. A five-year lease of a delivery vehicle under which the lessee pays no deposit
+B. A 45-day bankers' acceptance arising from an import transaction
+C. A seven-year term loan from a bank
+D. An issue of ordinary shares to the public
+
+**Retest R2 (MCQ) — from Ch2 Q3 (equity issuance methods)**
+
+StarLink Ltd has been listed on the Hong Kong stock exchange for six years. It sells newly issued, unregistered shares at a 12% discount to two private equity funds, and undertakes to register the shares within 60 days of closing. This transaction is best described as:
+
+A. An initial public offering
+B. An insured rights offering to existing shareholders
+C. A general cash offer open to all investors
+D. A private investment in public equity (PIPE)
+
+**Retest R3 (Calculation) — from Ch2 Q4 (bond equivalent yield)**
+
+Metro Ltd issues commercial paper with a face value of HK$20,000,000 at an issue price of HK$19,850,000, with 45 days to maturity. Using the bond equivalent yield convention, calculate the quoted annual yield on this commercial paper. (Percentage, 2 decimal places.)
+
+---
+
 **Question 1 (MCQ)**
 
 An investment contract pays HK$1,000 per year for four years. The discount rate is 8%. Which of the following statements is most correct?

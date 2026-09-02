@@ -2,6 +2,16 @@
 
 ---
 
+## 🔄 Retest Answers（W2 錯題重測）
+
+### Retest R1 — Answer: (i) 31 March 2027; (ii) Yes, in time; (iii) s.60(1) IRO
+
+**Model Answer:** Under s.60(1) IRO, an additional assessment must be raised within **six years of the end of the year of assessment** to which it relates. The year of assessment 2020/21 ended on 31 March 2021, so the latest date is **31 March 2027**. The audit discovery in September 2026 is therefore within time and the additional assessment may validly be raised. The extended ten-year limit under s.60(1)(b) applies only where the undercharge involves **fraud or wilful evasion**, which is excluded here.
+
+【解題思路】計時起點係 YA **結束日**（31/3/2021），唔係首次評稅日（10/6/2021）、唔係 audit 發現日。6 年 → 31/3/2027。10 年條款只限 fraud/wilful evasion。Fill-in 電報式作答示範：`31 March 2027; yes, in time; s.60(1) — 6 years from end of YA` 已經足夠攞滿分。
+
+---
+
 ## Question 1 — Correct Answer: **B**
 
 **English Model Answer:**

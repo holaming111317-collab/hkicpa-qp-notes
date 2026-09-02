@@ -2,6 +2,32 @@
 
 ---
 
+## 🔄 Retest Answers（W2 錯題重測）
+
+### Retest R1 — Answer: B
+
+**Model Answer:** A bankers' acceptance has a maturity of 1 to 180 days (typically 90 days) — a short-term money market instrument. Options A and C are long-term: a lease running for more than one year (five or seven years) is treated as long-term financing, effectively 100% debt financing, and a seven-year term loan is plainly long-term. Option D (ordinary shares) is permanent equity capital, not money market financing.
+
+【解題思路】分界線係**一年**：BA 45 日 → 短期；五年租約、七年 term loan → 長期；股份係永久資本。唔好再靠課文編排位置答，用規則答。
+
+### Retest R2 — Answer: D
+
+**Model Answer:** This is a **PIPE (private investment in public equity)**: an already-listed company sells **unregistered** shares to institutional investors, almost always **at a discount**, with an undertaking to **register the shares within a short period** (typically 60–90 days). A is wrong — an IPO is a company's FIRST public sale; StarLink has been listed for six years. B is wrong — a rights offering is made to EXISTING shareholders, not outside funds. C is wrong — a general cash offer involves REGISTERED securities open to ALL investors.
+
+【解題思路】三步分類法：上咗市未？（上咗 → 唔係 IPO）註冊咗未？（未註冊 → 唔係 general cash offer）賣畀邊個？（外面基金，唔係現有股東 → 唔係 rights offering）→ PIPE。
+
+### Retest R3 — Answer: 6.05%
+
+**Model Answer / Working:**
+BEY = (Face − Price) ÷ Price × 360 ÷ Days
+= (20,000,000 − 19,850,000) ÷ 19,850,000 × 360 ÷ 45
+= 150,000 ÷ 19,850,000 × 8
+= 0.007557 × 8 = 0.060453 → **6.05%**
+
+【解題思路】分母係**發行價 19.85m**（投資者實際付出），唔係面值；全年化用 **360 日**（360/45 = 乘 8）。常見錯：用面值做分母 → 6.00%；用 365 日 → 6.13%。
+
+---
+
 ## Question 1 — Correct Answer: C
 
 **Model Answer (English):**

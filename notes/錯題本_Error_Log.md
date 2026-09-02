@@ -35,6 +35,19 @@
 |---|---|---|
 | 8/22 | M9 Ch1 Answers Q4 | 標準答案加總筆誤：HK$165,000 + HK$495,000 應為 **HK$660,000**（原寫 HK$742,500），已修正 |
 
+## 🔄 Active Retest Queue（錯題重測隊列）
+
+> 規則（你提議嘅版本，已採納）：答錯嘅題目 → 下一週 Quiz 嘅 Retest Section 出一條**新場景同理論**嘅題。**答啱 → 剔除出隊列；答錯 → 繼續帶落下週。**
+
+| 錯題來源 | 弱點 | 狀態 |
+|---|---|---|
+| M7 Ch2 Q1 | 短期 vs 長期融資 1-year boundary | 🔁 已放入 W3 M7 Quiz R1 |
+| M7 Ch2 Q3 | PIPE vs 其他集資渠道 | 🔁 已放入 W3 M7 Quiz R2 |
+| M7 Ch2 Q4 | BEY 公式背誦 | 🔁 已放入 W3 M7 Quiz R3 |
+| M9 Ch2 Q5 | additional assessment 要答日期 + 條文編號 | 🔁 已放入 W3 M9 Quiz R1 |
+
+狀態圖例：🔁 隊列中（待重測）｜ ✅ 已剔除（重測答啱）
+
 ## 快問快答遺忘點 (Spaced Repetition)
 
 | 日期 | 抽考範圍 | 得分 | 遺忘點 |

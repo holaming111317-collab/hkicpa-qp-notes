@@ -4,6 +4,16 @@
 
 ---
 
+## 🔄 Retest Section — W2 錯題重測（先做呢 1 條，另計時 2.5 分鐘）
+
+> 測返你 W2 Q5 嘅弱點：記住 rule 之外，**一定要答到日期 + 條文編號**。啱 → 剔除；錯 → 帶落 W4。
+
+**Retest R1 (Fill-in) — from Ch2 Q5 (additional assessment time limit)**
+
+On 10 June 2021, the IRD issued a profits tax assessment to Dragon Ltd for the year of assessment 2020/21 (year of assessment ended 31 March 2021). In September 2026, an IRD audit reveals that Dragon Ltd's assessable profits for 2020/21 were understated. There is **no fraud or wilful evasion**. State (i) the **latest date** by which the IRD may validly raise an additional assessment, (ii) whether the September 2026 discovery is still within time, and (iii) the governing **section**.
+
+---
+
 **Question 1 (MCQ) — Capital vs Revenue Receipts**
 
 Harbour Textiles Ltd carries on the business of garment trading in Hong Kong. During the year, it received the following sums. Which one is a REVENUE receipt chargeable to profits tax?

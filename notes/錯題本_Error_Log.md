@@ -27,6 +27,7 @@
 | 日期 | 章節 | 錯題 | 錯因類型 | 正確觀念 / Model Sentence |
 |---|---|---|---|---|
 | 8/22 | Ch1 | Q3：揀「NOT correct」題揀咗 C（AFAL），其實錯嘅係 B——以為 interest paid to non-resident 要預扣 | 概念不清 | "There is NO withholding tax on Hong Kong source dividends and interest. Only royalties (for IP used in HK) and fees of non-resident entertainers/sportsmen are taxed on a withholding basis." 見到 "withhold + interest/dividend" 嘅組合，八成都係錯。 |
+| 8/23 | Ch2 | Q5：additional assessment 條 rule 啱但**無填日期同條文編號**（題目叫 state the latest date）；超時＋英文作文諗太耐 | 答題不完整 | "Under s.60(1) IRO, an additional assessment must be raised within six years of the end of the YA. YA 2019/20 ended 31 Mar 2020 → latest 31 Mar 2026. 10-year limit = fraud/wilful evasion only." 教訓：fill-in 用電報式 `31 March 2026 — s.60(1), 6-year limit from end of YA`，唔使完整句子 |
 
 ## 答案卡更正紀錄 (Errata)
 

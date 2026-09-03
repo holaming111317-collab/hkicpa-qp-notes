@@ -142,8 +142,12 @@ Phase 4: Feedback & Error Analysis —
 
 ## Part 7：俾 Gemini 睇 Learning Pack 原文（手動上傳指引）
 
-原文 PDF 已經全部存喺私人 repo `holaming111317-collab/hkicpa-qp-materials`（155 個檔，約 111MB）。
-**注意：Gemini 讀唔到任何 GitHub repo（無論 public 定 private）。** 要佢睇到原文，最後一步一定要你自己喺 Gemini 對話入面 upload PDF。PDF 喺你自己電腦已經有（即係你當日上傳嗰批），或者喺上面個 private repo 下載返都得。
+原文 PDF 已經全部存喺**公開** repo `holaming111317-collab/hkicpa-qp-materials`（155 個檔，約 111MB；2026-09-03 由 private 轉 public，用戶已知悉並承擔版權風險）。
+任何人（包括 AI）都可以透過 raw 直連讀取，例如：
+- `https://raw.githubusercontent.com/holaming111317-collab/hkicpa-qp-materials/main/Module%207_4th%20ed.pdf`
+- `https://raw.githubusercontent.com/holaming111317-collab/hkicpa-qp-materials/main/Module%209_4th%20ed.pdf`
+
+**但要講現實：Gemini 對 URL 讀取 PDF 嘅支援唔穩定，最可靠嘅方法仍然係直接喺對話入面 upload PDF。** PDF 喺你自己電腦已經有（即係你當日上傳嗰批），或者喺上面個 repo 下載返都得。
 
 **建議做法（每個 module 開一個獨立 chat）：**
 

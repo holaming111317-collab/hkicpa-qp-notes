@@ -48,7 +48,7 @@ def categorize(filename: str) -> str:
             return f"W{week} · {WEEK_DATES[week]}"
     if "詞彙" in filename or "Master" in filename:
         return "工具表"
-    if re.search(r"Plan|Roadmap|Tracker|錯題本", filename):
+    if re.search(r"Plan|Roadmap|Tracker|錯題本|HANDOVER", filename):
         return "計劃與追蹤"
     return "其他"
 

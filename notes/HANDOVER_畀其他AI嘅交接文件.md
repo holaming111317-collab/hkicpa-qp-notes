@@ -137,3 +137,31 @@ Phase 4: Feedback & Error Analysis —
 6. 等 1–2 分鐘，網站 https://holaming111317-collab.github.io/hkicpa-qp-notes/ 自動更新 ✅
 
 ⚠️ 唯一規矩：Gemini 改嘅嘢**一定要貼上 GitHub** 先算數 — 錯題本、Retest 隊列、分數紀錄全部以 repo 為準。
+
+---
+
+## Part 7：俾 Gemini 睇 Learning Pack 原文（手動上傳指引）
+
+原文 PDF 已經全部存喺私人 repo `holaming111317-collab/hkicpa-qp-materials`（155 個檔，約 111MB）。
+**注意：Gemini 讀唔到任何 GitHub repo（無論 public 定 private）。** 要佢睇到原文，最後一步一定要你自己喺 Gemini 對話入面 upload PDF。PDF 喺你自己電腦已經有（即係你當日上傳嗰批），或者喺上面個 private repo 下載返都得。
+
+**建議做法（每個 module 開一個獨立 chat）：**
+
+| Gemini Chat | 上傳檔案 | 用途 |
+|---|---|---|
+| M7 溫書房 | `Module 7_4th ed.pdf`（11MB）+ 本 HANDOVER 文件 | 出題、批改、解釋概念 |
+| M9 溫書房 | `Module 9_4th ed.pdf`（4.3MB）+ 本 HANDOVER 文件 | 出題、批改、稅例條文查證 |
+| （2027 先開）M6 / M8 / M10 各自一個 chat | 對應 `Module X_4th ed.pdf` + HANDOVER | 第二輪考試先需要 |
+
+**開場白（貼呢句落新 chat 嘅第一個訊息，連住上面 Part 1 一齊貼）：**
+
+```
+我已經上傳咗 HKICPA Learning Pack 原文 PDF。由而家開始：
+1. 出 Quiz 同解釋概念時，直接引用 Learning Pack 嘅章節同頁碼。
+2. 如果我問嘅嘢同你內部知識有出入，一切以 Learning Pack 原文為準。
+3. 稅率、免額、罰則等數字，只可以用 PDF 入面嘅版本，唔好用你記憶中嘅舊數。
+```
+
+**特別提醒：**
+- Past papers（`Module X Question/Answer *.pdf`）同 Panelists' Reports 都喺 repo 入面；想 Gemini 用歷屆試題出題，照樣 upload 落對應 chat 就得。
+- 每個 Gemini chat 有檔案數量/容量上限，所以先好一次過倒晒啲嘢落一個 chat——分 module 開 chat 先係正路。

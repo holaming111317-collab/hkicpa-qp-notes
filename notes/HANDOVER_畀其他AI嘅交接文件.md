@@ -121,12 +121,22 @@ Phase 4: Feedback & Error Analysis —
 
 ## Part 6：分工建議（畀學生睇）— 2026-09-03 更新版
 
+> ⚡ **2026-09-03 起：Gemini 由「兼職」轉「全職」** — 用戶 Kimi 額度用盡，Gemini 係而家**唯一嘅 tutor**。下面所有「Gemini 全權」嘅工作唔使再搵任何人覆核，佢做晒。
+
 | 工作 | 邊個做 | 點做 |
 |---|---|---|
 | 概念講解、出題、批改、更新三份記錄檔（錯題本/詞彙表/Tracker）| **Gemini 全權** | 佢輸出更新區塊，你貼上 GitHub |
 | 網站更新 | **全自動（GitHub Actions）** | .md 一貼上 repo，1–2 分鐘後網站自動更新，唔使任何人推送 |
 | Flashcards 自測 | 你自己（網站 flip cards）| 兩輪過篩法 |
-| 技術支援（Actions 壞咗、repo 問題）| Kimi | 隨時返嚟搵我 |
+| 技術支援（Actions 壞咗、repo 問題）| Kimi | 有額度嗰時先返嚟 |
+
+### Gemini 單人操作嘅每週循環（背咗佢）
+1. **Gemini** 跟網站 Quiz 出題（或直接叫佢出：「出 W4 M7 Ch4 quiz，跟返之前格式」）
+2. **你** 用英文答（限時 2.5 分鐘/題）
+3. **Gemini** 批改：X/5 + Rule Check + 盲點分析 + Model Sentence
+4. **Gemini** 輸出三份更新區塊：錯題本新 entry、Retest 隊列變動（啱→剔除/錯→帶落下週）、詞彙表新字
+5. **你** 貼上 GitHub（下面 30 秒教學）
+6. **GitHub Actions** 自動更新網站 ✅
 
 ### 點樣將 Gemini 嘅更新貼上 GitHub（30 秒，唔使技術知識）
 1. 打開 https://github.com/holaming111317-collab/hkicpa-qp-notes
@@ -169,3 +179,9 @@ Phase 4: Feedback & Error Analysis —
 **特別提醒：**
 - Past papers（`Module X Question/Answer *.pdf`）同 Panelists' Reports 都喺 repo 入面；想 Gemini 用歷屆試題出題，照樣 upload 落對應 chat 就得。
 - 每個 Gemini chat 有檔案數量/容量上限，所以先好一次過倒晒啲嘢落一個 chat——分 module 開 chat 先係正路。
+- **長 chat 會退化**：Gemini 免費版對話太長會開始唔記得開頭嘅嘢。每隔兩三個禮拜（或者一發現佢唔跟規則）就開新 chat，重新 upload HANDOVER + PDF，再貼呢句叫佢追返進度：
+```
+開始之前，先讀呢兩個 raw link 攞我最新嘅進度同錯題：
+https://raw.githubusercontent.com/holaming111317-collab/hkicpa-qp-notes/main/notes/錯題本_Error_Log.md
+https://raw.githubusercontent.com/holaming111317-collab/hkicpa-qp-notes/main/notes/HKICPA_Progress_Tracker.md
+```

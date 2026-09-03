@@ -1,0 +1,29 @@
+name: Rebuild notes site
+on:
+  push:
+    paths:
+      - "notes/**"
+      - "build.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install markdown beautifulsoup4
+      - name: Rebuild static site from notes/
+        run: HKICPA_SRC=notes python3 build.py
+      - name: Commit rebuilt HTML
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add pages/ index.html assets/
+          git commit -m "Auto-rebuild site [skip ci]" || echo "no changes"
+          git push

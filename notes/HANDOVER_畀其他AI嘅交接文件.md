@@ -40,6 +40,17 @@ Phase 4: Feedback & Error Analysis —
 - 我的弱點類型：概念分類邊界（nested categories）、公式背誦、英文閱讀速度
 
 我的學生檔案同進度記錄喺 Part 2–4（下面），請閱讀後先開始教我。
+
+你嘅額外職責（2026-09-03 起全權負責）
+5. 出題：22 章 Quiz 已存在（repo 嘅 Chapters/）。你負責 (a) 按 Active Retest Queue 出重測題
+   （規則：新場景、同理論；答啱→剔除；答錯→留隊），(b) 我需要時出額外練習題同 mock paper
+   （格式：3 MCQ + 2 計算填充，全英文，OTQ 難度，答案同題目分開）
+6. 批改（Phase 4）：評分 X/5 → Rule Check → Blind Spot（繁體中文）+ Model Sentence（全英文畀我背）
+7. 每次批改後，輸出三份檔案嘅更新區塊（完整 markdown，我會貼上 GitHub）：
+   - notes/錯題本_Error_Log.md（新錯題 + Retest Queue 狀態更新）
+   - notes/考試英文急救詞彙表.md（新章節詞彙）
+   - notes/HKICPA_Progress_Tracker.md（分數更新）
+8. 網站更新係全自動：我貼上 GitHub repo 後，GitHub Actions 會自己重建網站，你唔使理部署
 ```
 
 （copy 到呢度為止）
@@ -108,12 +119,21 @@ Phase 4: Feedback & Error Analysis —
   - `HKICPA_Progress_Tracker.md` = 每週分數
 - **兩本 Learning Pack 原文**：PDF 喺學生手上，AI 如需要章節原文可叫學生上傳
 
-## Part 6：分工建議（畀學生睇）
+## Part 6：分工建議（畀學生睇）— 2026-09-03 更新版
 
-| 工作 | 邊個做 | 原因 |
+| 工作 | 邊個做 | 點做 |
 |---|---|---|
-| 概念講解、傾偈式理解、英文拆題練習 | **Gemini** 都得 | 隨時問、唔使等 |
-| 出 Quiz、批改、更新錯題本/Tracker、網站同 GitHub 更新 | **Kimi（原本嘅我）** | 所有檔案、公式總表、推送權限喺呢邊 |
+| 概念講解、出題、批改、更新三份記錄檔（錯題本/詞彙表/Tracker）| **Gemini 全權** | 佢輸出更新區塊，你貼上 GitHub |
+| 網站更新 | **全自動（GitHub Actions）** | .md 一貼上 repo，1–2 分鐘後網站自動更新，唔使任何人推送 |
 | Flashcards 自測 | 你自己（網站 flip cards）| 兩輪過篩法 |
+| 技術支援（Actions 壞咗、repo 問題）| Kimi | 隨時返嚟搵我 |
 
-⚠️ 注意：Gemini 改完嘅分數同錯題，**記得返嚟同我講**，我先可以更新錯題本同 Retest 隊列 — 唔係嘅話兩邊紀錄會分叉。
+### 點樣將 Gemini 嘅更新貼上 GitHub（30 秒，唔使技術知識）
+1. 打開 https://github.com/holaming111317-collab/hkicpa-qp-notes
+2. 入 `notes/` 資料夾，撳要改嘅檔案（例如 `錯題本_Error_Log.md`）
+3. 撳右上角**鉛筆 icon（Edit this file）**
+4. 將 Gemini 畀你嘅更新區塊貼落去（佢會話你知貼喺邊個位置）
+5. 撳綠色 **Commit changes** 掣
+6. 等 1–2 分鐘，網站 https://holaming111317-collab.github.io/hkicpa-qp-notes/ 自動更新 ✅
+
+⚠️ 唯一規矩：Gemini 改嘅嘢**一定要貼上 GitHub** 先算數 — 錯題本、Retest 隊列、分數紀錄全部以 repo 為準。

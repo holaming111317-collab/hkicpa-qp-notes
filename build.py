@@ -15,7 +15,9 @@ import sys
 from pathlib import Path
 
 SITE_DIR = Path(__file__).resolve().parent
-SRC_DIR = SITE_DIR.parent
+import os
+# 本地用法：SRC_DIR = 上層目錄；GitHub Actions 用法：HKICPA_SRC=notes（repo 內）
+SRC_DIR = Path(os.environ.get("HKICPA_SRC", SITE_DIR.parent)).resolve()
 EXCLUDE_FILES = {"SPEC.md", "plan.md"}
 
 # 13 週學習計劃：章節 → 週次對照（跨週章節歸入第一週）
@@ -97,8 +99,10 @@ def collect_notes():
         if not path.is_file():
             continue
         # 排除網站目錄本身（避免 re-run 時掃到 notes/ 副本）
-        if SITE_DIR in path.parents or path.parent == SITE_DIR:
-            continue
+        # 但當 SRC_DIR 本身喺 SITE_DIR 入面（GitHub Actions repo 模式），唔排除
+        if SITE_DIR not in SRC_DIR.parents and SRC_DIR != SITE_DIR:
+            if SITE_DIR in path.parents or path.parent == SITE_DIR:
+                continue
         # 排除 app/ 部署目錄入面嘅 notes 副本（同頂層 .md 重複）
         if (SRC_DIR / "app") in path.parents:
             continue
@@ -1386,8 +1390,14 @@ def main():
     groups = group_by_category(notes)
     by_stem = {n["stem"]: n for n in notes}
 
+    # 保留已填好嘅 config.js（assets/ 即將被清拆）
+    config_path = SITE_DIR / "assets" / "config.js"
+    saved_config = config_path.read_text(encoding="utf-8") if config_path.exists() else None
+
     # 清空可重建目錄（idempotent）
-    for d in ("pages", "notes", "assets"):
+    # repo 模式（SRC_DIR 喺 SITE_DIR 入面）絕對唔好清 notes/ — 佢係來源！
+    repo_mode = SITE_DIR in SRC_DIR.parents or SRC_DIR == SITE_DIR
+    for d in ("pages", "assets") if repo_mode else ("pages", "notes", "assets"):
         target = SITE_DIR / d
         if target.exists():
             shutil.rmtree(target)
@@ -1397,6 +1407,8 @@ def main():
     # 複製原始 .md 到 notes/（保持子目錄結構）
     for n in notes:
         dest = SITE_DIR / "notes" / n["rel"]
+        if n["src"].resolve() == dest.resolve():
+            continue  # repo 模式：來源已經喺 notes/ 入面，唔使自己 copy 自己
         dest.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(n["src"], dest)
 
@@ -1420,7 +1432,8 @@ def main():
     # 靜態資源
     (SITE_DIR / "assets" / "style.css").write_text(CSS.strip() + "\n", encoding="utf-8")
     (SITE_DIR / "assets" / "app.js").write_text(APP_JS.strip() + "\n", encoding="utf-8")
-    (SITE_DIR / "assets" / "config.js").write_text(CONFIG_JS, encoding="utf-8")
+    # config.js：用返清拆前儲低嘅內容，冇先至用 placeholder
+    config_path.write_text(saved_config or CONFIG_JS, encoding="utf-8")
 
     # 頁面
     (SITE_DIR / "index.html").write_text(

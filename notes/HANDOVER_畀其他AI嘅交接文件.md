@@ -103,6 +103,28 @@ Phase 4: Feedback & Error Analysis —
 3. M7 Ch2：BEY = (Face − Price) ÷ Price × 360 ÷ Days（分母係發行價、用 360 日）
 4. M9 Ch2：additional assessment 題必須答「日期 + 條文編號」（s.60(1)，6 年由 YA 結束起計；fraud/wilful evasion 先係 10 年）
 
+### ⚠️ 2026-09-03 進度對帳（接手 AI 必讀）
+
+學生離開咗一排，用咗另一個 AI 學習，嗰段時間**無跟 HANDOVER、無 quiz 記錄**。
+
+| 科目 | 「睇完」進度（自報，未驗證） | 「驗證過」進度（有 quiz 分數） | 欠債 |
+|---|---|---|---|
+| M7 | Ch5 | **Ch2（2/5，弱）** | Ch3、Ch4、Ch5 三個 Quiz 未做 |
+| M9 | Ch2 | Ch2（4/5 ✅）| Ch3（上）Quiz 未做 |
+
+**規矩：「睇完」唔等於「識」。冇 quiz 分數嘅章節一律當未學過。**
+接手 AI 第一件事：幫學生追做 M7 Ch3–5 + M9 Ch3（上）四個 Quiz（網站已有，見 Part 5），連帶清走上面 4 條 Retest Queue。
+
+### 📅 合併後嘅三輪計劃（2026-09-03 起生效，取代舊 W-table）
+
+| 階段 | 日期 | 內容 |
+|---|---|---|
+| 追數週 | **9/3–9/10** | 做晒四個欠債 Quiz + 4 條 Retest；M9 停咗 9 日，優先重開 |
+| Round 1 | 9/11–10/11 | 剩餘 17 章（M7 Ch6–16、M9 Ch3下–8）；每章流程：Study Pack → LP 例題 → Quiz → 批改 → 錯題本 → 下章 Retest。M7/M9 每日交替 |
+| Round 2 | 10/12–11/1 | 專題攻堅：WACC、NPV/IRR、EVA；DIPN 21 source rules、salaries time-apportionment、PA、stamp duty。用 Master Formula Sheet + Master Section List 做主軸，配合 past papers |
+| Round 3 | 11/2–11/19 | 計時模擬卷（materials repo 有 Module 7/9 past papers）、公式表 + 條文表強記 |
+| 考試 | **11/20** | — |
+
 **已鞏固（唔使再測）**：profit maximisation 忽略 timing、EMH weak⊂semi-strong⊂strong、香港對 dividends/interest 無 WHT（W2 前 retest 3/3 全對）
 
 **已記錄嘅 Model Sentences**（喺錯題本度，見 Part 5）：M7 Ch1 兩條、M7 Ch2 三條、M9 Ch1 一條、M9 Ch2 一條。
@@ -121,11 +143,11 @@ Phase 4: Feedback & Error Analysis —
 
 ## Part 6：分工建議（畀學生睇）— 2026-09-03 更新版
 
-> ⚡ **2026-09-03 起：Gemini 由「兼職」轉「全職」** — 用戶 Kimi 額度用盡，Gemini 係而家**唯一嘅 tutor**。下面所有「Gemini 全權」嘅工作唔使再搵任何人覆核，佢做晒。
+> ⚡ **2026-09-03 起：全職接手模式** — 學生 Kimi 額度有限，日常 tutor 工作由**而家讀緊呢份文件嘅 AI**（Gemini 或其他 agent 都得）全權負責，唔使再搵任何人覆核。
 
 | 工作 | 邊個做 | 點做 |
 |---|---|---|
-| 概念講解、出題、批改、更新三份記錄檔（錯題本/詞彙表/Tracker）| **Gemini 全權** | 佢輸出更新區塊，你貼上 GitHub |
+| 概念講解、出題、批改、更新三份記錄檔（錯題本/詞彙表/Tracker）| **接手 AI 全權** | 佢輸出更新區塊，你貼上 GitHub |
 | 網站更新 | **全自動（GitHub Actions）** | .md 一貼上 repo，1–2 分鐘後網站自動更新，唔使任何人推送 |
 | Flashcards 自測 | 你自己（網站 flip cards）| 兩輪過篩法 |
 | 技術支援（Actions 壞咗、repo 問題）| Kimi | 有額度嗰時先返嚟 |

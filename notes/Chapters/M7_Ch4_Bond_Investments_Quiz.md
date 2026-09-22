@@ -4,6 +4,27 @@
 
 ---
 
+## 🔄 Retest Section（先做呢三條：來自你之前嘅錯題，新場景同理論）
+
+**Retest R4 (Calculation) — from Ch3 Q4 (EAR formula)**
+
+A personal loan charges 2% per quarter on outstanding balances. Calculate the effective annual rate (EAR) the borrower actually pays. (Round your answer to two decimal places, in %.)
+
+**Retest R5 (Calculation) — from Ch2 Q4 (bond equivalent yield)**
+
+Harbour Ltd issues commercial paper with a face value of HK$10,000,000 at an issue price of HK$9,940,000, with 30 days to maturity. Using the bond equivalent yield convention, calculate the quoted annual yield on this commercial paper. (Percentage, 2 decimal places.)
+
+**Retest R6 (MCQ) — from Ch3 Q3 (rank by PV, not by story)**
+
+An investor can buy one of two perpetual cash flow streams. "Up" pays HK$200 in one year, growing at 3% per year forever. "Flat" pays HK$800 in one year, with no growth, forever. The appropriate discount rate is 6% per year. Which of the following statements is most correct?
+
+A. Up is preferred because a growing stream always beats a flat one.
+B. Flat is preferred because its present value of HK$13,333.33 exceeds Up's present value of HK$6,666.67.
+C. The present value of Up cannot be computed because its growth rate is positive.
+D. Both streams have the same present value because both are perpetuities.
+
+---
+
 **Question 1 (MCQ)**
 
 A bond has a face value of HK$1,000, a coupon rate of 8% paid annually, and is currently trading at HK$1,100. Which of the following correctly ranks the bond's coupon rate, current yield and yield to maturity?

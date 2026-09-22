@@ -95,13 +95,15 @@ Phase 4: Feedback & Error Analysis —
 |---|---|---|
 | W1 | 3/5 | 4/5 ✅ |
 | W2 | 2/5 ⚠️（需重測）| 4/5 ✅（Q5 半對：識 rule 但無填日期同條文編號）|
-| W3 | 進行中 | 進行中 |
+| W3 | 3/5（9/21；Retest 2/3，BEY 再錯漏年化）| 進行中 |
 
-**Active Retest Queue（未剔除嘅弱點）— 已注入 W3 Quiz：**
-1. M7 Ch2：短期 vs 長期融資 1-year boundary
-2. M7 Ch2：PIPE vs 其他集資渠道（listed? registered? sold to whom? 三步分類法）
-3. M7 Ch2：BEY = (Face − Price) ÷ Price × 360 ÷ Days（分母係發行價、用 360 日）
-4. M9 Ch2：additional assessment 題必須答「日期 + 條文編號」（s.60(1)，6 年由 YA 結束起計；fraud/wilful evasion 先係 10 年）
+**Active Retest Queue（未剔除嘅弱點）：**
+1. ~~M7 Ch2：短期 vs 長期融資 1-year boundary~~ ✅ 9/21 剔除（R1 答啱）
+2. ~~M7 Ch2：PIPE 分類~~ ✅ 9/21 剔除（R2 答啱）
+3. M7 Ch2：BEY 公式（9/21 R3 再錯：漏年化 ×360/days）→ 帶落 W4 R5
+4. M9 Ch2：additional assessment 要答「日期 + 條文編號」→ 待 W3 M9 Quiz
+5. M7 Ch3：EAR 公式閉卷空白 → 已注入 W4 M7 Quiz R4
+6. M7 Ch3：永續年金比較要計 PV 唔准靠感覺 → 已注入 W4 M7 Quiz R6
 
 ### ⚠️ 2026-09-03 進度對帳（接手 AI 必讀）
 

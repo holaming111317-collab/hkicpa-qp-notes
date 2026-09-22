@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|
 | W1 (8/19–25) | Ch1 Financial Environment | ✏️ 測驗已改（3/5）| Ch1 Key Aspects of the Tax System in HK | ✅ 已完成（4/5）| 3 / 4 |
 | W2 (8/26–9/1) | Ch2 Sources of Finance | ✏️ 測驗已改（2/5，需重測）| Ch2 Administration of the Tax System | ✅ 已完成（4/5，Q5 半對）| 2 / 4 |
-| W3 (9/2–8) | Ch3 Time Value of Money | 📘 教材已發放 | Ch3 Profits Tax（上）| 📘 教材已發放 | — / — |
+| W3 (9/2–8) | Ch3 Time Value of Money | ✏️ 測驗已改（3/5，9/21；Retest 2/3，BEY 未過關）| Ch3 Profits Tax（上）| 📘 教材已發放 | 3 / — |
 | W4 (9/9–15) | Ch4 Bond Investments | 📘 教材已發放 | Ch3 Profits Tax（下）| 📘 教材已發放 | — / — |
 | W5 (9/16–22) | Ch5 Equities Valuation | 📘 教材已發放 | Ch4 Salaries Tax（上）| 📘 教材已發放 | — / — |
 | W6 (9/23–29) | Ch6 CAPM | 📘 教材已發放 | Ch4 Salaries Tax（下）| 📘 教材已發放 | — / — |

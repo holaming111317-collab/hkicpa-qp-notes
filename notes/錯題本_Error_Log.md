@@ -21,6 +21,9 @@
 | 8/23 | Ch2 | Q1：短期 vs 長期融資分類錯（揀咗 demand line of credit；答案係 7 年租約）| 概念不清 | "The dividing line is one year: CP (1–270 days), BAs (1–180 days) and operating lines of credit are short-term; a lease running for more than one year is treated as long-term — effectively 100% debt financing." |
 | 8/23 | Ch2 | Q3：PIPE 唔識（估咗 rights offering）| 概念不清 | "A PIPE is the sale of unregistered shares by an already-listed company to an institutional investor, almost always at a discount, with an undertaking to register the shares (usually within 90 days)." 分類三步：上咗市未？註冊咗未？賣畀邊個？ |
 | 8/23 | Ch2 | Q4：BEY 公式背唔出，超時＋翻筆記先完成（數值 3.62% 本身啱）| 公式誤用/唔熟 | "BEY = (Face − Price) ÷ Price × 360 ÷ Days" — 分母係發行價唔係面值；貨幣市場用 360 日。閉卷下背唔出公式 = 直接失分，揭 flashcard 到反射級 |
+| 9/21 | Ch3 | R3（Retest）：BEY 只計咗期內回報 0.76%，**忘記年化 ×360/45**（正確 6.05%）| 公式誤用/唔熟 | "BEY = (Face − Price) ÷ Price × 360 ÷ Days — never report the holding-period yield as the annual yield." 由 W2 到而家**第二次**跌喺同一條公式，未過關，繼續重測 |
+| 9/21 | Ch3 | Q3：永續年金比較靠感覺揀「增長好過縮減」（A），冇計 PV（Grow 10,000 vs Shrink 14,285.71，答案 B）| 概念不清/唔計數 | "Rank cash flow streams by PV, never by story: PV = PMT₁ ÷ (r − g). A declining perpetuity can still be worth more if its PMT₁ is large enough." 見到兩個 choices 比較，一定要寫低兩個數先揀 |
+| 9/21 | Ch3 | Q4：EAR 閉卷下**完全空白**（"FORGET THE FORMULA"）；正確 (1.015)¹² − 1 = 19.56% | 公式背誦 | "EAR = (1 + periodic rate)^n − 1. A 1.5% monthly rate is NOT 18% per year; it is (1.015)^12 − 1 = 19.56%." 處方：每日 10 分鐘公式閃卡，EAR + BEY 兩條優先 |
 
 ## M9 Principles of Taxation
 
@@ -41,10 +44,12 @@
 
 | 錯題來源 | 弱點 | 狀態 |
 |---|---|---|
-| M7 Ch2 Q1 | 短期 vs 長期融資 1-year boundary | 🔁 已放入 W3 M7 Quiz R1 |
-| M7 Ch2 Q3 | PIPE vs 其他集資渠道 | 🔁 已放入 W3 M7 Quiz R2 |
-| M7 Ch2 Q4 | BEY 公式背誦 | 🔁 已放入 W3 M7 Quiz R3 |
-| M9 Ch2 Q5 | additional assessment 要答日期 + 條文編號 | 🔁 已放入 W3 M9 Quiz R1 |
+| M7 Ch2 Q1 | 短期 vs 長期融資 1-year boundary | ✅ 已剔除（9/21 R1 答啱：45-day BA = short-term）|
+| M7 Ch2 Q3 | PIPE vs 其他集資渠道 | ✅ 已剔除（9/21 R2 答啱：listed + unregistered + discount to funds = PIPE）|
+| M7 Ch2 Q4 | BEY 公式背誦 | 🔁 未過關（9/21 R3 再錯：漏年化）→ 帶落 W4 R5 |
+| M9 Ch2 Q5 | additional assessment 要答日期 + 條文編號 | 🔁 隊列中（W3 M9 Quiz 未做）|
+| M7 Ch3 Q4 | EAR 公式閉卷背唔出 | 🔁 新增 → 已放入 W4 M7 Quiz R4 |
+| M7 Ch3 Q3 | 永續年金比較要計 PV，唔准靠感覺 | 🔁 新增 → 已放入 W4 M7 Quiz R6 |
 
 狀態圖例：🔁 隊列中（待重測）｜ ✅ 已剔除（重測答啱）
 
@@ -54,3 +59,4 @@
 |---|---|---|---|
 | 8/19 | M7 Ch1 對話微測（money market / primary vs secondary / broker vs dealer）| 2/3 | broker ≠ shareholder 混淆 → 已即場糾正並加入詞彙表 |
 | 8/22 | W2 前 Retest（M7 profit maximisation timing / EMH 嵌套 / M9 no-WHT rule，全部新場景）| **3/3** ✅ | 無 — W1 三個錯點已鞏固；下次 W3 前再抽考驗證長期記憶 |
+| 9/21 | M7 Ch3 Quiz（主卷 5 題 + Retest R1–R3）| 主卷 **3/5**、Retest **2/3** | EAR/BEY 公式閉卷失憶（BEY 連續第二次）；永續年金比較靠感覺唔計數 → 三項已注入 W4 R4–R6 |

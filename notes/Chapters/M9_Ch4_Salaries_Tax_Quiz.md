@@ -4,6 +4,36 @@
 
 ---
 
+## 🔄 Retest Section（先做呢四條：來自你之前嘅錯題，新場景同理論）
+
+**Retest R7 (Fill-in) — from Ch2 Q5 (additional assessment time limit)**
+
+On 1 August 2020, the IRD issued a salaries tax assessment to Mr. Chan for the year of assessment 2019/20 (year of assessment ended 31 March 2020). In May 2026, an IRD review discovers that Mr. Chan's income for 2019/20 was understated. There is no fraud or wilful evasion. State (i) the latest date by which the IRD may validly raise an additional assessment, (ii) whether the May 2026 discovery is still within time, and (iii) the governing section.
+
+**Retest R8 (MCQ) — from Ch3 Q1 (capital vs revenue receipts)**
+
+Which of the following receipts is a CAPITAL receipt?
+
+A. Compensation received from an insurer for the loss of use of a machine while it was being repaired.
+B. Compensation received for the cancellation of one of the company's twelve similar customer contracts.
+C. Compensation received for the cancellation of the sole manufacturing licence that constituted the entire framework of the company's business.
+D. An insurance payout for trading stock destroyed in a fire.
+
+**Retest R9 (MCQ) — from Ch3 Q3 (DIPN 21 source of trading profits)**
+
+Alpha Trading Ltd, a Hong Kong company, purchases goods under a contract of purchase negotiated and concluded in Tokyo, and resells them under a contract of sale negotiated and concluded in Hong Kong. The goods are shipped directly from Tokyo to the overseas customer. Applying DIPN 21, the trading profits are:
+
+A. Fully chargeable to profits tax, because the contract of sale is effected in Hong Kong.
+B. Not chargeable, because the contract of purchase is effected outside Hong Kong.
+C. Apportioned 50:50 between Hong Kong and Japan.
+D. Not chargeable, because the goods never entered Hong Kong.
+
+**Retest R10 (Fill-in) — from Ch3 Q5 (fines)**
+
+During the year, Best Ltd paid a fine of HK$45,000 for breach of Hong Kong law. Is this fine deductible in computing assessable profits? State the reason.
+
+---
+
 ## Question 1 (MCQ)
 
 Which of the following income items is/are **chargeable to Hong Kong salaries tax** for the year of assessment 2019/20?

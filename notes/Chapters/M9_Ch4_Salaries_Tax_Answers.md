@@ -1,5 +1,29 @@
 # M9 Chapter 4 Salaries Tax — Model Answers（完成測驗後先好睇！）
 
+## Retest R7 — Answer
+
+(i) **31 March 2026**（s.60(1)：由 YA 2019/20 結束（31 March 2020）起計 6 年——1 August 2020 嘅評稅日期係紅鯡魚，無關）
+(ii) **No** —— May 2026 遲過 31 March 2026，已經 out of time。
+(iii) **s.60(1) IRO**（fraud or wilful evasion 先至係 10 年）
+
+【解題思路】電報式示範：`31 March 2026 — s.60(1), 6 years from end of YA; May 2026 out of time`。日期 + 條文編號，兩樣齊先攞分。
+
+## Retest R8 — Answer: **C**
+
+【解題思路】A、B、D 全部係 revenue：A 補償資產暫時失去使用 = 填補利潤損失；B 十二份合約其中一份 = 正常營業風險；D 存貨係流動資產。C 先係 capital——張 licence 係成個生意框架，冇咗佢盤生意唔存在。
+
+## Retest R9 — Answer: **A**
+
+【解題思路】DIPN 21：trading profits 睇買賣合約喺邊度 effected。買（東京）離岸、賣（香港）喺岸——其中一份喺香港 effected，即全數應課稅。Trading 冇 50:50（50:50 係製造業安排先講）。貨物有冇入境係無關嘅。
+
+## Retest R10 — Answer: **No**
+
+The fine is **not deductible**: a fine for breach of the law is not an expense incurred in the production of assessable profits — it fails the s.16(1) test and is excluded by s.17. It must be added back to the accounting profit.
+
+【解題思路】見到 fine / penalty for breach of law，唔使諗，直接 add back。
+
+---
+
 ## Question 1 — Answer: A — (I) and (III) only
 
 **Model Answer (English):**

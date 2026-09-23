@@ -31,6 +31,10 @@
 |---|---|---|---|---|
 | 8/22 | Ch1 | Q3：揀「NOT correct」題揀咗 C（AFAL），其實錯嘅係 B——以為 interest paid to non-resident 要預扣 | 概念不清 | "There is NO withholding tax on Hong Kong source dividends and interest. Only royalties (for IP used in HK) and fees of non-resident entertainers/sportsmen are taxed on a withholding basis." 見到 "withhold + interest/dividend" 嘅組合，八成都係錯。 |
 | 8/23 | Ch2 | Q5：additional assessment 條 rule 啱但**無填日期同條文編號**（題目叫 state the latest date）；超時＋英文作文諗太耐 | 答題不完整 | "Under s.60(1) IRO, an additional assessment must be raised within six years of the end of the YA. YA 2019/20 ended 31 Mar 2020 → latest 31 Mar 2026. 10-year limit = fraud/wilful evasion only." 教訓：fill-in 用電報式 `31 March 2026 — s.60(1), 6-year limit from end of YA`，唔使完整句子 |
+| 9/22 | Ch3 | R1（Retest）：additional assessment **又係冇日期冇條文**——(i) 只寫咗個 rule、(iii) 直頭 "forgot"（正確：31 March 2027 — s.60(1)）| 答題不完整/條文背誦 | "Under s.60(1) IRO, an additional assessment must be raised within 6 years after the end of the YA. YA 2020/21 ended 31 Mar 2021 → latest 31 Mar 2027; a September 2026 discovery is still within time." 第三次喺同一要求跌親：見到 additional assessment 就機械式寫「日期 — s.60(1)」 |
+| 9/22 | Ch3 | Q1：capital vs revenue 撈亂——揀咗 A（取消獨家分銷協議 = 整個生意框架 = capital receipt），答案係 B（貨車維修期間失去使用嘅保險賠償 = revenue，填補利潤損失）| 概念不清 | "Compensation for loss of use of an income-earning asset fills a hole in trading profits (revenue); compensation for destroying the entire framework of the business is capital." 唔係睇金額大細，係睇佢補償緊咩 |
+| 9/22 | Ch3 | Q3：DIPN 21 用常理推咗 B（以為邊份合約實質賺錢），答案係 A——trading profits 只要買**或**賣其中一份合約喺香港 effected 就全數課稅，冇 50:50 | 概念不清 | "Under DIPN 21, trading profits are wholly chargeable where either the contract of purchase or the contract of sale is effected in Hong Kong; apportionment is not available for pure trading profits." 特殊規則 > 一般原則 |
+| 9/22 | Ch3 | Q5：兩個遺漏——fine HK$30,000 冇 add back（違法罰款永遠唔扣得）；DA HK$200,000 擺錯步驟（要喺計 assessable profits 時扣）。正確：(i) 1,950,000 (ii) 160,875 | 概念不清/步驟 | "Fines for breach of the law are never deductible — add them back; deduct agreed depreciation allowances in arriving at assessable profits, before applying the tax rate." 固定步驟：扣非應稅收入 → 加返非扣減支出 → 扣 DA → 乘稅率 |
 
 ## 答案卡更正紀錄 (Errata)
 
@@ -46,10 +50,13 @@
 |---|---|---|
 | M7 Ch2 Q1 | 短期 vs 長期融資 1-year boundary | ✅ 已剔除（9/21 R1 答啱：45-day BA = short-term）|
 | M7 Ch2 Q3 | PIPE vs 其他集資渠道 | ✅ 已剔除（9/21 R2 答啱：listed + unregistered + discount to funds = PIPE）|
-| M7 Ch2 Q4 | BEY 公式背誦 | 🔁 未過關（9/21 R3 再錯：漏年化）→ 帶落 W4 R5 |
-| M9 Ch2 Q5 | additional assessment 要答日期 + 條文編號 | 🔁 隊列中（W3 M9 Quiz 未做）|
+| M7 Ch2 Q4 | BEY 公式背誦 | 🔁 未過關（9/21 R3 再錯：漏年化）→ 帶落 W4 M7 R5 |
+| M9 Ch2 Q5 | additional assessment 要答日期 + 條文編號 | 🔁 未過關（9/22 R1 再錯：冇日期冇條文，**第三次**）→ 帶落 M9 Ch4 R7 |
 | M7 Ch3 Q4 | EAR 公式閉卷背唔出 | 🔁 新增 → 已放入 W4 M7 Quiz R4 |
 | M7 Ch3 Q3 | 永續年金比較要計 PV，唔准靠感覺 | 🔁 新增 → 已放入 W4 M7 Quiz R6 |
+| M9 Ch3 Q1 | capital vs revenue receipt 邊界 | 🔁 新增 → 已放入 M9 Ch4 Quiz R8 |
+| M9 Ch3 Q3 | DIPN 21：買或賣其中一份喺香港 effected = 全數課稅 | 🔁 新增 → 已放入 M9 Ch4 Quiz R9 |
+| M9 Ch3 Q5 | fine 必 add back；DA 喺 assessable profits 步驟扣 | 🔁 新增 → 已放入 M9 Ch4 Quiz R10 |
 
 狀態圖例：🔁 隊列中（待重測）｜ ✅ 已剔除（重測答啱）
 
@@ -60,3 +67,4 @@
 | 8/19 | M7 Ch1 對話微測（money market / primary vs secondary / broker vs dealer）| 2/3 | broker ≠ shareholder 混淆 → 已即場糾正並加入詞彙表 |
 | 8/22 | W2 前 Retest（M7 profit maximisation timing / EMH 嵌套 / M9 no-WHT rule，全部新場景）| **3/3** ✅ | 無 — W1 三個錯點已鞏固；下次 W3 前再抽考驗證長期記憶 |
 | 9/21 | M7 Ch3 Quiz（主卷 5 題 + Retest R1–R3）| 主卷 **3/5**、Retest **2/3** | EAR/BEY 公式閉卷失憶（BEY 連續第二次）；永續年金比較靠感覺唔計數 → 三項已注入 W4 R4–R6 |
+| 9/22 | M9 Ch3 Quiz（主卷 5 題 + Retest R1）| 主卷 **2/5**、Retest **0/1** | s.60(1) 第三次未過關（冇日期冇條文）；capital/revenue 同 DIPN 21 兩個概念邊界失守；Q5 漏 fine add-back + DA 擺錯步驟 → 四項注入 M9 Ch4 R7–R10 |

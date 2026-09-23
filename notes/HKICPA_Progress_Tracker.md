@@ -8,7 +8,7 @@
 | W2 (8/26–9/1) | Ch2 Sources of Finance | ✏️ 測驗已改（2/5，需重測）| Ch2 Administration of the Tax System | ✅ 已完成（4/5，Q5 半對）| 2 / 4 |
 | W3 (9/2–8) | Ch3 Time Value of Money | ✏️ 測驗已改（3/5，9/21；Retest 2/3，BEY 未過關）| Ch3 Profits Tax（上）| ✏️ 測驗已改（2/5，9/22；Retest 0/1，s.60(1) 第三次未過）| 3 / 2 |
 | W4 (9/9–15) | Ch4 Bond Investments | ✏️ 測驗已改（1/5，9/23；Retest 1/3，BEY 第三次未過）| Ch3 Profits Tax（下）| 📘 教材已發放 | 1 / — |
-| W5 (9/16–22) | Ch5 Equities Valuation | 📘 教材已發放 | Ch4 Salaries Tax（上）| 📘 教材已發放 | — / — |
+| W5 (9/16–22) | Ch5 Equities Valuation | ✏️ 測驗已改（**5/5** 🎯，9/23；Retest 4/5）| Ch4 Salaries Tax（上）| 📘 教材已發放 | 5 / — |
 | W6 (9/23–29) | Ch6 CAPM | 📘 教材已發放 | Ch4 Salaries Tax（下）| 📘 教材已發放 | — / — |
 | W7 (9/30–10/6) | Ch7 Cost of Capital | 📘 教材已發放 | Ch5 Property Tax + Ch6 Personal Assessment | 📘 教材已發放 | — / — |
 | W8 (10/7–13) | Ch8 Capital Structure Theories | 📘 教材已發放 | Ch7 Stamp Duty | 📘 教材已發放 | — / — |

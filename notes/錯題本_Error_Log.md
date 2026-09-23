@@ -24,6 +24,11 @@
 | 9/21 | Ch3 | R3（Retest）：BEY 只計咗期內回報 0.76%，**忘記年化 ×360/45**（正確 6.05%）| 公式誤用/唔熟 | "BEY = (Face − Price) ÷ Price × 360 ÷ Days — never report the holding-period yield as the annual yield." 由 W2 到而家**第二次**跌喺同一條公式，未過關，繼續重測 |
 | 9/21 | Ch3 | Q3：永續年金比較靠感覺揀「增長好過縮減」（A），冇計 PV（Grow 10,000 vs Shrink 14,285.71，答案 B）| 概念不清/唔計數 | "Rank cash flow streams by PV, never by story: PV = PMT₁ ÷ (r − g). A declining perpetuity can still be worth more if its PMT₁ is large enough." 見到兩個 choices 比較，一定要寫低兩個數先揀 |
 | 9/21 | Ch3 | Q4：EAR 閉卷下**完全空白**（"FORGET THE FORMULA"）；正確 (1.015)¹² − 1 = 19.56% | 公式背誦 | "EAR = (1 + periodic rate)^n − 1. A 1.5% monthly rate is NOT 18% per year; it is (1.015)^12 − 1 = 19.56%." 處方：每日 10 分鐘公式閃卡，EAR + BEY 兩條優先 |
+| 9/23 | Ch4 | R5（Retest 第 3 次）：BEY 公式完全走樣——寫成 price÷1,000,000 × 30/360 = 8.28%（正確：(F−P)÷P × 360÷30 = **7.24%**）| 公式背誦 | "BEY = (Face − Price) ÷ Price × 360 ÷ Days." 第三次錯：分子折扣額、分母發行價、最後年化。罰：將條公式寫十遍 |
+| 9/23 | Ch4 | R6（Retest 第 2 次）：永續年金揀 C「計唔到」——條件係 r > g（6% > 3%，計到）；兩個 PV 都冇寫低 | 概念不清 | "A growing perpetuity is computable whenever r > g — write down both PVs before you choose." 前日先教完，今日再錯 |
+| 9/23 | Ch4 | Q1：溢價債排名調轉（揀 A；premium bond 係 coupon rate > CY > YTM，答案 B）；Q2：波動性定理調轉（揀 A 3-year；最長年期 + 最低 coupon 先最波動，答案 C 10-year zero coupon）| 概念不清 | "Premium bond: coupon rate > current yield > YTM (invert for discount). Longer maturity + lower coupon = greater price volatility." 兩條定理係死背位 |
+| 9/23 | Ch4 | Q4：半年複利冇換算（應係 coupon 40、r 5%、n 10；佢用咗 80、10%、10 期），annuity 公式寫成 (1 **+** 1/(1+r)ⁿ)——係**減號**唔係加號。正確 **922.78** | 公式誤用 | "Semi-annual: halve the coupon, halve the rate, double the periods. Price = C×[1−(1+r)⁻ⁿ]÷r + F×(1+r)⁻ⁿ." 常識檢查：coupon 8% < market 10% → 價格必須低過面值，你答 1,493.98 唔合理 |
+| 9/23 | Ch4 | Q5：零息債方向倒轉（用 ×(1.04)¹² 得 1,602.66；應係 **÷**）。正確 1,000÷(1.04)¹² = **624.60** | 公式誤用 | "A zero-coupon bond always trades below face: Price = F ÷ (1+r)ⁿ." 答完每條計數，用 10 秒問自己：合理唔合理？ |
 
 ## M9 Principles of Taxation
 
@@ -48,12 +53,15 @@
 
 | 錯題來源 | 弱點 | 狀態 |
 |---|---|---|
-| M7 Ch2 Q1 | 短期 vs 長期融資 1-year boundary | ✅ 已剔除（9/21 R1 答啱：45-day BA = short-term）|
-| M7 Ch2 Q3 | PIPE vs 其他集資渠道 | ✅ 已剔除（9/21 R2 答啱：listed + unregistered + discount to funds = PIPE）|
-| M7 Ch2 Q4 | BEY 公式背誦 | 🔁 未過關（9/21 R3 再錯：漏年化）→ 帶落 W4 M7 R5 |
-| M9 Ch2 Q5 | additional assessment 要答日期 + 條文編號 | 🔁 未過關（9/22 R1 再錯：冇日期冇條文，**第三次**）→ 帶落 M9 Ch4 R7 |
-| M7 Ch3 Q4 | EAR 公式閉卷背唔出 | 🔁 新增 → 已放入 W4 M7 Quiz R4 |
-| M7 Ch3 Q3 | 永續年金比較要計 PV，唔准靠感覺 | 🔁 新增 → 已放入 W4 M7 Quiz R6 |
+| M7 Ch2 Q1 | 短期 vs 長期融資 1-year boundary | ✅ 已剔除（9/21 R1 答啱）|
+| M7 Ch2 Q3 | PIPE vs 其他集資渠道 | ✅ 已剔除（9/21 R2 答啱）|
+| M7 Ch3 Q4 | EAR 公式 | ✅ 已剔除（9/23 R4 答啱：8.24%）|
+| M7 Ch2 Q4 | BEY 公式背誦 | 🔁 未過關（9/23 R5 **第三次**錯：公式走樣）→ 帶落 M7 Ch5 R11 |
+| M7 Ch3 Q3 | 永續年金比較要計 PV | 🔁 未過關（9/23 R6 第二次錯：揀「計唔到」）→ 帶落 M7 Ch5 R12 |
+| M9 Ch2 Q5 | additional assessment 要答日期 + 條文編號 | 🔁 未過關（9/22 R1 第三次錯）→ 帶落 M9 Ch4 R7 |
+| M7 Ch4 Q1 | 溢價/折價債券 yield 排名 | 🔁 新增 → 已放入 M7 Ch5 Quiz R13 |
+| M7 Ch4 Q2 | 債券價格波動性定理 | 🔁 新增 → 已放入 M7 Ch5 Quiz R14 |
+| M7 Ch4 Q4/Q5 | 半年複利債券計價 + 常識檢查 | 🔁 新增 → 已放入 M7 Ch5 Quiz R15 |
 | M9 Ch3 Q1 | capital vs revenue receipt 邊界 | 🔁 新增 → 已放入 M9 Ch4 Quiz R8 |
 | M9 Ch3 Q3 | DIPN 21：買或賣其中一份喺香港 effected = 全數課稅 | 🔁 新增 → 已放入 M9 Ch4 Quiz R9 |
 | M9 Ch3 Q5 | fine 必 add back；DA 喺 assessable profits 步驟扣 | 🔁 新增 → 已放入 M9 Ch4 Quiz R10 |
@@ -68,3 +76,4 @@
 | 8/22 | W2 前 Retest（M7 profit maximisation timing / EMH 嵌套 / M9 no-WHT rule，全部新場景）| **3/3** ✅ | 無 — W1 三個錯點已鞏固；下次 W3 前再抽考驗證長期記憶 |
 | 9/21 | M7 Ch3 Quiz（主卷 5 題 + Retest R1–R3）| 主卷 **3/5**、Retest **2/3** | EAR/BEY 公式閉卷失憶（BEY 連續第二次）；永續年金比較靠感覺唔計數 → 三項已注入 W4 R4–R6 |
 | 9/22 | M9 Ch3 Quiz（主卷 5 題 + Retest R1）| 主卷 **2/5**、Retest **0/1** | s.60(1) 第三次未過關（冇日期冇條文）；capital/revenue 同 DIPN 21 兩個概念邊界失守；Q5 漏 fine add-back + DA 擺錯步驟 → 四項注入 M9 Ch4 R7–R10 |
+| 9/23 | M7 Ch4 Quiz（主卷 5 題 + Retest R4–R6）| 主卷 **1/5**、Retest **1/3** | EAR 終於過關 ✅；BEY 第三次錯 + 永續年金第二次錯；債券兩條定理調轉；半年複利冇換算；零常識檢查 → 五項注入 M7 Ch5 R11–R15 |

@@ -1,5 +1,32 @@
 # M7 Equities Valuation — Model Answers（完成測驗後先好睇！）
 
+## Retest R11 — Answer: **3.02%**
+
+BEY = (5,000,000 − 4,975,000) ÷ 4,975,000 × 360 ÷ 60 = 0.005025 × 6 = **3.02%**。
+【解題思路】分子係折扣額 (F−P)、分母係發行價、最後 ×360/日數年化。三寶齊先啱。
+
+## Retest R12 — Answer: **A**
+
+Grow：PV = 500 ÷ (0.08 − 0.05) = HK$16,666.67。Flat：PV = 1,200 ÷ 0.08 = HK$15,000。
+【解題思路】今次係增長嗰個贏——重點唔係邊個贏，係**你計咗兩個數先揀**。條件 r > g（8% > 5%）成立，一定計到。
+
+## Retest R13 — Answer: **B**
+
+債券折價（920 < 1,000）→ coupon rate 6% < current yield（60/920 = 6.52%）< YTM（仲有到期資本增值）。
+【解題思路】口訣：溢價債「coupon > CY > YTM」；折價債反轉「YTM > CY > coupon」。
+
+## Retest R14 — Answer: **A**
+
+【解題思路】波動性定理：年期越短 + coupon 越高 → 價格越穩定。A（2 年 + 8% coupon）係四個入面最短年期，波動最細。B（15 年零息）係最波動嗰個。
+
+## Retest R15 — Answer: **932.67**
+
+半年複利：coupon = 30/期、r = 4%/期、n = 8 期。
+Price = 30 × [1 − 1.04⁻⁸] ÷ 0.04 + 1,000 ÷ 1.04⁸ = 30 × 6.7327 + 730.69 = 201.98 + 730.69 = **932.67**。
+【解題思路】半年複利三部曲：coupon 減半、利率減半、期數加倍。常識檢查：coupon 6% < market 8% → 價格必須低過面值 ✓。
+
+---
+
 ## Q1 — Correct Answer: B
 
 **Model Answer:** The constant-growth (Gordon) dividend model, P0 = D1 / (R − g), provides valid solutions only when the constant dividend growth rate g is smaller than the required rate of return R. If R is equal to or less than g (R ≤ g), the denominator is zero or negative and the results are meaningless.

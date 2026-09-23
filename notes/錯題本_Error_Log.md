@@ -29,6 +29,7 @@
 | 9/23 | Ch4 | Q1：溢價債排名調轉（揀 A；premium bond 係 coupon rate > CY > YTM，答案 B）；Q2：波動性定理調轉（揀 A 3-year；最長年期 + 最低 coupon 先最波動，答案 C 10-year zero coupon）| 概念不清 | "Premium bond: coupon rate > current yield > YTM (invert for discount). Longer maturity + lower coupon = greater price volatility." 兩條定理係死背位 |
 | 9/23 | Ch4 | Q4：半年複利冇換算（應係 coupon 40、r 5%、n 10；佢用咗 80、10%、10 期），annuity 公式寫成 (1 **+** 1/(1+r)ⁿ)——係**減號**唔係加號。正確 **922.78** | 公式誤用 | "Semi-annual: halve the coupon, halve the rate, double the periods. Price = C×[1−(1+r)⁻ⁿ]÷r + F×(1+r)⁻ⁿ." 常識檢查：coupon 8% < market 10% → 價格必須低過面值，你答 1,493.98 唔合理 |
 | 9/23 | Ch4 | Q5：零息債方向倒轉（用 ×(1.04)¹² 得 1,602.66；應係 **÷**）。正確 1,000÷(1.04)¹² = **624.60** | 公式誤用 | "A zero-coupon bond always trades below face: Price = F ÷ (1+r)ⁿ." 答完每條計數，用 10 秒問自己：合理唔合理？ |
+| 9/23 | Ch5 | R11（Retest 第 4 次）：BEY 三寶全錯——分子倒轉 (P−F)（負數都唔覺）、分母用咗面值、日數分數倒轉 ×60/360。正確 **3.02%** | 公式背誦 | "BEY = (Face − Price) ÷ Price × 360 ÷ Days." 第四次錯，而且每個組件都錯。呢條唔係理解問題，係背誦問題——今晚寫十遍、聽朝背一次 |
 
 ## M9 Principles of Taxation
 
@@ -53,15 +54,15 @@
 
 | 錯題來源 | 弱點 | 狀態 |
 |---|---|---|
-| M7 Ch2 Q1 | 短期 vs 長期融資 1-year boundary | ✅ 已剔除（9/21 R1 答啱）|
-| M7 Ch2 Q3 | PIPE vs 其他集資渠道 | ✅ 已剔除（9/21 R2 答啱）|
-| M7 Ch3 Q4 | EAR 公式 | ✅ 已剔除（9/23 R4 答啱：8.24%）|
-| M7 Ch2 Q4 | BEY 公式背誦 | 🔁 未過關（9/23 R5 **第三次**錯：公式走樣）→ 帶落 M7 Ch5 R11 |
-| M7 Ch3 Q3 | 永續年金比較要計 PV | 🔁 未過關（9/23 R6 第二次錯：揀「計唔到」）→ 帶落 M7 Ch5 R12 |
+| M7 Ch2 Q1 | 短期 vs 長期融資 1-year boundary | ✅ 已剔除（9/21 R1）|
+| M7 Ch2 Q3 | PIPE vs 其他集資渠道 | ✅ 已剔除（9/21 R2）|
+| M7 Ch3 Q4 | EAR 公式 | ✅ 已剔除（9/23 R4：8.24%）|
+| M7 Ch3 Q3 | 永續年金比較要計 PV | ✅ 已剔除（9/23 R12：有寫低兩個 PV 先揀）|
+| M7 Ch4 Q1 | 溢價/折價債券 yield 排名 | ✅ 已剔除（9/23 R13）|
+| M7 Ch4 Q2 | 債券價格波動性定理 | ✅ 已剔除（9/23 R14）|
+| M7 Ch4 Q4/Q5 | 半年複利債券計價 + 常識檢查 | ✅ 已剔除（9/23 R15：932.67，有做 sanity check）|
+| M7 Ch2 Q4 | BEY 公式背誦 | 🔁 未過關（9/23 R11 **第四次**錯：三寶全錯）→ 帶落 M7 Ch6 R16 |
 | M9 Ch2 Q5 | additional assessment 要答日期 + 條文編號 | 🔁 未過關（9/22 R1 第三次錯）→ 帶落 M9 Ch4 R7 |
-| M7 Ch4 Q1 | 溢價/折價債券 yield 排名 | 🔁 新增 → 已放入 M7 Ch5 Quiz R13 |
-| M7 Ch4 Q2 | 債券價格波動性定理 | 🔁 新增 → 已放入 M7 Ch5 Quiz R14 |
-| M7 Ch4 Q4/Q5 | 半年複利債券計價 + 常識檢查 | 🔁 新增 → 已放入 M7 Ch5 Quiz R15 |
 | M9 Ch3 Q1 | capital vs revenue receipt 邊界 | 🔁 新增 → 已放入 M9 Ch4 Quiz R8 |
 | M9 Ch3 Q3 | DIPN 21：買或賣其中一份喺香港 effected = 全數課稅 | 🔁 新增 → 已放入 M9 Ch4 Quiz R9 |
 | M9 Ch3 Q5 | fine 必 add back；DA 喺 assessable profits 步驟扣 | 🔁 新增 → 已放入 M9 Ch4 Quiz R10 |
@@ -77,3 +78,4 @@
 | 9/21 | M7 Ch3 Quiz（主卷 5 題 + Retest R1–R3）| 主卷 **3/5**、Retest **2/3** | EAR/BEY 公式閉卷失憶（BEY 連續第二次）；永續年金比較靠感覺唔計數 → 三項已注入 W4 R4–R6 |
 | 9/22 | M9 Ch3 Quiz（主卷 5 題 + Retest R1）| 主卷 **2/5**、Retest **0/1** | s.60(1) 第三次未過關（冇日期冇條文）；capital/revenue 同 DIPN 21 兩個概念邊界失守；Q5 漏 fine add-back + DA 擺錯步驟 → 四項注入 M9 Ch4 R7–R10 |
 | 9/23 | M7 Ch4 Quiz（主卷 5 題 + Retest R4–R6）| 主卷 **1/5**、Retest **1/3** | EAR 終於過關 ✅；BEY 第三次錯 + 永續年金第二次錯；債券兩條定理調轉；半年複利冇換算；零常識檢查 → 五項注入 M7 Ch5 R11–R15 |
+| 9/23 | M7 Ch5 Quiz（主卷 5 題 + Retest R11–R15）| 主卷 **5/5** 🎯、Retest **4/5** | 四條舊債一日清晒（永續年金/排名/波動/計價全部答啱，有寫 PV、有做 sanity check）；唯獨 BEY 第四次錯、三寶全錯 → R16 帶落 Ch6 |

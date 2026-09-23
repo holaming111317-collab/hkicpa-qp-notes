@@ -4,6 +4,14 @@
 
 ---
 
+## 🔄 Retest Section（先做呢條：BEY 第五次，新場景）
+
+**Retest R16 (Calculation) — from Ch2 Q4 (bond equivalent yield)**
+
+Grand Ltd issues commercial paper with a face value of HK$1,000,000 at an issue price of HK$992,000, with 45 days to maturity. Using the bond equivalent yield convention, calculate the quoted annual yield on this commercial paper. (Percentage, 2 decimal places.)
+
+---
+
 **Question 1 (MCQ)**
 
 Identify which one of the following is an example of systematic risk.

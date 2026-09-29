@@ -62,10 +62,13 @@
 | M7 Ch4 Q2 | 債券價格波動性定理 | ✅ 已剔除（9/23 R14）|
 | M7 Ch4 Q4/Q5 | 半年複利債券計價 + 常識檢查 | ✅ 已剔除（9/23 R15：932.67，有做 sanity check）|
 | M7 Ch2 Q4 | BEY 公式背誦 | 🔁 未過關（9/23 R11 **第四次**錯：三寶全錯）→ 帶落 M7 Ch6 R16 |
-| M9 Ch2 Q5 | additional assessment 要答日期 + 條文編號 | 🔁 未過關（9/22 R1 第三次錯）→ 帶落 M9 Ch4 R7 |
-| M9 Ch3 Q1 | capital vs revenue receipt 邊界 | 🔁 新增 → 已放入 M9 Ch4 Quiz R8 |
-| M9 Ch3 Q3 | DIPN 21：買或賣其中一份喺香港 effected = 全數課稅 | 🔁 新增 → 已放入 M9 Ch4 Quiz R9 |
-| M9 Ch3 Q5 | fine 必 add back；DA 喺 assessable profits 步驟扣 | 🔁 新增 → 已放入 M9 Ch4 Quiz R10 |
+| M9 Ch2 Q5 | additional assessment 要答日期 + 條文編號 | 🔁 未過關（9/28 R7 **第四次**錯：日期啱咗但條文 "i forgot"）→ 帶落 M9 Ch5 R17 |
+| M9 Ch3 Q1 | capital vs revenue receipt 邊界 | 🔁 未過關（9/28 R8 第二次錯：trading stock 保險賠償當咗 capital）→ 帶落 M9 Ch5 R18 |
+| M9 Ch3 Q3 | DIPN 21：買或賣其中一份喺香港 effected = 全數課稅 | ✅ 已剔除（9/28 R9：sale contract effected in HK → fully chargeable）|
+| M9 Ch3 Q5 | fine 必 add back；DA 喺 assessable profits 步驟扣 | ✅ 已剔除（9/28 R10：fine not deductible 答啱）|
+| M9 Ch4 Q1 | 收入來源三規則：employment 睇服務地 / office 睇管理控制地 / 政府退休金全課 | 🔁 新增 → 已放入 M9 Ch5 Quiz R19 |
+| M9 Ch4 Q2 | s.8(2)(j) 機組人員雙重門檻：≤60 日本年 + ≤120 日兩年合計 | 🔁 新增 → 已放入 M9 Ch5 Quiz R20 |
+| M9 Ch4 Q4 | rent-free flat 必加 rental value 10%（s.9(2)）| 🔁 新增 → 已放入 M9 Ch5 Quiz R21 |
 
 狀態圖例：🔁 隊列中（待重測）｜ ✅ 已剔除（重測答啱）
 
@@ -79,3 +82,5 @@
 | 9/22 | M9 Ch3 Quiz（主卷 5 題 + Retest R1）| 主卷 **2/5**、Retest **0/1** | s.60(1) 第三次未過關（冇日期冇條文）；capital/revenue 同 DIPN 21 兩個概念邊界失守；Q5 漏 fine add-back + DA 擺錯步驟 → 四項注入 M9 Ch4 R7–R10 |
 | 9/23 | M7 Ch4 Quiz（主卷 5 題 + Retest R4–R6）| 主卷 **1/5**、Retest **1/3** | EAR 終於過關 ✅；BEY 第三次錯 + 永續年金第二次錯；債券兩條定理調轉；半年複利冇換算；零常識檢查 → 五項注入 M7 Ch5 R11–R15 |
 | 9/23 | M7 Ch5 Quiz（主卷 5 題 + Retest R11–R15）| 主卷 **5/5** 🎯、Retest **4/5** | 四條舊債一日清晒（永續年金/排名/波動/計價全部答啱，有寫 PV、有做 sanity check）；唯獨 BEY 第四次錯、三寶全錯 → R16 帶落 Ch6 |
+| 9/25 | M7 Ch6 CAPM Quiz（主卷 5 題 + Retest R16）| 主卷 **5/5** 🎯、Retest **1/1** | 無新增錯點——BEY 惡魔第五次嘗試終於斬殺（6.45%，三寶齊全）✅；M7 隊列全清。小疵：Q3/Q5 計數過程有冗餘步驟（見批改報告），答案啱但考試會蝕時間 |
+| 9/28 | M9 Ch4 Salaries Tax Quiz（主卷 5 題 + Retest R7–R10）| 主卷 **2/5**、Retest **2/4** | DIPN 21 ✅、fine add-back ✅ 兩條舊債清；但 s.60(1) 第四次錯（日期啱條文唔記得）、capital/revenue 第二次錯；主卷新增三錯：來源規則 (IV) 誤判、s.8(2)(j) 漏咗第二關、Q4 漏 rental value → 五項注入 M9 Ch5 R17–R21 |

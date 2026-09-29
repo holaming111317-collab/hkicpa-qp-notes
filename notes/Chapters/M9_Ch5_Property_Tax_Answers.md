@@ -1,5 +1,33 @@
 # M9 Property Tax — Model Answers（完成測驗後先好睇！）
 
+## Retest R17 — Answer
+
+(i) **31 March 2027**（YA 2020/21 結束於 31 March 2021，起計 6 年）
+(ii) **Yes** —— November 2026 早過 31 March 2027，within time。
+(iii) **s.60(1) IRO**（fraud or wilful evasion 先係 10 年）
+
+【解題思路】電報式示範：`31 March 2027 — s.60(1), 6 years from end of YA; November 2026 within time`。呢條第五次考你：日期 + 條文編號，兩樣齊先攞分，少一樣都當錯。
+
+## Retest R18 — Answer: **B**
+
+【解題思路】B 係 revenue：賠償額按「呢張單本應賺到嘅利潤」計 → 填補利潤損失。A（廠房地被徵收）、C（獨家分銷牌照 = 成個生意框架）、D（賣固定資產貨車）全部係 capital。口訣：補償**利潤** = revenue；補償**框架/固定資產** = capital。
+
+## Retest R19 — Answer: **B**
+
+- (I) **Chargeable.** Office 收入（director's fee）只睇支付公司嘅 central management and control 所在地；60 日規則唔適用於 office。
+- (II) **Not chargeable.** 香港僱傭但該年**所有**服務喺境外做 → s.8(1A)(b)(ii) 豁免（到訪 30 日 ≤ 60 日唔影響）。
+- (III) **Chargeable.** 政府退休金無論服務地點全數課稅；s.8(2)(ca) 豁免只限非政府退休金。
+
+## Retest R20 — Answer: **C**
+
+【解題思路】s.8(2)(j) 雙重門檻缺一不可：本年 55 日 ≤ 60（過第一關）；兩年合計 70 + 55 = **125 > 120**（第二關 FAIL）→ 唔豁免。選項 A 係典型半桶水答案。船員機組唔係「永遠免稅」亦唔係「冇 60 日規則」——佢哋有自己嘅專屬豁免，門檻係 60 + 120 兩關。
+
+## Retest R21 — Answer
+
+Rental value = **10% × HK$500,000 = HK$50,000**, under **s.9(2) IRO**.
+
+【解題思路】電報式：`Rental value = 10% × 500,000 = 50,000 — s.9(2)`。僱主提供免租住所（非酒店/hostel/boarding house）→ 反射動作：加 10% 租值入 assessable income，基數係嚟自該僱主嘅收入（未扣任何扣除同免稅額）。
+
 ---
 
 ## Question 1 — Correct Answer: **C**

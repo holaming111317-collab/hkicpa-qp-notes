@@ -4,6 +4,49 @@
 
 ---
 
+## 🔄 Retest Section（先做呢五條：來自你之前嘅錯題，新場景同理論）
+
+**Retest R17 (Fill-in) — from Ch2 Q5 / Ch4 R7 (additional assessment time limit — 第 5 次！今次日期同條文編號缺一不可)**
+
+In November 2026, the IRD discovers that Harbour Ltd understated its profits for the year of assessment 2020/21 (year of assessment ended 31 March 2021). There is no fraud or wilful evasion. State (i) the latest date by which the IRD may validly raise an additional assessment, (ii) whether the November 2026 discovery is still within time, and (iii) the governing section.
+
+**Retest R18 (MCQ) — from Ch3 Q1 / Ch4 R8 (capital vs revenue receipts — 第 3 次)**
+
+Which of the following receipts is a REVENUE receipt?
+
+A. Compensation received from the government for the compulsory acquisition of the land on which the company's sole factory stood.
+B. Damages received from a customer for breach of a trading contract, calculated by reference to the profit the company would have earned on that contract.
+C. A lump sum received on surrendering the company's sole distribution licence, which constituted the whole framework of its business.
+D. Proceeds from the sale of a delivery van previously used in the business.
+
+**Retest R19 (MCQ) — from Ch4 Q1 (source rules: employment vs office vs pension)**
+
+Which of the following is/are chargeable to Hong Kong salaries tax?
+
+(I) A director's fee paid by a company centrally managed and controlled in Hong Kong to a director who never visited Hong Kong during the year.
+(II) A salary earned by an employee with a Hong Kong employment who rendered ALL her services outside Hong Kong during the year and visited Hong Kong for 30 days.
+(III) A pension paid by the Hong Kong Government to a retired civil servant, wholly attributable to services rendered outside Hong Kong.
+
+A. (I) only
+B. (I) and (III) only
+C. (II) and (III) only
+D. (I), (II) and (III)
+
+**Retest R20 (MCQ) — from Ch4 Q2 (s.8(2)(j) crew member exemption)**
+
+Ms K is a member of the crew of an aircraft. In the year of assessment 2020/21 she was present in Hong Kong for 55 days; in the preceding year of assessment 2019/20 she was present in Hong Kong for 70 days. Under s.8(2)(j) of the IRO, her income is:
+
+A. Exempt, because she was present for not more than 60 days in the year of assessment 2020/21.
+B. Exempt, because aircraft crew are never subject to salaries tax.
+C. NOT exempt, because her total presence over the two consecutive years of assessment (125 days) exceeds 120 days.
+D. NOT exempt, because the 60-day limit does not apply to crew members.
+
+**Retest R21 (Fill-in) — from Ch4 Q4 (rental value)**
+
+Mr L's employer provided him with a rent-free flat (not a hotel, hostel or boarding house) for the whole year of assessment. His income from that employer (salary and bonus, before any deductions and allowances) was HK$500,000. State the rental value to be included in his assessable income and the governing section.
+
+---
+
 **Question 1 (MCQ)**
 
 Which of the following persons may apply in writing to the Commissioner of Inland Revenue for an exemption from property tax under s.5(2)(a) of the IRO?

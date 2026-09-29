@@ -41,6 +41,16 @@
 | 9/22 | Ch3 | Q1：capital vs revenue 撈亂——揀咗 A（取消獨家分銷協議 = 整個生意框架 = capital receipt），答案係 B（貨車維修期間失去使用嘅保險賠償 = revenue，填補利潤損失）| 概念不清 | "Compensation for loss of use of an income-earning asset fills a hole in trading profits (revenue); compensation for destroying the entire framework of the business is capital." 唔係睇金額大細，係睇佢補償緊咩 |
 | 9/22 | Ch3 | Q3：DIPN 21 用常理推咗 B（以為邊份合約實質賺錢），答案係 A——trading profits 只要買**或**賣其中一份合約喺香港 effected 就全數課稅，冇 50:50 | 概念不清 | "Under DIPN 21, trading profits are wholly chargeable where either the contract of purchase or the contract of sale is effected in Hong Kong; apportionment is not available for pure trading profits." 特殊規則 > 一般原則 |
 | 9/22 | Ch3 | Q5：兩個遺漏——fine HK$30,000 冇 add back（違法罰款永遠唔扣得）；DA HK$200,000 擺錯步驟（要喺計 assessable profits 時扣）。正確：(i) 1,950,000 (ii) 160,875 | 概念不清/步驟 | "Fines for breach of the law are never deductible — add them back; deduct agreed depreciation allowances in arriving at assessable profits, before applying the tax rate." 固定步驟：扣非應稅收入 → 加返非扣減支出 → 扣 DA → 乘稅率 |
+| 9/28 | Ch4 | R7（Retest 第 4 次）：s.60(1)——日期**終於答啱**（31 Mar 2026、out of time），但第 (iii) 問條文編號又係 "i forgot" | 條文背誦 | "Under s.60(1) IRO, an additional assessment must be raised within six years after the end of the year of assessment." 第四次：個 rule 你識，係 "s.60(1)" 四個字符背唔出 |
+| 9/28 | Ch4 | R8（Retest 第 2 次）：capital vs revenue 再錯——揀咗 D（trading stock 嘅保險賠償 = revenue，存貨係流動資產），答案係 C（sole manufacturing licence = 成個生意框架）| 概念不清 | "Insurance proceeds for destroyed trading stock replace circulating capital — a revenue receipt; compensation for destroying the entire framework of the business is capital." 第二次錯：先問自己「呢筆錢補償緊咩——利潤定框架？」 |
+| 9/28 | Ch4 | Q1：三種收入來源規則撈亂——揀咗 B（多咗 (IV)），答案係 A。Ms. D 香港僱傭但**全部服務境外**＋到訪 ≤60 日 → s.8(1A)(b)(ii) 豁免 | 概念不清 | "Income from a Hong Kong employment is exempt if ALL services are rendered outside Hong Kong in the year (s.8(1A)(b)(ii)). Employment looks at where services are rendered; an office looks at central management and control; government pensions are fully assessable." |
+| 9/28 | Ch4 | Q2：機組人員豁免只諗咗第一關（揀 A 60 日規則），答案係 C——s.8(2)(j) 要**兩關齊過**：本年 ≤60 日 **AND** 連續兩年合計 ≤120 日（75+50=125 失敗）；transit days 都計（D11/13）| 條文記錯 | "Under s.8(2)(j), a crew member's income is exempt only if BOTH limbs are met: ≤ 60 days in the YA AND ≤ 120 days over two consecutive YAs. Transit days inside the airport count as presence (IRBRD D11/13)." |
+| 9/28 | Ch4 | Q4：計薪俸稅**漏咗 rental value**——僱主提供免租住所，s.9(2) 要加返 10% × 640,000 = 64,000；NCI 應係 424,000、稅款 54,080（佢答 360,000 / 51,700，仲有 160,000 寫成 210,000 嘅計數甩漏）| 概念不清/計算粗心 | "Where an employer provides a rent-free residence (not a hotel/hostel/boarding house), add rental value = 10% of income from the employer under s.9(2), BEFORE deducting allowances." 見到「rent-free flat」五個字就要反射加 10% |
+| 9/29 | Ch5 | R17（Retest 第 5 次）：s.60(1) **終於全對**——31 March 2027、within time、s.60(1) 三樣齊 ✅ 剔除 | — | 五戰功成。證明罰寫係有效嘅；記住呢個感覺，其他條文編號都要咁背 |
+| 9/29 | Ch5 | R18（Retest 第 3 次）：capital vs revenue 又錯——題目問 **REVENUE** receipt，佢揀咗 C（sole distribution licence = capital），答案係 B（按失去利潤計嘅違約賠償 = revenue）| 概念不清 | "Damages calculated by reference to the profit that would have been earned fill a hole in profits — a revenue receipt; compensation for the loss of the entire business framework is capital." 三次錯晒兩個方向：答題前**先圈起題目問緊 CAPITAL 定 REVENUE** 先落筆 |
+| 9/29 | Ch5 | R21（Retest）：rental value 數值啱（50,000）但**又唔記得條文**（s.9(2)）| 條文背誦 | "Rental value = 10% of income from the employer — s.9(2) IRO." 同 s.60(1) 同一個病：數會計、條文唔背。Fill-in 題見到 "state the governing section" 必須寫條文編號 |
+| 9/29 | Ch5 | Q4：物業稅計算**漏咗頂手費攤分**——premium 72,000 ÷ 36 個月 × 9 個月（**包括**免租月）= 18,000 冇計（佢答 16,680；正確 18,840）| 概念不清 | "A premium is spread over the shorter of the lease term or three years (s.5B(4)) — and the spreading period INCLUDES any rent-free month." 口訣：租金（免租期唔計）+ 頂手費攤分（免租期照計）+ 租客代付未償還開支 − 業主付差餉 → ×80% → ×15% |
+| 9/29 | Ch5 | Q5：暫繳稅對銷方向倒轉——已繳暫繳稅 24,000 應該**減**，佢用咗**加**（51,000；正確 30,000 = 尾數 3,000 + 新一年暫繳 27,000）| 概念不清 | "On the notice of assessment: final tax LESS provisional tax already paid, PLUS new provisional tax for the next year (based on the current year's NAV, s.63L)." 評稅通知書總額 = 舊年尾數 + 新年暫繳 |
 
 ## 答案卡更正紀錄 (Errata)
 
@@ -62,13 +72,15 @@
 | M7 Ch4 Q2 | 債券價格波動性定理 | ✅ 已剔除（9/23 R14）|
 | M7 Ch4 Q4/Q5 | 半年複利債券計價 + 常識檢查 | ✅ 已剔除（9/23 R15：932.67，有做 sanity check）|
 | M7 Ch2 Q4 | BEY 公式背誦 | 🔁 未過關（9/23 R11 **第四次**錯：三寶全錯）→ 帶落 M7 Ch6 R16 |
-| M9 Ch2 Q5 | additional assessment 要答日期 + 條文編號 | 🔁 未過關（9/28 R7 **第四次**錯：日期啱咗但條文 "i forgot"）→ 帶落 M9 Ch5 R17 |
-| M9 Ch3 Q1 | capital vs revenue receipt 邊界 | 🔁 未過關（9/28 R8 第二次錯：trading stock 保險賠償當咗 capital）→ 帶落 M9 Ch5 R18 |
+| M9 Ch2 Q5 | additional assessment 要答日期 + 條文編號 | ✅ 已剔除（9/29 R17：31 March 2027 + s.60(1) 齊，第五次過關）|
+| M9 Ch3 Q1 | capital vs revenue receipt 邊界 | 🔁 未過關（9/29 R18 **第三次**錯：問 REVENUE 揀咗 capital）→ 帶落 M9 Ch6 R22 |
 | M9 Ch3 Q3 | DIPN 21：買或賣其中一份喺香港 effected = 全數課稅 | ✅ 已剔除（9/28 R9：sale contract effected in HK → fully chargeable）|
 | M9 Ch3 Q5 | fine 必 add back；DA 喺 assessable profits 步驟扣 | ✅ 已剔除（9/28 R10：fine not deductible 答啱）|
-| M9 Ch4 Q1 | 收入來源三規則：employment 睇服務地 / office 睇管理控制地 / 政府退休金全課 | 🔁 新增 → 已放入 M9 Ch5 Quiz R19 |
-| M9 Ch4 Q2 | s.8(2)(j) 機組人員雙重門檻：≤60 日本年 + ≤120 日兩年合計 | 🔁 新增 → 已放入 M9 Ch5 Quiz R20 |
-| M9 Ch4 Q4 | rent-free flat 必加 rental value 10%（s.9(2)）| 🔁 新增 → 已放入 M9 Ch5 Quiz R21 |
+| M9 Ch4 Q1 | 收入來源三規則：employment 睇服務地 / office 睇管理控制地 / 政府退休金全課 | ✅ 已剔除（9/29 R19）|
+| M9 Ch4 Q2 | s.8(2)(j) 機組人員雙重門檻：≤60 日本年 + ≤120 日兩年合計 | ✅ 已剔除（9/29 R20）|
+| M9 Ch4 Q4 | rent-free flat 必加 rental value 10%（s.9(2)）| 🔁 半對（9/29 R21：10% 計啱但條文唔記得）→ 帶落 M9 Ch6 R23 |
+| M9 Ch5 Q4 | 頂手費攤分 s.5B(4)：攤分期包括免租月 | 🔁 新增 → 已放入 M9 Ch6 Quiz R24 |
+| M9 Ch5 Q5 | 暫繳稅對銷：final − 已繳暫繳 + 下年暫繳 | 🔁 新增 → 已放入 M9 Ch6 Quiz R25 |
 
 狀態圖例：🔁 隊列中（待重測）｜ ✅ 已剔除（重測答啱）
 
@@ -84,3 +96,4 @@
 | 9/23 | M7 Ch5 Quiz（主卷 5 題 + Retest R11–R15）| 主卷 **5/5** 🎯、Retest **4/5** | 四條舊債一日清晒（永續年金/排名/波動/計價全部答啱，有寫 PV、有做 sanity check）；唯獨 BEY 第四次錯、三寶全錯 → R16 帶落 Ch6 |
 | 9/25 | M7 Ch6 CAPM Quiz（主卷 5 題 + Retest R16）| 主卷 **5/5** 🎯、Retest **1/1** | 無新增錯點——BEY 惡魔第五次嘗試終於斬殺（6.45%，三寶齊全）✅；M7 隊列全清。小疵：Q3/Q5 計數過程有冗餘步驟（見批改報告），答案啱但考試會蝕時間 |
 | 9/28 | M9 Ch4 Salaries Tax Quiz（主卷 5 題 + Retest R7–R10）| 主卷 **2/5**、Retest **2/4** | DIPN 21 ✅、fine add-back ✅ 兩條舊債清；但 s.60(1) 第四次錯（日期啱條文唔記得）、capital/revenue 第二次錯；主卷新增三錯：來源規則 (IV) 誤判、s.8(2)(j) 漏咗第二關、Q4 漏 rental value → 五項注入 M9 Ch5 R17–R21 |
+| 9/29 | M9 Ch5 Property Tax Quiz（主卷 5 題 + Retest R17–R21）| 主卷 **3/5**、Retest **3.5/5** | s.60(1) 第五次終於過關 ✅、來源規則 ✅、s.8(2)(j) ✅；capital/revenue 第三次錯、R21 又漏條文；主卷漏頂手費攤分 + 暫繳稅對銷方向錯 → 四項注入 M9 Ch6 R22–R25 |

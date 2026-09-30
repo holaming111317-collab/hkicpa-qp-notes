@@ -51,6 +51,9 @@
 | 9/29 | Ch5 | R21（Retest）：rental value 數值啱（50,000）但**又唔記得條文**（s.9(2)）| 條文背誦 | "Rental value = 10% of income from the employer — s.9(2) IRO." 同 s.60(1) 同一個病：數會計、條文唔背。Fill-in 題見到 "state the governing section" 必須寫條文編號 |
 | 9/29 | Ch5 | Q4：物業稅計算**漏咗頂手費攤分**——premium 72,000 ÷ 36 個月 × 9 個月（**包括**免租月）= 18,000 冇計（佢答 16,680；正確 18,840）| 概念不清 | "A premium is spread over the shorter of the lease term or three years (s.5B(4)) — and the spreading period INCLUDES any rent-free month." 口訣：租金（免租期唔計）+ 頂手費攤分（免租期照計）+ 租客代付未償還開支 − 業主付差餉 → ×80% → ×15% |
 | 9/29 | Ch5 | Q5：暫繳稅對銷方向倒轉——已繳暫繳稅 24,000 應該**減**，佢用咗**加**（51,000；正確 30,000 = 尾數 3,000 + 新一年暫繳 27,000）| 概念不清 | "On the notice of assessment: final tax LESS provisional tax already paid, PLUS new provisional tax for the next year (based on the current year's NAV, s.63L)." 評稅通知書總額 = 舊年尾數 + 新年暫繳 |
+| 9/30 | Ch6 | R23（Retest 第 2 次）：rental value **全軍覆沒**——答咗 0.8×(800,000+80,000)=704,000、條文寫 s.5。正確：10% × 800,000 = **80,000**、**s.9(2)** | 概念不清/條文背誦 | "Rental value = 10% of income from the employer, added to assessable income — s.9(2) IRO." 你把 property tax 嘅 80% NAV 邏輯搬咗嚟 salaries tax——兩個稅種嘅機械唔同：salaries tax 加 10% 租值；property tax 先係 ×80%。條文 s.5 係物業稅，rental value 係 s.9(2) |
+| 9/30 | Ch6 | Q4：PA 計算兩個核心錯——(1) 租金 300,000 冇轉 **NAV**（×80% = 240,000）直接入賬；(2) 按揭利息 260,000 冇**封頂喺 NAV**（淨係扣得 240,000，超額 20,000 永久作廢）。佢答 4,050；正確 **1,250** | 概念不清 | "Under personal assessment, rental income enters as NAV (80% of rent); mortgage interest is deductible up to that NAV — any excess is permanently lost (D51/04)." PA 口訣：租金先 ×80% → 利息封頂 NAV → 扣虧損同特惠扣除 → 扣免稅額 → 累進 vs 標準取低 |
+| 9/30 | Ch6 | Q5：夫婦 PA **計到一半停咗**——得 296,000 冇計稅款；而且又係冇將租金轉 NAV（正確 chargeable income 236,000、稅款 **26,620**）| 答題不完整/概念不清 | "For a jointly electing couple, aggregate the reduced total incomes, deduct the MARRIED PERSON'S allowance (not two basic allowances), then apply the lower of progressive vs standard rate." 考試鐵律：計算題唔計到最後個稅款 = 唔當答咗 |
 
 ## 答案卡更正紀錄 (Errata)
 
@@ -97,3 +100,4 @@
 | 9/25 | M7 Ch6 CAPM Quiz（主卷 5 題 + Retest R16）| 主卷 **5/5** 🎯、Retest **1/1** | 無新增錯點——BEY 惡魔第五次嘗試終於斬殺（6.45%，三寶齊全）✅；M7 隊列全清。小疵：Q3/Q5 計數過程有冗餘步驟（見批改報告），答案啱但考試會蝕時間 |
 | 9/28 | M9 Ch4 Salaries Tax Quiz（主卷 5 題 + Retest R7–R10）| 主卷 **2/5**、Retest **2/4** | DIPN 21 ✅、fine add-back ✅ 兩條舊債清；但 s.60(1) 第四次錯（日期啱條文唔記得）、capital/revenue 第二次錯；主卷新增三錯：來源規則 (IV) 誤判、s.8(2)(j) 漏咗第二關、Q4 漏 rental value → 五項注入 M9 Ch5 R17–R21 |
 | 9/29 | M9 Ch5 Property Tax Quiz（主卷 5 題 + Retest R17–R21）| 主卷 **3/5**、Retest **3.5/5** | s.60(1) 第五次終於過關 ✅、來源規則 ✅、s.8(2)(j) ✅；capital/revenue 第三次錯、R21 又漏條文；主卷漏頂手費攤分 + 暫繳稅對銷方向錯 → 四項注入 M9 Ch6 R22–R25 |
+| 9/30 | M9 Ch6 Personal Assessment Quiz（主卷 5 題 + Retest R22–R25）| 主卷 **3/5**、Retest **3/4** | capital/revenue 第四次終於過關 ✅、premium 攤分 ✅、暫繳稅對銷 ✅；但 rental value 第二次錯（搬咗 property tax 邏輯 + 寫錯 s.5）；主卷 Q4/Q5 兩條 PA 計算都衰喺冇將租金轉 NAV + 利息冇封頂，Q5 仲計到一半冇計稅款 → 三項注入 M9 Ch7 R26–R28 |

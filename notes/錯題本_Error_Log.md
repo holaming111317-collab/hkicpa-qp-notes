@@ -54,6 +54,12 @@
 | 9/30 | Ch6 | R23（Retest 第 2 次）：rental value **全軍覆沒**——答咗 0.8×(800,000+80,000)=704,000、條文寫 s.5。正確：10% × 800,000 = **80,000**、**s.9(2)** | 概念不清/條文背誦 | "Rental value = 10% of income from the employer, added to assessable income — s.9(2) IRO." 你把 property tax 嘅 80% NAV 邏輯搬咗嚟 salaries tax——兩個稅種嘅機械唔同：salaries tax 加 10% 租值；property tax 先係 ×80%。條文 s.5 係物業稅，rental value 係 s.9(2) |
 | 9/30 | Ch6 | Q4：PA 計算兩個核心錯——(1) 租金 300,000 冇轉 **NAV**（×80% = 240,000）直接入賬；(2) 按揭利息 260,000 冇**封頂喺 NAV**（淨係扣得 240,000，超額 20,000 永久作廢）。佢答 4,050；正確 **1,250** | 概念不清 | "Under personal assessment, rental income enters as NAV (80% of rent); mortgage interest is deductible up to that NAV — any excess is permanently lost (D51/04)." PA 口訣：租金先 ×80% → 利息封頂 NAV → 扣虧損同特惠扣除 → 扣免稅額 → 累進 vs 標準取低 |
 | 9/30 | Ch6 | Q5：夫婦 PA **計到一半停咗**——得 296,000 冇計稅款；而且又係冇將租金轉 NAV（正確 chargeable income 236,000、稅款 **26,620**）| 答題不完整/概念不清 | "For a jointly electing couple, aggregate the reduced total incomes, deduct the MARRIED PERSON'S allowance (not two basic allowances), then apply the lower of progressive vs standard rate." 考試鐵律：計算題唔計到最後個稅款 = 唔當答咗 |
+| 10/5 | Ch7 | R26（Retest 第 3 次）：rental value——10% 概念終於有咗（1.1×660,000），但 (i) 答咗 **assessable income 726,000** 而題目問嘅係 **rental value（66,000）**；(ii) 條文寫咗 **s.14**（嗰條係利得稅！）正確係 **s.9(2)** | 答題不對題/條文背誦 | "Rental value = 10% of income from the employer — s.9(2) IRO." 三次錯法都唔同：第一次唔記得條文、第二次搬 property tax 邏輯、第三次答錯數量+寫錯條文。s.9 = salaries tax、s.5 = property tax、s.14 = profits tax——三個 charging section 即刻背 |
+| 10/5 | Ch7 | R27（Retest）：NAV 題**畫蛇添足乘多咗 0.15**（稅率！）——NAV = 400,000 × 80% = **320,000**，唔係 48,000；利息封頂都係 320,000 | 概念不清 | "NAV = rent × 80% — the 15% tax rate is applied to NAV only when computing property TAX, never when computing NAV itself." 乜嘢係 NAV、乜嘢係稅款，分清楚先好乘 |
+| 10/5 | Ch7 | Q2：AVD Scale 2 vs BSD 雙重標準撈亂——揀咗 A（以為 HKPR 就用得 Scale 2）；其實佢已聯名持有住宅 → 唔合資格用 Scale 2 → AVD 15%（Scale 1 Part 1）；BSD 只要係 HKPR 以本人身份就免（唔理有幾多層樓）| 概念不清 | "AVD Scale 2 requires an HKPR who owns NO other residential property at acquisition; BSD exemption looks ONLY at HKPR status acting on one's own behalf — the number of properties owned is irrelevant." 口訣：AVD Scale 2 睇首置，BSD 只睇身份 |
+| 10/5 | Ch7 | Q3：股票印花稅規則——揀咗 D（外幣債券唔算 Hong Kong stock），答案係 C：contract notes 交咗從價稅後，instrument of transfer 只收 **HK$5 固定稅** | 概念不清 | "Issue of shares is NOT dutiable; a gift of HK stock IS dutiable at market value (s.27); where contract notes are duly stamped, the instrument of transfer bears a fixed duty of HK$5." |
+| 10/5 | Ch7 | Q4：SSD 稅率記錯——持有 18 個月（2022/6/1 → 2023/12/1）應係 **10%**（12–36 個月檔），佢用咗 20%；仲無端 +100。正確：AVD 975,000 + SSD 650,000 + BSD 975,000 = **2,600,000**（按較高者市值 6.5M 計）| 條文記錯 | "SSD: ≤ 6 months 20%; > 6–12 months 15%; > 12–36 months 10%. AVD/BSD/SSD are all computed on the higher of consideration or market value." SSD 三檔即刻背：6 個月 20、12 個月 15、36 個月 10 |
+| 10/5 | Ch7 | Q5：組件全啱（1,710 + 25,500）但**加法計錯**出 25,671；正確 **27,210** | 計算粗心 | 步驟全對、加數錯——呢種係最嘥嘅失分。考試鐵律重申：每條計數最後 30 秒覆核，尤其係最後嘅加總 |
 
 ## 答案卡更正紀錄 (Errata)
 
@@ -74,16 +80,21 @@
 | M7 Ch4 Q1 | 溢價/折價債券 yield 排名 | ✅ 已剔除（9/23 R13）|
 | M7 Ch4 Q2 | 債券價格波動性定理 | ✅ 已剔除（9/23 R14）|
 | M7 Ch4 Q4/Q5 | 半年複利債券計價 + 常識檢查 | ✅ 已剔除（9/23 R15：932.67，有做 sanity check）|
-| M7 Ch2 Q4 | BEY 公式背誦 | 🔁 未過關（9/23 R11 **第四次**錯：三寶全錯）→ 帶落 M7 Ch6 R16 |
+| M7 Ch2 Q4 | BEY 公式背誦 | ✅ 已剔除（9/25 R16：6.45%，第五次過關）|
 | M9 Ch2 Q5 | additional assessment 要答日期 + 條文編號 | ✅ 已剔除（9/29 R17：31 March 2027 + s.60(1) 齊，第五次過關）|
-| M9 Ch3 Q1 | capital vs revenue receipt 邊界 | 🔁 未過關（9/29 R18 **第三次**錯：問 REVENUE 揀咗 capital）→ 帶落 M9 Ch6 R22 |
-| M9 Ch3 Q3 | DIPN 21：買或賣其中一份喺香港 effected = 全數課稅 | ✅ 已剔除（9/28 R9：sale contract effected in HK → fully chargeable）|
-| M9 Ch3 Q5 | fine 必 add back；DA 喺 assessable profits 步驟扣 | ✅ 已剔除（9/28 R10：fine not deductible 答啱）|
+| M9 Ch3 Q1 | capital vs revenue receipt 邊界 | ✅ 已剔除（9/30 R22：唯一零售舖 = capital，第四次過關）|
+| M9 Ch3 Q3 | DIPN 21：買或賣其中一份喺香港 effected = 全數課稅 | ✅ 已剔除（9/28 R9）|
+| M9 Ch3 Q5 | fine 必 add back；DA 喺 assessable profits 步驟扣 | ✅ 已剔除（9/28 R10）|
 | M9 Ch4 Q1 | 收入來源三規則：employment 睇服務地 / office 睇管理控制地 / 政府退休金全課 | ✅ 已剔除（9/29 R19）|
-| M9 Ch4 Q2 | s.8(2)(j) 機組人員雙重門檻：≤60 日本年 + ≤120 日兩年合計 | ✅ 已剔除（9/29 R20）|
-| M9 Ch4 Q4 | rent-free flat 必加 rental value 10%（s.9(2)）| 🔁 半對（9/29 R21：10% 計啱但條文唔記得）→ 帶落 M9 Ch6 R23 |
-| M9 Ch5 Q4 | 頂手費攤分 s.5B(4)：攤分期包括免租月 | 🔁 新增 → 已放入 M9 Ch6 Quiz R24 |
-| M9 Ch5 Q5 | 暫繳稅對銷：final − 已繳暫繳 + 下年暫繳 | 🔁 新增 → 已放入 M9 Ch6 Quiz R25 |
+| M9 Ch4 Q2 | s.8(2)(j) 機組人員雙重門檻 | ✅ 已剔除（9/29 R20）|
+| M9 Ch4 Q4 | rent-free flat 必加 rental value 10%（s.9(2)）| 🔁 未過關（10/5 R26 **第三次**錯：答咗 assessable income 唔係 rental value；條文寫咗 s.14）→ 帶落 M9 Ch8 R29 |
+| M9 Ch5 Q4 | 頂手費攤分 s.5B(4)：攤分期包括免租月 | ✅ 已剔除（9/30 R24：198,000）|
+| M9 Ch5 Q5 | 暫繳稅對銷：final − 已繳暫繳 + 下年暫繳 | ✅ 已剔除（9/30 R25：39,000）|
+| M9 Ch6 Q4 | PA 下租金必轉 NAV（×80%）；按揭利息封頂 NAV | 🔁 未過關（10/5 R27：NAV 乘多咗 0.15）→ 帶落 M9 Ch8 R30 |
+| M9 Ch6 Q5 | PA 計算要計到最後稅款；夫婦用 married person's allowance | ⚠️ 已剔除（10/5 R28：稅款 12,000 啱；概念跟進併入 R30）|
+| M9 Ch7 Q2 | AVD Scale 2 睇首置（名下無其他住宅）；BSD 只睇 HKPR 身份 | 🔁 新增 → 已放入 M9 Ch8 Quiz R31 |
+| M9 Ch7 Q3 | 股票印花稅：issue 唔課、gift 課（市值）、IoT 固定 HK$5 | 🔁 新增 → 已放入 M9 Ch8 Quiz R32 |
+| M9 Ch7 Q4 | SSD 三檔：≤6m 20%、6–12m 15%、12–36m 10%；按較高者計 | 🔁 新增 → 已放入 M9 Ch8 Quiz R33 |
 
 狀態圖例：🔁 隊列中（待重測）｜ ✅ 已剔除（重測答啱）
 
@@ -101,3 +112,4 @@
 | 9/28 | M9 Ch4 Salaries Tax Quiz（主卷 5 題 + Retest R7–R10）| 主卷 **2/5**、Retest **2/4** | DIPN 21 ✅、fine add-back ✅ 兩條舊債清；但 s.60(1) 第四次錯（日期啱條文唔記得）、capital/revenue 第二次錯；主卷新增三錯：來源規則 (IV) 誤判、s.8(2)(j) 漏咗第二關、Q4 漏 rental value → 五項注入 M9 Ch5 R17–R21 |
 | 9/29 | M9 Ch5 Property Tax Quiz（主卷 5 題 + Retest R17–R21）| 主卷 **3/5**、Retest **3.5/5** | s.60(1) 第五次終於過關 ✅、來源規則 ✅、s.8(2)(j) ✅；capital/revenue 第三次錯、R21 又漏條文；主卷漏頂手費攤分 + 暫繳稅對銷方向錯 → 四項注入 M9 Ch6 R22–R25 |
 | 9/30 | M9 Ch6 Personal Assessment Quiz（主卷 5 題 + Retest R22–R25）| 主卷 **3/5**、Retest **3/4** | capital/revenue 第四次終於過關 ✅、premium 攤分 ✅、暫繳稅對銷 ✅；但 rental value 第二次錯（搬咗 property tax 邏輯 + 寫錯 s.5）；主卷 Q4/Q5 兩條 PA 計算都衰喺冇將租金轉 NAV + 利息冇封頂，Q5 仲計到一半冇計稅款 → 三項注入 M9 Ch7 R26–R28 |
+| 10/5 | M9 Ch7 Stamp Duty Quiz（主卷 5 題 + Retest R26–R28）| 主卷 **1/5** ⚠️、Retest **1/3** | R28 稅款計啱（12,000）✅；rental value 第三次錯（答錯數量 + 條文寫 s.14）、NAV 題乘多咗 0.15；主卷係災難：AVD/BSD 雙重標準、股票印花稅、SSD 三檔全錯，Q5 組件啱但加法計錯 → 五項注入 M9 Ch8 R29–R33 |

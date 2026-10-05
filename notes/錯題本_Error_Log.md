@@ -96,6 +96,7 @@
 | M9 Ch7 Q2 | AVD Scale 2 睇首置（名下無其他住宅）；BSD 只睇 HKPR 身份 | 🔁 新增 → 已放入 M9 Ch8 Quiz R31 |
 | M9 Ch7 Q3 | 股票印花稅：issue 唔課、gift 課（市值）、IoT 固定 HK$5 | 🔁 新增 → 已放入 M9 Ch8 Quiz R32 |
 | M9 Ch7 Q4 | SSD 三檔：≤6m 20%、6–12m 15%、12–36m 10%；按較高者計 | 🔁 新增 → 已放入 M9 Ch8 Quiz R33 |
+| M7 Ch7 Q5 | WACC 權重用市值（股數×股價）；DGM = D₁÷P₀ + g | 🔁 新增 → 已放入 M7 Ch8 Quiz R34 |
 
 狀態圖例：🔁 隊列中（待重測）｜ ✅ 已剔除（重測答啱）
 
@@ -114,3 +115,4 @@
 | 9/29 | M9 Ch5 Property Tax Quiz（主卷 5 題 + Retest R17–R21）| 主卷 **3/5**、Retest **3.5/5** | s.60(1) 第五次終於過關 ✅、來源規則 ✅、s.8(2)(j) ✅；capital/revenue 第三次錯、R21 又漏條文；主卷漏頂手費攤分 + 暫繳稅對銷方向錯 → 四項注入 M9 Ch6 R22–R25 |
 | 9/30 | M9 Ch6 Personal Assessment Quiz（主卷 5 題 + Retest R22–R25）| 主卷 **3/5**、Retest **3/4** | capital/revenue 第四次終於過關 ✅、premium 攤分 ✅、暫繳稅對銷 ✅；但 rental value 第二次錯（搬咗 property tax 邏輯 + 寫錯 s.5）；主卷 Q4/Q5 兩條 PA 計算都衰喺冇將租金轉 NAV + 利息冇封頂，Q5 仲計到一半冇計稅款 → 三項注入 M9 Ch7 R26–R28 |
 | 10/5 | M9 Ch7 Stamp Duty Quiz（主卷 5 題 + Retest R26–R28）| 主卷 **1/5** ⚠️、Retest **1/3** | R28 稅款計啱（12,000）✅；rental value 第三次錯（答錯數量 + 條文寫 s.14）、NAV 題乘多咗 0.15；主卷係災難：AVD/BSD 雙重標準、股票印花稅、SSD 三檔全錯，Q5 組件啱但加法計錯 → 五項注入 M9 Ch8 R29–R33 |
+| 10/5 | M7 Ch7 Cost of Capital Quiz（主卷 5 題，M7 隊列清零後首份純主卷）| 主卷 **4/5** | Q1–Q4 全對（市值權重、YTM 稅盾、risk-adjusted WACC、兩層 WACC 11.38%）；Q5 三層 WACC 失手：權重用股數唔係市值 + DGM 公式走樣 → 注入 M7 Ch8 R34 |

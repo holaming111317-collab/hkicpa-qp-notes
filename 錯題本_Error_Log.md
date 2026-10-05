@@ -30,6 +30,7 @@
 | 9/23 | Ch4 | Q4：半年複利冇換算（應係 coupon 40、r 5%、n 10；佢用咗 80、10%、10 期），annuity 公式寫成 (1 **+** 1/(1+r)ⁿ)——係**減號**唔係加號。正確 **922.78** | 公式誤用 | "Semi-annual: halve the coupon, halve the rate, double the periods. Price = C×[1−(1+r)⁻ⁿ]÷r + F×(1+r)⁻ⁿ." 常識檢查：coupon 8% < market 10% → 價格必須低過面值，你答 1,493.98 唔合理 |
 | 9/23 | Ch4 | Q5：零息債方向倒轉（用 ×(1.04)¹² 得 1,602.66；應係 **÷**）。正確 1,000÷(1.04)¹² = **624.60** | 公式誤用 | "A zero-coupon bond always trades below face: Price = F ÷ (1+r)ⁿ." 答完每條計數，用 10 秒問自己：合理唔合理？ |
 | 9/23 | Ch5 | R11（Retest 第 4 次）：BEY 三寶全錯——分子倒轉 (P−F)（負數都唔覺）、分母用咗面值、日數分數倒轉 ×60/360。正確 **3.02%** | 公式背誦 | "BEY = (Face − Price) ÷ Price × 360 ÷ Days." 第四次錯，而且每個組件都錯。呢條唔係理解問題，係背誦問題——今晚寫十遍、聽朝背一次 |
+| 10/5 | Ch7 | Q5：三層 WACC 兩個核心錯——(1) 權重用咗**股數**（5m、10m）而唔係**市值**（股數×股價 = 75m、250m）；(2) DGM 公式走樣：寫成 2×1.04÷(25+0.04)——g 係**加喺後面**（D1÷P0 **+** g），唔係加落股價度。正確 **10.42%**（佢答 6.37%）| 公式誤用/概念不清 | "Market value of equity = shares outstanding × current price. DGM: k = D₁÷P₀ + g, where D₁ = D₀×(1+g) — g is added AFTER the division, never to the price." 口訣：weights 用市值、costs 逐層計、只有債務乘 (1−t) |
 
 ## M9 Principles of Taxation
 

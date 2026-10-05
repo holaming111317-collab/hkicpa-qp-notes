@@ -10,7 +10,7 @@
 | W4 (9/9–15) | Ch4 Bond Investments | ✏️ 測驗已改（1/5，9/23；Retest 1/3，BEY 第三次未過）| Ch3 Profits Tax（下）| 📘 教材已發放 | 1 / — |
 | W5 (9/16–22) | Ch5 Equities Valuation | ✏️ 測驗已改（**5/5** 🎯，9/23；Retest 4/5）| Ch4 Salaries Tax（上）| 📘 教材已發放 | 5 / — |
 | W6 (9/23–29) | Ch6 CAPM | ✏️ 測驗已改（**5/5** 🎯，9/25；Retest 1/1，BEY 第五次終於過關，M7 隊列全清）| Ch4 Salaries Tax | ✏️ 測驗已改（2/5，9/28；Retest 2/4，s.60(1) 第四次未過）| 5 / 2 |
-| W7 (9/30–10/6) | Ch7 Cost of Capital | 📘 教材已發放 | Ch5 Property Tax + Ch6 Personal Assessment | ✏️ Ch5 已改（3/5，9/29）；Ch6 已改（3/5，9/30；Retest 3/4，capital/revenue 第四次過關 ✅）| — / 3+3 |
+| W7 (9/30–10/6) | Ch7 Cost of Capital | ✏️ 測驗已改（4/5，10/5；Q5 三層 WACC 錯 → R34）| Ch5 Property Tax + Ch6 Personal Assessment | ✏️ Ch5 已改（3/5，9/29）；Ch6 已改（3/5，9/30；Retest 3/4，capital/revenue 第四次過關 ✅）| 4 / 3+3 |
 | W8 (10/7–13) | Ch8 Capital Structure Theories | 📘 教材已發放 | Ch7 Stamp Duty | ✏️ 測驗已改（1/5 ⚠️，10/5 提前做；Retest 1/3）| — / 1 |
 | W9 (10/14–20) | Ch9 Financial Analysis + Ch10 Forecasts | 📘 教材已發放 | Ch8 Cross-border Transactions + 總複習 | 📘 教材已發放 | — / — |
 | W10 (10/21–27) | Ch11 SMA + Ch12 Pricing | 📘 教材已發放 | 弱項重練 | ⬜ | — / — |

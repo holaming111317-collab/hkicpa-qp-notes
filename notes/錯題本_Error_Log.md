@@ -91,16 +91,16 @@
 | M9 Ch3 Q5 | fine 必 add back；DA 喺 assessable profits 步驟扣 | ✅ 已剔除（9/28 R10）|
 | M9 Ch4 Q1 | 收入來源三規則：employment 睇服務地 / office 睇管理控制地 / 政府退休金全課 | ✅ 已剔除（9/29 R19）|
 | M9 Ch4 Q2 | s.8(2)(j) 機組人員雙重門檻 | ✅ 已剔除（9/29 R20）|
-| M9 Ch4 Q4 | rent-free flat 必加 rental value 10%（條文係 **s.9(2)**，唔係 s.9(1)）| 🔁 未過關（10/6 R29 **第四次**：數值啱咗但 subsection 錯）→ M9 總複習 Quiz R35 |
+| M9 Ch4 Q4 | rent-free flat 必加 rental value 10%（條文係 **s.9(2)**，唔係 s.9(1)）| ✅ 已剔除（10/6 R35：45,000 + s.9(2)，**第五次終於全對**）|
 | M9 Ch5 Q4 | 頂手費攤分 s.5B(4)：攤分期包括免租月 | ✅ 已剔除（9/30 R24：198,000）|
 | M9 Ch5 Q5 | 暫繳稅對銷：final − 已繳暫繳 + 下年暫繳 | ✅ 已剔除（9/30 R25：39,000）|
 | M9 Ch6 Q4 | PA 下租金必轉 NAV（×80%）；按揭利息封頂 NAV | ✅ 已剔除（10/6 R30：400,000 / 380,000 全扣）|
 | M9 Ch6 Q5 | PA 計算要計到最後稅款；夫婦用 married person's allowance | ⚠️ 已剔除（10/5 R28：稅款 12,000 啱；概念跟進併入 R30 ✅）|
-| M9 Ch7 Q2 | AVD Scale 2 睇首置（名下無其他住宅）；BSD 只睇 HKPR 身份 | 🔁 未過關（10/6 R31 第二次錯：揀咗 A）→ M9 總複習 Quiz R36 |
+| M9 Ch7 Q2 | AVD Scale 2 睇首置（名下無其他住宅）；BSD 只睇 HKPR 身份 | ✅ 已剔除（10/6 R36：首置 HKPR → Scale 2 + 免 BSD，第三次過關）|
 | M9 Ch7 Q3 | 股票印花稅：issue 唔課、gift 課（市值）、IoT 固定 HK$5 | ✅ 已剔除（10/6 R32）|
 | M9 Ch7 Q4 | SSD 三檔：≤6m 20%、6–12m 15%、12–36m 10%；按較高者計 | ✅ 已剔除（10/6 R33：10% × 4.2M = 420,000）|
 | M7 Ch7 Q5 | WACC 權重用市值（股數×股價）；DGM = D₁÷P₀ + g | 🔁 新增 → 已放入 M7 Ch8 Quiz R34 |
-| M9 Ch8 Q4 | 兩級制稅率：個人/unincorporated = 7.5%，公司 = 8.25% | 🔁 新增 → M9 總複習 Quiz R37 |
+| M9 Ch8 Q4 | 兩級制稅率：個人/unincorporated = 7.5%，公司 = 8.25% | ✅ 已剔除（10/6 R37：800,000 × 7.5% = 60,000，一take過）|
 
 狀態圖例：🔁 隊列中（待重測）｜ ✅ 已剔除（重測答啱）
 
@@ -121,3 +121,4 @@
 | 10/5 | M9 Ch7 Stamp Duty Quiz（主卷 5 題 + Retest R26–R28）| 主卷 **1/5** ⚠️、Retest **1/3** | R28 稅款計啱（12,000）✅；rental value 第三次錯（答錯數量 + 條文寫 s.14）、NAV 題乘多咗 0.15；主卷係災難：AVD/BSD 雙重標準、股票印花稅、SSD 三檔全錯，Q5 組件啱但加法計錯 → 五項注入 M9 Ch8 R29–R33 |
 | 10/5 | M7 Ch7 Cost of Capital Quiz（主卷 5 題，M7 隊列清零後首份純主卷）| 主卷 **4/5** | Q1–Q4 全對（市值權重、YTM 稅盾、risk-adjusted WACC、兩層 WACC 11.38%）；Q5 三層 WACC 失手：權重用股數唔係市值 + DGM 公式走樣 → 注入 M7 Ch8 R34 |
 | 10/6 | M9 Ch8 Cross-border Quiz（主卷 5 題 + Retest R29–R33）| 主卷 **4/5**、Retest **3/5** | NAV ✅、IoT HK$5 ✅、SSD 三檔 ✅ 三條清；rental value 第四次半對（s.9(1)≠s.9(2)）、AVD/BSD 第二次錯；主卷 Q4 兩級制用錯公司稅率（個人應 7.5%）→ 三項注入 M9 總複習 Quiz R35–R37。M9 全部 8 章主卷完成 ✅ |
+| 10/6 | M9 總複習錯題清債卷（R35–R37）| **3/3** 🎯 | **M9 錯題隊列 100% 清零** 🎉——rental value 第五次（s.9(2) 連 subsection 都啱）、AVD/BSD 第三次（首置→Scale 2 反向題都啱）、兩級制個人 7.5% 一take過。M9 正式進入複習階段 |

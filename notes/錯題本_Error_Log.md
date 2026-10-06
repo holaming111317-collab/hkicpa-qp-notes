@@ -64,6 +64,7 @@
 | 10/6 | Ch8 | R29（Retest 第 4 次）：rental value 數值終於啱（70,000）——但條文寫咗 **s.9(1)**，正確係 **s.9(2)** | 條文背誦 | "Rental value = 10% of income from the employer — s.9(2) IRO (not s.9(1))." 距離過關只差一個 subsection——閉卷下 (1) 同 (2) 就係攞分同失分嘅分別 |
 | 10/6 | Ch8 | R31（Retest 第 2 次）：AVD/BSD 又錯——揀咗 A，仲寫埋 "(scale 1 for non individual)" 嘅混淆理由；答案係 C（佢名下有樓 → 唔係首置 → AVD 15%；HKPR 身份 → 免 BSD）| 概念不清 | "Scale 1 Part 1 applies to ANY purchaser who already owns residential property — including an HKPR. Scale 2 is for first-home HKPRs only; BSD exemption turns solely on HKPR status acting on one's own behalf." |
 | 10/6 | Ch8 | Q4：兩級制稅率揀錯——RacketStar 係**個人**（unincorporated），首 200 萬應用 **7.5%**，佢用咗公司嘅 8.25%。正確：deemed profits 2/3 × 2.4M = 1,600,000 × 7.5% = **120,000**（佢答 132,000）| 條文記錯 | "Two-tiered rates: corporations 8.25% / 16.5%; UNINCORPORATED persons (individuals) 7.5% / 15% — on the first HK$2M of assessable profits." 見到個人表演者/獨資，反射 7.5% |
+| 10/6 | 保溫卷W1 | Q1：s.60(1) **回忘**——日期 31 Mar 2027 啱，但 (ii) 判斷錯（Jan 2027 早過 31 Mar 2027 → 係 **within time**，佢答 no）、(iii) 條文估咗 s.27。清除咗一星期就流失 | 條文背誦/回忘 | "Under s.60(1) IRO, an additional assessment must be raised within 6 years after the end of the YA. Discovery BEFORE that deadline = within time (yes)." 證明保溫機制係啱嘅——呢條唔可以畀佢走甩 |
 
 ## 答案卡更正紀錄 (Errata)
 
@@ -85,7 +86,7 @@
 | M7 Ch4 Q2 | 債券價格波動性定理 | ✅ 已剔除（9/23 R14）|
 | M7 Ch4 Q4/Q5 | 半年複利債券計價 + 常識檢查 | ✅ 已剔除（9/23 R15：932.67，有做 sanity check）|
 | M7 Ch2 Q4 | BEY 公式背誦 | ✅ 已剔除（9/25 R16：6.45%，第五次過關）|
-| M9 Ch2 Q5 | additional assessment 要答日期 + 條文編號 | ✅ 已剔除（9/29 R17：31 March 2027 + s.60(1) 齊，第五次過關）|
+| M9 Ch2 Q5 | additional assessment 要答日期 + 條文編號 | 🔁 **重返隊列**（10/6 保溫卷 W1 Q1：日期啱，但 within-time 判斷錯（答 no，其實 yes）＋條文估咗 s.27）→ 帶落保溫卷 W2 |
 | M9 Ch3 Q1 | capital vs revenue receipt 邊界 | ✅ 已剔除（9/30 R22：唯一零售舖 = capital，第四次過關）|
 | M9 Ch3 Q3 | DIPN 21：買或賣其中一份喺香港 effected = 全數課稅 | ✅ 已剔除（9/28 R9）|
 | M9 Ch3 Q5 | fine 必 add back；DA 喺 assessable profits 步驟扣 | ✅ 已剔除（9/28 R10）|
@@ -124,3 +125,4 @@
 | 10/5 | M7 Ch7 Cost of Capital Quiz（主卷 5 題，M7 隊列清零後首份純主卷）| 主卷 **4/5** | Q1–Q4 全對（市值權重、YTM 稅盾、risk-adjusted WACC、兩層 WACC 11.38%）；Q5 三層 WACC 失手：權重用股數唔係市值 + DGM 公式走樣 → 注入 M7 Ch8 R34 |
 | 10/6 | M9 Ch8 Cross-border Quiz（主卷 5 題 + Retest R29–R33）| 主卷 **4/5**、Retest **3/5** | NAV ✅、IoT HK$5 ✅、SSD 三檔 ✅ 三條清；rental value 第四次半對（s.9(1)≠s.9(2)）、AVD/BSD 第二次錯；主卷 Q4 兩級制用錯公司稅率（個人應 7.5%）→ 三項注入 M9 總複習 Quiz R35–R37。M9 全部 8 章主卷完成 ✅ |
 | 10/6 | M9 總複習錯題清債卷（R35–R37）| **3/3** 🎯 | **M9 錯題隊列 100% 清零** 🎉——rental value 第五次（s.9(2) 連 subsection 都啱）、AVD/BSD 第三次（首置→Scale 2 反向題都啱）、兩級制個人 7.5% 一take過。M9 正式進入複習階段 |
+| 10/6 | M9 保溫卷 W1（5 題抽自已清除錯題）| **4/5** | capital/revenue ✅、rental value + s.9(2) ✅、SSD 15% ✅、consignment 1% ✅ 全部企穩；**但 s.60(1) 回忘**——within-time 判斷錯 + 條文估 s.27 → 重返隊列，帶落 W2 |

@@ -31,6 +31,10 @@
 | 9/23 | Ch4 | Q5：零息債方向倒轉（用 ×(1.04)¹² 得 1,602.66；應係 **÷**）。正確 1,000÷(1.04)¹² = **624.60** | 公式誤用 | "A zero-coupon bond always trades below face: Price = F ÷ (1+r)ⁿ." 答完每條計數，用 10 秒問自己：合理唔合理？ |
 | 9/23 | Ch5 | R11（Retest 第 4 次）：BEY 三寶全錯——分子倒轉 (P−F)（負數都唔覺）、分母用咗面值、日數分數倒轉 ×60/360。正確 **3.02%** | 公式背誦 | "BEY = (Face − Price) ÷ Price × 360 ÷ Days." 第四次錯，而且每個組件都錯。呢條唔係理解問題，係背誦問題——今晚寫十遍、聽朝背一次 |
 | 10/5 | Ch7 | Q5：三層 WACC 兩個核心錯——(1) 權重用咗**股數**（5m、10m）而唔係**市值**（股數×股價 = 75m、250m）；(2) DGM 公式走樣：寫成 2×1.04÷(25+0.04)——g 係**加喺後面**（D1÷P0 **+** g），唔係加落股價度。正確 **10.42%**（佢答 6.37%）| 公式誤用/概念不清 | "Market value of equity = shares outstanding × current price. DGM: k = D₁÷P₀ + g, where D₁ = D₀×(1+g) — g is added AFTER the division, never to the price." 口訣：weights 用市值、costs 逐層計、只有債務乘 (1−t) |
+| 10/7 | Ch8 | R34（Retest 第 2 次）：WACC **三度「forgot the formula」**——答 25.01%（正確 9.03%：ke=13.25%、kd(1−t)=4.5%、市值權重 (60,90)）| 公式背誦 | "WACC = (E/V)kₑ + (D/V)k_d(1−t), using MARKET-value weights." 同一公式第三度閉卷失憶——同 BEY/EAR 一樣，處方：每日默寫 WACC＋DGM＋MM 三條公式一次，直至考試日 |
+| 10/7 | Ch8 | Q1：MM Prop 1（零稅）概念錯——揀咗「平價發債提高股價」（d）；正確（c）：**公司價值不變，但剩餘股權要求回報上升** | 概念不清 | "Under MM Proposition 1 without taxes, issuing debt to repurchase shares leaves firm value unchanged, but the required return on the remaining equity rises." 記憶鉤：pizza 切法唔同，pizza 一樣大 |
+| 10/7 | Ch8 | Q4：MM Prop 2「forgot the formula」——答 2,040,000（正確 **30%**：V=400,000÷20%=2,000,000；E=2,000,000−800,000=1,200,000；ke=20%+(2/3)(20%−5%)=30%）| 公式背誦 | "MM Proposition 2: kₑ = k₀ + (D/E)(k₀ − k_d)." 三步：① V = CF ÷ k₀ ② E = V − D ③ 代公式 |
+| 10/7 | Ch8 | Q5：MM with tax「forgot the formula」——答 6,966,666.67（正確 **14,900,000**：V_U=2,000,000×0.7÷0.1=14,000,000；V_L=14,000,000+0.3×3,000,000）| 公式背誦 | "MM with taxes: V_L = V_U + T_c × D, where V_U = after-tax perpetual cash flow ÷ r." Perpetual debt 嘅 tax shield PV = T_c×D |
 
 ## M9 Principles of Taxation
 
@@ -100,7 +104,10 @@
 | M9 Ch7 Q2 | AVD Scale 2 睇首置（名下無其他住宅）；BSD 只睇 HKPR 身份 | ✅ 已剔除（10/6 R36：首置 HKPR → Scale 2 + 免 BSD，第三次過關）|
 | M9 Ch7 Q3 | 股票印花稅：issue 唔課、gift 課（市值）、IoT 固定 HK$5 | ✅ 已剔除（10/6 R32）|
 | M9 Ch7 Q4 | SSD 三檔：≤6m 20%、6–12m 15%、12–36m 10%；按較高者計 | ✅ 已剔除（10/6 R33：10% × 4.2M = 420,000）|
-| M7 Ch7 Q5 | WACC 權重用市值（股數×股價）；DGM = D₁÷P₀ + g | 🔁 新增 → 已放入 M7 Ch8 Quiz R34 |
+| M7 Ch7 Q5 | WACC 權重用市值（股數×股價）；DGM = D₁÷P₀ + g | 🔁 **2nd strike**（10/7 R34：三度「forgot the formula」，答 25.01%；正解 9.03%）→ 帶落 M7 Ch9 Quiz R38 |
+| M7 Ch8 Q1 | MM Prop 1（零稅）：發債回購**不改變公司價值**，但推高剩餘股權要求回報 | 🔁 新增 → 已放入 M7 Ch9 Quiz R39 |
+| M7 Ch8 Q4 | MM Prop 2（零稅）：ke = k₀ + (D/E)(k₀ − kd)；步驟：V=CF÷k₀ → E=V−D → 代公式 | 🔁 新增 → 已放入 M7 Ch9 Quiz R40 |
+| M7 Ch8 Q5 | MM with tax：VL = VU + Tc×D；VU = 稅後 CF ÷ r | 🔁 新增 → 已放入 M7 Ch9 Quiz R41 |
 | M9 Ch8 Q4 | 兩級制稅率：個人/unincorporated = 7.5%，公司 = 8.25% | ✅ 已剔除（10/6 R37：800,000 × 7.5% = 60,000，一take過）|
 
 狀態圖例：🔁 隊列中（待重測）｜ ✅ 已剔除（重測答啱）
@@ -126,3 +133,5 @@
 | 10/6 | M9 Ch8 Cross-border Quiz（主卷 5 題 + Retest R29–R33）| 主卷 **4/5**、Retest **3/5** | NAV ✅、IoT HK$5 ✅、SSD 三檔 ✅ 三條清；rental value 第四次半對（s.9(1)≠s.9(2)）、AVD/BSD 第二次錯；主卷 Q4 兩級制用錯公司稅率（個人應 7.5%）→ 三項注入 M9 總複習 Quiz R35–R37。M9 全部 8 章主卷完成 ✅ |
 | 10/6 | M9 總複習錯題清債卷（R35–R37）| **3/3** 🎯 | **M9 錯題隊列 100% 清零** 🎉——rental value 第五次（s.9(2) 連 subsection 都啱）、AVD/BSD 第三次（首置→Scale 2 反向題都啱）、兩級制個人 7.5% 一take過。M9 正式進入複習階段 |
 | 10/6 | M9 保溫卷 W1（5 題抽自已清除錯題）| **4/5** | capital/revenue ✅、rental value + s.9(2) ✅、SSD 15% ✅、consignment 1% ✅ 全部企穩；**但 s.60(1) 回忘**——within-time 判斷錯 + 條文估 s.27 → 重返隊列，帶落 W2 |
+| 10/7 | M7 Ch8 Capital Structure Quiz（主卷 5 題 + Retest R34）| 主卷 **2/5** ⚠️、Retest **0/1** | **閉卷公式災難**：R34 WACC 三度失憶（答 25.01%，正解 9.03%）；Q4/Q5 MM 公式「forgot the formula」×2；Q1 MM Prop 1 概念錯（以為平價發債提高股價）。唯二得分：Q2 MM 假設、Q3 最優資本結構概念 → 四項注入 M7 Ch9 R38–R41；處方：每日默寫三公式 |
+| 10/7 | M9 保溫卷 W2 已出（觸發：M7 Ch8 提交）| 待做 | 包含帶落題 s.60(1)（新情境：2019/20 漏報、2026 年 4 月發現 → **out of time**）＋ DIPN 21 個人 7.5%、NAV 封頂、SSD 20 個月檔、consignment 1% |

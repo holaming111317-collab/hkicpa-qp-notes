@@ -35,6 +35,10 @@
 | 10/7 | Ch8 | Q1：MM Prop 1（零稅）概念錯——揀咗「平價發債提高股價」（d）；正確（c）：**公司價值不變，但剩餘股權要求回報上升** | 概念不清 | "Under MM Proposition 1 without taxes, issuing debt to repurchase shares leaves firm value unchanged, but the required return on the remaining equity rises." 記憶鉤：pizza 切法唔同，pizza 一樣大 |
 | 10/7 | Ch8 | Q4：MM Prop 2「forgot the formula」——答 2,040,000（正確 **30%**：V=400,000÷20%=2,000,000；E=2,000,000−800,000=1,200,000；ke=20%+(2/3)(20%−5%)=30%）| 公式背誦 | "MM Proposition 2: kₑ = k₀ + (D/E)(k₀ − k_d)." 三步：① V = CF ÷ k₀ ② E = V − D ③ 代公式 |
 | 10/7 | Ch8 | Q5：MM with tax「forgot the formula」——答 6,966,666.67（正確 **14,900,000**：V_U=2,000,000×0.7÷0.1=14,000,000；V_L=14,000,000+0.3×3,000,000）| 公式背誦 | "MM with taxes: V_L = V_U + T_c × D, where V_U = after-tax perpetual cash flow ÷ r." Perpetual debt 嘅 tax shield PV = T_c×D |
+| 10/7 | Ch9 | R38（Retest 第 3 次）：**市值權重終於啱**（90m/150m、60m/150m），但之後乘嘅係**銀碼**（1.8×3m、60m×6%）唔係利率——答 4,320,000（正確 **8.58%**）| 公式背誦 | "WACC = (E/V)kₑ + (D/V)k_d(1−t) — weights multiply RATES, not dollar amounts." 進步位：權重觀念已鞏固；缺嘅係 kₑ = D₁/P₀ + g 呢一步 |
+| 10/7 | Ch9 | R40（Retest 第 2 次）：當咗 WACC 計——600,000/1,600,000×0.15 + 1,000,000/1,600,000×0.04 = 8.125%（正確 **18.67%**：V=4m、E=3m、ke=15%+(1/3)(11%)）| 公式背誦 | "MM Proposition 2: kₑ = k₀ + (D/E)(k₀ − k_d)." 見到 MM 題唔好用 WACC 框架；三步：V=CF÷k₀ → E=V−D → 代公式 |
+| 10/7 | Ch9 | R41（Retest 第 2 次）：亂砌 1,000,000×0.92 + 2,000,000×0.75 = 2,420,000（正確 **9,875,000**：V_U=750,000÷0.08=9,375,000；V_L=9,375,000+500,000）| 公式背誦 | "V_L = V_U + T_c × D." 稅後 CF 先折現得 V_U，再加 tax shield——兩個組件分開計 |
+| 10/7 | Ch9 | Q5：CCC 公式亂砌（360÷大雜燴）答 23.23→24（正確 **45 days**：DIO=365×500,000/3,650,000=50；DSO=365×400,000/5,840,000=25；DPO=365×300,000/3,650,000=30；CCC=50+25−30=45）| 公式背誦 | "CCC = days' inventory + days' receivables − days' payables, each = 365 ÷ turnover." 三個組件逐個計，唔好一條式砌埋 |
 
 ## M9 Principles of Taxation
 
@@ -69,6 +73,7 @@
 | 10/6 | Ch8 | R31（Retest 第 2 次）：AVD/BSD 又錯——揀咗 A，仲寫埋 "(scale 1 for non individual)" 嘅混淆理由；答案係 C（佢名下有樓 → 唔係首置 → AVD 15%；HKPR 身份 → 免 BSD）| 概念不清 | "Scale 1 Part 1 applies to ANY purchaser who already owns residential property — including an HKPR. Scale 2 is for first-home HKPRs only; BSD exemption turns solely on HKPR status acting on one's own behalf." |
 | 10/6 | Ch8 | Q4：兩級制稅率揀錯——RacketStar 係**個人**（unincorporated），首 200 萬應用 **7.5%**，佢用咗公司嘅 8.25%。正確：deemed profits 2/3 × 2.4M = 1,600,000 × 7.5% = **120,000**（佢答 132,000）| 條文記錯 | "Two-tiered rates: corporations 8.25% / 16.5%; UNINCORPORATED persons (individuals) 7.5% / 15% — on the first HK$2M of assessable profits." 見到個人表演者/獨資，反射 7.5% |
 | 10/6 | 保溫卷W1 | Q1：s.60(1) **回忘**——日期 31 Mar 2027 啱，但 (ii) 判斷錯（Jan 2027 早過 31 Mar 2027 → 係 **within time**，佢答 no）、(iii) 條文估咗 s.27。清除咗一星期就流失 | 條文背誦/回忘 | "Under s.60(1) IRO, an additional assessment must be raised within 6 years after the end of the YA. Discovery BEFORE that deadline = within time (yes)." 證明保溫機制係啱嘅——呢條唔可以畀佢走甩 |
+| 10/7 | 保溫卷W2 | Q1：s.60(1) **第六次終於全對** 🎉——31 March 2026 + No（out of time 反向題）+ s.60(1) 三寶齊。Q5：consignment **回忘**——用咗 10%（正確 **1%**）＋條文估 s.15(5)（正確 **s.20A(3)**）；W1 本來答啱，一星期後流失。正確：15,000,000 × 1% = **150,000** | 條文背誦/回忘 | "Under s.20A(3), where actual profits cannot be readily ascertained, assessable profits are deemed to be 1% of the gross proceeds from sales to Hong Kong customers." 1% 唔係 10%；consignment 呢個數字要默到反射 |
 
 ## 答案卡更正紀錄 (Errata)
 
@@ -90,7 +95,7 @@
 | M7 Ch4 Q2 | 債券價格波動性定理 | ✅ 已剔除（9/23 R14）|
 | M7 Ch4 Q4/Q5 | 半年複利債券計價 + 常識檢查 | ✅ 已剔除（9/23 R15：932.67，有做 sanity check）|
 | M7 Ch2 Q4 | BEY 公式背誦 | ✅ 已剔除（9/25 R16：6.45%，第五次過關）|
-| M9 Ch2 Q5 | additional assessment 要答日期 + 條文編號 | 🔁 **重返隊列**（10/6 保溫卷 W1 Q1：日期啱，但 within-time 判斷錯（答 no，其實 yes）＋條文估咗 s.27）→ 帶落保溫卷 W2 |
+| M9 Ch2 Q5 | additional assessment 要答日期 + 條文編號 | ✅ 已剔除（10/7 保溫卷 W2 Q1：**第六次終於全對**——31 March 2026 + No + s.60(1) 三寶齊 🎉）|
 | M9 Ch3 Q1 | capital vs revenue receipt 邊界 | ✅ 已剔除（9/30 R22：唯一零售舖 = capital，第四次過關）|
 | M9 Ch3 Q3 | DIPN 21：買或賣其中一份喺香港 effected = 全數課稅 | ✅ 已剔除（9/28 R9）|
 | M9 Ch3 Q5 | fine 必 add back；DA 喺 assessable profits 步驟扣 | ✅ 已剔除（9/28 R10）|
@@ -134,4 +139,6 @@
 | 10/6 | M9 總複習錯題清債卷（R35–R37）| **3/3** 🎯 | **M9 錯題隊列 100% 清零** 🎉——rental value 第五次（s.9(2) 連 subsection 都啱）、AVD/BSD 第三次（首置→Scale 2 反向題都啱）、兩級制個人 7.5% 一take過。M9 正式進入複習階段 |
 | 10/6 | M9 保溫卷 W1（5 題抽自已清除錯題）| **4/5** | capital/revenue ✅、rental value + s.9(2) ✅、SSD 15% ✅、consignment 1% ✅ 全部企穩；**但 s.60(1) 回忘**——within-time 判斷錯 + 條文估 s.27 → 重返隊列，帶落 W2 |
 | 10/7 | M7 Ch8 Capital Structure Quiz（主卷 5 題 + Retest R34）| 主卷 **2/5** ⚠️、Retest **0/1** | **閉卷公式災難**：R34 WACC 三度失憶（答 25.01%，正解 9.03%）；Q4/Q5 MM 公式「forgot the formula」×2；Q1 MM Prop 1 概念錯（以為平價發債提高股價）。唯二得分：Q2 MM 假設、Q3 最優資本結構概念 → 四項注入 M7 Ch9 R38–R41；處方：每日默寫三公式 |
-| 10/7 | M9 保溫卷 W2 已出（觸發：M7 Ch8 提交）| 待做 | 包含帶落題 s.60(1)（新情境：2019/20 漏報、2026 年 4 月發現 → **out of time**）＋ DIPN 21 個人 7.5%、NAV 封頂、SSD 20 個月檔、consignment 1% |
+| 10/7 | M9 保溫卷 W2 已出（觸發：M7 Ch8 提交）| **4/5** | **s.60(1) 第六次終於全對** 🎉（31 March 2026 + No + s.60(1)，反向 out-of-time 題都啱）；DIPN 21 個人 7.5% ✅、NAV 封頂 480,000 ✅、SSD 10% ✅；唯 consignment 回忘（10% + s.15(5)）→ 重返隊列帶落 W3 |
+| 10/7 | M7 Ch9 Financial Analysis Quiz（主卷 5 題 + Retest R38–R41）| 主卷 **4/5**、Retest **1/4** | R39 MM Prop 1 概念 ✅ 清除；R38 市值權重終於啱但乘銀碼（第 3 次）、R40 當咗 WACC 計（第 2 次）、R41 亂砌（第 2 次）→ R42–R44 帶落 Ch10；主卷 Q1–Q4 全對（P/B、DuPont 12%、EBIT ROA、current 1.60/quick 0.80）；Q5 CCC 公式唔識（23.23 vs 45）→ R45 |
+| 10/7 | M9 保溫卷 W3 已出（觸發：M7 Ch9 提交）| 待做 | 帶落題：consignment s.20A(3)（8,000,000 新情境）；輪轉：rental value s.9(2)、AVD/BSD 首置、capital vs revenue、MPF s.26G |

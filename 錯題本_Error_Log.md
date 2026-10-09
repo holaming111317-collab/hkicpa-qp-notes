@@ -39,6 +39,11 @@
 | 10/7 | Ch9 | R40（Retest 第 2 次）：當咗 WACC 計——600,000/1,600,000×0.15 + 1,000,000/1,600,000×0.04 = 8.125%（正確 **18.67%**：V=4m、E=3m、ke=15%+(1/3)(11%)）| 公式背誦 | "MM Proposition 2: kₑ = k₀ + (D/E)(k₀ − k_d)." 見到 MM 題唔好用 WACC 框架；三步：V=CF÷k₀ → E=V−D → 代公式 |
 | 10/7 | Ch9 | R41（Retest 第 2 次）：亂砌 1,000,000×0.92 + 2,000,000×0.75 = 2,420,000（正確 **9,875,000**：V_U=750,000÷0.08=9,375,000；V_L=9,375,000+500,000）| 公式背誦 | "V_L = V_U + T_c × D." 稅後 CF 先折現得 V_U，再加 tax shield——兩個組件分開計 |
 | 10/7 | Ch9 | Q5：CCC 公式亂砌（360÷大雜燴）答 23.23→24（正確 **45 days**：DIO=365×500,000/3,650,000=50；DSO=365×400,000/5,840,000=25；DPO=365×300,000/3,650,000=30；CCC=50+25−30=45）| 公式背誦 | "CCC = days' inventory + days' receivables − days' payables, each = 365 ÷ turnover." 三個組件逐個計，唔好一條式砌埋 |
+| 10/7 | Ch10 | R42（Retest 第 4 次）：**kₑ = 1.248/25 + 4% = 8.99% 呢步啱咗** ✅，但之後崩壞——V 寫成 400,000,000（應 90m）、只得 equity 項漏咗 debt、(1−t) 乘落 equity（正確 **6.66%**）| 公式背誦 | "WACC = (E/V)kₑ + (D/V)k_d(1−t)." 兩個 components 都要齊；只有 debt 先乘 (1−t) |
+| 10/7 | Ch10 | R43（Retest 第 3 次）：又係 WACC 框架——答 6.75%，自己都問「it is like wacc?」（正確 **15.94%**：V=4,166,667、E=2,666,667、ke=12%+0.5625×7%）| 公式背誦 | "MM Proposition 2: kₑ = k₀ + (D/E)(k₀ − k_d)." MM 題唔好用 WACC；見「required return on equity after repurchase」= MM Prop 2 訊號 |
+| 10/7 | Ch10 | R44（Retest 第 3 次）：800,000×0.9×0.8+1,500,000 = 2,076,000 亂砌（正確 **6,700,000**：V_U=640,000÷0.10=6,400,000；+0.2×1,500,000=300,000）| 公式背誦 | "V_L = V_U + T_c × D." V_U 係**稅後 CF ÷ r**；debt 面值唔好直接加落去 |
+| 10/7 | Ch10 | R45（Retest 第 2 次）：turnover 分數倒轉——寫成 365÷(600,000/4,380,000)=2664.5（正確 DIO=365×(600,000/4,380,000)=50；CCC=**38.5 days**）| 公式背誦 | "Days = 365 × (balance ÷ flow) = 365 ÷ turnover." 計出嚟過千日 = 常識檢查即刻知錯 |
+| 10/7 | Ch10 | Q5：EFN 只計咗 ΔA = 500,000（正確 **84,000**：ΔA 500,000 − ΔAP 80,000 − retained 336,000；retained = 6m×20% margin... 即 NI 840,000 × (1−0.6)）| 公式背誦 | "EFN = ΔA − ΔAP − retained earnings; retained = forecast net income × (1 − payout ratio)." 三個組件缺一唔得 |
 
 ## M9 Principles of Taxation
 
@@ -74,6 +79,7 @@
 | 10/6 | Ch8 | Q4：兩級制稅率揀錯——RacketStar 係**個人**（unincorporated），首 200 萬應用 **7.5%**，佢用咗公司嘅 8.25%。正確：deemed profits 2/3 × 2.4M = 1,600,000 × 7.5% = **120,000**（佢答 132,000）| 條文記錯 | "Two-tiered rates: corporations 8.25% / 16.5%; UNINCORPORATED persons (individuals) 7.5% / 15% — on the first HK$2M of assessable profits." 見到個人表演者/獨資，反射 7.5% |
 | 10/6 | 保溫卷W1 | Q1：s.60(1) **回忘**——日期 31 Mar 2027 啱，但 (ii) 判斷錯（Jan 2027 早過 31 Mar 2027 → 係 **within time**，佢答 no）、(iii) 條文估咗 s.27。清除咗一星期就流失 | 條文背誦/回忘 | "Under s.60(1) IRO, an additional assessment must be raised within 6 years after the end of the YA. Discovery BEFORE that deadline = within time (yes)." 證明保溫機制係啱嘅——呢條唔可以畀佢走甩 |
 | 10/7 | 保溫卷W2 | Q1：s.60(1) **第六次終於全對** 🎉——31 March 2026 + No（out of time 反向題）+ s.60(1) 三寶齊。Q5：consignment **回忘**——用咗 10%（正確 **1%**）＋條文估 s.15(5)（正確 **s.20A(3)**）；W1 本來答啱，一星期後流失。正確：15,000,000 × 1% = **150,000** | 條文背誦/回忘 | "Under s.20A(3), where actual profits cannot be readily ascertained, assessable profits are deemed to be 1% of the gross proceeds from sales to Hong Kong customers." 1% 唔係 10%；consignment 呢個數字要默到反射 |
+| 10/7 | 保溫卷W3 | Q2：rental value **回忘**——揀咗 actual rent 300,000（正確 10% of income = **72,000**，s.9(2)）。Q4：capital/revenue **回忘**——sole distribution agreement 終止都答 revenue（正確 **capital**：sterilisation of entire profit-making structure）。Q5：MPF 答咗每月 1,500＋條文 s.9（正確**全年 18,000**，**s.26G**）。Q1 consignment 80,000 ✅ 清除、Q3 AVD/BSD ✅ | 概念回忘 | "Rental value under s.9(2) is 10% of income from the employer — never the actual rent paid." / "Compensation for terminating a sole agreement representing substantially the whole business is CAPITAL." / "MPF deduction cap: HK$18,000 per YEAR (s.26G)." 三條已清除項目同晚回忘——間隔重複要加密 |
 
 ## 答案卡更正紀錄 (Errata)
 
@@ -96,6 +102,10 @@
 | M7 Ch4 Q4/Q5 | 半年複利債券計價 + 常識檢查 | ✅ 已剔除（9/23 R15：932.67，有做 sanity check）|
 | M7 Ch2 Q4 | BEY 公式背誦 | ✅ 已剔除（9/25 R16：6.45%，第五次過關）|
 | M9 Ch2 Q5 | additional assessment 要答日期 + 條文編號 | ✅ 已剔除（10/7 保溫卷 W2 Q1：**第六次終於全對**——31 March 2026 + No + s.60(1) 三寶齊 🎉）|
+| M9 保溫卷 W2 Q5 | consignment：s.20A(3) = **1%** of HK-customer gross proceeds | ✅ 已剔除（10/7 W3 Q1：80,000 啱；條文寫 s.20(A)——下次寫全 **s.20A(3)**）|
+| M9 Ch4 Q4（W3 Q2）| rental value = **10% of income**（s.9(2)），唔係實際租金 | 🔁 **重返隊列**（10/7 W3 Q2：揀咗 actual rent 300,000；正解 72,000）→ 帶落保溫卷 W4 |
+| M9 Ch3 Q1（W3 Q4）| capital vs revenue：**sole** agreement 終止 = capital；眾多協議中一份 = revenue | 🔁 **重返隊列**（10/7 W3 Q4：sole distribution agreement 終止都答 revenue）→ 帶落保溫卷 W4 |
+| M9 保溫卷 W3 Q5 | MPF 扣稅上限係**全年** 18,000（s.26G）；月薪計嘅 1,500 係每月數 | 🔁 新增（10/7：答 1,500＋條文寫 s.9）→ 帶落保溫卷 W4 |
 | M9 Ch3 Q1 | capital vs revenue receipt 邊界 | ✅ 已剔除（9/30 R22：唯一零售舖 = capital，第四次過關）|
 | M9 Ch3 Q3 | DIPN 21：買或賣其中一份喺香港 effected = 全數課稅 | ✅ 已剔除（9/28 R9）|
 | M9 Ch3 Q5 | fine 必 add back；DA 喺 assessable profits 步驟扣 | ✅ 已剔除（9/28 R10）|
@@ -109,10 +119,12 @@
 | M9 Ch7 Q2 | AVD Scale 2 睇首置（名下無其他住宅）；BSD 只睇 HKPR 身份 | ✅ 已剔除（10/6 R36：首置 HKPR → Scale 2 + 免 BSD，第三次過關）|
 | M9 Ch7 Q3 | 股票印花稅：issue 唔課、gift 課（市值）、IoT 固定 HK$5 | ✅ 已剔除（10/6 R32）|
 | M9 Ch7 Q4 | SSD 三檔：≤6m 20%、6–12m 15%、12–36m 10%；按較高者計 | ✅ 已剔除（10/6 R33：10% × 4.2M = 420,000）|
-| M7 Ch7 Q5 | WACC 權重用市值（股數×股價）；DGM = D₁÷P₀ + g | 🔁 **2nd strike**（10/7 R34：三度「forgot the formula」，答 25.01%；正解 9.03%）→ 帶落 M7 Ch9 Quiz R38 |
-| M7 Ch8 Q1 | MM Prop 1（零稅）：發債回購**不改變公司價值**，但推高剩餘股權要求回報 | 🔁 新增 → 已放入 M7 Ch9 Quiz R39 |
-| M7 Ch8 Q4 | MM Prop 2（零稅）：ke = k₀ + (D/E)(k₀ − kd)；步驟：V=CF÷k₀ → E=V−D → 代公式 | 🔁 新增 → 已放入 M7 Ch9 Quiz R40 |
-| M7 Ch8 Q5 | MM with tax：VL = VU + Tc×D；VU = 稅後 CF ÷ r | 🔁 新增 → 已放入 M7 Ch9 Quiz R41 |
+| M7 Ch7 Q5 | WACC = (E/V)kₑ + (D/V)k_d(1−t)；kₑ = D₁/P₀ + g | 🔁 **4th strike**（10/7 R38 乘銀碼 → R42 kₑ=8.99% 啱咗但 V 寫成 400m、漏 debt 項、(1−t) 乘落 equity）→ 帶落 M7 Ch11 Quiz R46 |
+| M7 Ch8 Q1 | MM Prop 1（零稅）：發債回購**不改變公司價值**，但推高剩餘股權要求回報 | ✅ 已剔除（10/7 R39：概念題一take過）|
+| M7 Ch8 Q4 | MM Prop 2 三步：V=CF÷k₀ → E=V−D → ke=k₀+(D/E)(k₀−kd) | 🔁 **3rd strike**（10/7 R40 當咗 WACC 計 → R43 又係 WACC 框架 6.75%，自己都問「it is like wacc?」；正解 15.94%）→ 帶落 M7 Ch11 Quiz R47 |
+| M7 Ch8 Q5 | VL = VU + Tc×D；VU = 稅後 CF ÷ r | 🔁 **3rd strike**（10/7 R41 答 2,420,000 → R44 答 2,076,000；正解 6,700,000）→ 帶落 M7 Ch11 Quiz R48 |
+| M7 Ch9 Q5 | CCC：日數 = 365 **÷** turnover（turnover = COGS÷inv 等，分數唔好倒轉）| 🔁 **2nd strike**（10/7 R45：寫成 365÷(inv/COGS)，答 2363；正解 38.5 days）→ 帶落 M7 Ch11 Quiz R49 |
+| M7 Ch10 Q5 | **EFN = ΔA − ΔAP − retained earnings**（retained = 預測 NI × (1−payout)）| 🔁 新增（10/7：只計咗 ΔA = 500,000；正解 84,000）→ 帶落 M7 Ch11 Quiz R50 |
 | M9 Ch8 Q4 | 兩級制稅率：個人/unincorporated = 7.5%，公司 = 8.25% | ✅ 已剔除（10/6 R37：800,000 × 7.5% = 60,000，一take過）|
 
 狀態圖例：🔁 隊列中（待重測）｜ ✅ 已剔除（重測答啱）
@@ -141,4 +153,6 @@
 | 10/7 | M7 Ch8 Capital Structure Quiz（主卷 5 題 + Retest R34）| 主卷 **2/5** ⚠️、Retest **0/1** | **閉卷公式災難**：R34 WACC 三度失憶（答 25.01%，正解 9.03%）；Q4/Q5 MM 公式「forgot the formula」×2；Q1 MM Prop 1 概念錯（以為平價發債提高股價）。唯二得分：Q2 MM 假設、Q3 最優資本結構概念 → 四項注入 M7 Ch9 R38–R41；處方：每日默寫三公式 |
 | 10/7 | M9 保溫卷 W2 已出（觸發：M7 Ch8 提交）| **4/5** | **s.60(1) 第六次終於全對** 🎉（31 March 2026 + No + s.60(1)，反向 out-of-time 題都啱）；DIPN 21 個人 7.5% ✅、NAV 封頂 480,000 ✅、SSD 10% ✅；唯 consignment 回忘（10% + s.15(5)）→ 重返隊列帶落 W3 |
 | 10/7 | M7 Ch9 Financial Analysis Quiz（主卷 5 題 + Retest R38–R41）| 主卷 **4/5**、Retest **1/4** | R39 MM Prop 1 概念 ✅ 清除；R38 市值權重終於啱但乘銀碼（第 3 次）、R40 當咗 WACC 計（第 2 次）、R41 亂砌（第 2 次）→ R42–R44 帶落 Ch10；主卷 Q1–Q4 全對（P/B、DuPont 12%、EBIT ROA、current 1.60/quick 0.80）；Q5 CCC 公式唔識（23.23 vs 45）→ R45 |
-| 10/7 | M9 保溫卷 W3 已出（觸發：M7 Ch9 提交）| 待做 | 帶落題：consignment s.20A(3)（8,000,000 新情境）；輪轉：rental value s.9(2)、AVD/BSD 首置、capital vs revenue、MPF s.26G |
+| 10/7 | M9 保溫卷 W3 已出（觸發：M7 Ch9 提交）| **2/5** ⚠️ | consignment 80,000 ✅ 清除（條文寫 s.20(A)，下次寫全 s.20A(3)）、AVD/BSD ✅；**三條已清除項目同晚回忘**：rental value 揀 actual rent、sole agreement 補償答 revenue、MPF 答每月 1,500 + s.9 → 三條全部重返隊列帶落 W4 |
+| 10/7 | M7 Ch10 Financial Forecasts Quiz（主卷 5 題 + Retest R42–R45）| 主卷 **4/5**、Retest **0/4** ⚠️ | 主卷 Q1–Q4 全對（notes payable、FCF 唔包利息、EBITDA/EBIT break-even、FCF=1,400,000）；Q5 EFN 只計 ΔA → R50。Retest 公式繼續失守：R42 kₑ 啱但組裝錯（第 4 次）、R43/R44 MM 兩條（第 3 次）、R45 CCC 分數倒轉（第 2 次）→ R46–R49 注入 Ch11 |
+| 10/7 | M9 保溫卷 W4 已出（觸發：M7 Ch10 提交）| 待做 | 帶落題 ×3：rental value（計算題逼你計）、capital vs revenue（反向新情境）、MPF（問全年）；輪轉：s.60(1) 保溫、DIPN 21 公司 8.25% |

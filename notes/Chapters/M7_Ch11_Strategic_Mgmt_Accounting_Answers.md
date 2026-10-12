@@ -85,13 +85,13 @@ The company must design and produce the rice cooker at HK$199.20 or less (coveri
 - 常見錯誤 2：直接用 249 × 20% = 49.80 當答案——呢個係 profit 唔係 target cost，記住公式 Market price − Desired profit = Target cost，要行多一步減。
 - 考試貼士：呢類題 30 秒內要搞掂；寫低公式再代入，數字眼（HK$199、HK$249 呢類 price points）正正係原文 target pricing 概念嘅例子。
 
-## Question 5 — Correct Answer: **ROI = 15%**
+## Question 5 — Correct Answer: **ROI = 25%**（⚠️ 已更正：原版答案卡寫 15% 係算術錯誤，1,000,000 ÷ 4,000,000 = 0.25）
 
 **Model Answer (English):**
 Working (throughput analysis — three formulas):
 - Step 1: Throughput = Revenue − Totally variable expenses = HK$4,800,000 − HK$1,200,000 = HK$3,600,000
 - Step 2: Net profit = Throughput − Operating expenses = HK$3,600,000 − HK$2,600,000 = HK$1,000,000
-- Step 3: ROI = Net profit ÷ Investment = HK$1,000,000 ÷ HK$4,000,000 = 0.15 = **15%**
+- Step 3: ROI = Net profit ÷ Investment = HK$1,000,000 ÷ HK$4,000,000 = 0.25 = **25%**
 
 【解題思路】
 - 嚴格跟三條公式行：Throughput = Revenue − **Totally** variable expenses（題目已直接俾咗，唔使自己判斷邊啲係變動）→ 3,600,000。

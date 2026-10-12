@@ -4,6 +4,16 @@
 
 ---
 
+**Retest R51** — M7 Ch8 Q5 五度交手（R41/R44/R48 未過）→ 新情境（計算題）
+Orca Ltd generates perpetual annual pre-tax cash flows of HK$1,200,000. The tax rate is 25% and its unlevered cost of capital is 12%. The company issues HK$2,500,000 of perpetual debt.
+**Calculate V_L using MM with taxes (V_L = V_U + T_c × D). Show all workings. (Warning: the tax shield uses T_c, the tax rate — NOT (1 − T_c).)**
+
+**Retest R52** — M7 Ch10 Q5 三度交手（R50 未過）→ 新情境（計算題）
+Central Trading Ltd's current net sales are HK$12,000,000, forecast to grow by 20% next year. Total assets vary with sales at 55% of sales; accounts payable vary with sales at 12% of sales; total costs are 90% of sales; the tax rate is 30%; and the dividend payout ratio is 40%.
+**Calculate the external funding needed (EFN) for next year. (Remember: net income is computed on TOTAL forecast sales, and retained earnings are SUBTRACTED.)**
+
+---
+
 **Question 1 (MCQ)**
 
 NovaTech Ltd has just developed a patented wearable device that no competitor can currently replicate. It launches the product at a price well above competing devices to capture customers willing to pay a premium to be first to own it, and plans to lower the price progressively afterwards to attract additional customer segments.

@@ -53,6 +53,10 @@
 | 10/13 | Ch12 | R52（Retest 第 3 次）：EFN **全對**——ΔA 1.32m、ΔAP 288,000、NI 1,008,000（總銷售）、retained 604,800（正確用**減**）、EFN=**427,200** ✅ | ✅ 通過 | 第三次過關——**M7 舊公式債全部清零** 🎉 |
 | 10/13 | Ch12 | Q3：relevant cost 概念錯——揀咗 C（absorbed fixed OH 要計入最低報價）；正確 D：只有 future incremental + opportunity costs 先相關，sunk 同唔變嘅 OH 唔計 | 概念不清 | "Only future incremental costs and opportunity costs that differ between options are relevant to a special-order minimum price." |
 | 10/13 | Ch12 | Q4：cost-plus 漏咗 fixed **manufacturing** OH（300,000÷8,000=37.5）——total cost 應係 107.5（45+37.5+25），mark-up=200,000÷860,000=23.26% → **132.50**；佢答 118.75（仲問「mark up on the cost?」——係）| 公式誤用 | "Mark-up % = desired ROI profit ÷ TOTAL cost; total cost includes ALL fixed overheads (manufacturing + S&A)." |
+| 10/13 | Ch13 | R53（Retest）：relevant cost 概念 ✅——揀 C 排除唔變嘅 absorbed fixed OH，一take過 | ✅ 通過 | 概念清 |
+| 10/13 | Ch13 | R54（Retest 第 2 次）：砌出 total cost + profit = 130 **已經係答案**，但又 ×1.2 雙重計利潤 → 156（正確 **130.00**）| 公式誤用 | "Target price = total cost + desired profit — do NOT apply the mark-up again after adding profit." 利潤只加一次 |
+| 10/13 | Ch13 | Q4：NPV 兩錯——(1) NWC 期初 outlay 40,000 漏咗；(2) 期末收回 40,000 折現後應**加**返，佢**減**（仲有 typo Y2 寫 10,000）。正確 **−21,262**（reject）| 公式誤用 | "Working capital: OUT at t₀, recovered (added back, discounted) at the end." NWC 兩頭都要計 |
+| 10/13 | Ch13 | Q5(a)：discounted payback 亂砌 500,000×1.1÷150,000=3.67（正確 **4.26 years**：逐年折現累積——Y4 尾 cum 475,480，差額 24,520 ÷ Y5 折現流 93,138 = 0.26）| 公式背誦 | "Discounted payback: discount EACH year's cash flow, accumulate until the outlay is recovered, then interpolate the fraction." 唔可以一條式直出 |
 
 ## M9 Principles of Taxation
 
@@ -91,6 +95,7 @@
 | 10/7 | 保溫卷W3 | Q2：rental value **回忘**——揀咗 actual rent 300,000（正確 10% of income = **72,000**，s.9(2)）。Q4：capital/revenue **回忘**——sole distribution agreement 終止都答 revenue（正確 **capital**：sterilisation of entire profit-making structure）。Q5：MPF 答咗每月 1,500＋條文 s.9（正確**全年 18,000**，**s.26G**）。Q1 consignment 80,000 ✅ 清除、Q3 AVD/BSD ✅ | 概念回忘 | "Rental value under s.9(2) is 10% of income from the employer — never the actual rent paid." / "Compensation for terminating a sole agreement representing substantially the whole business is CAPITAL." / "MPF deduction cap: HK$18,000 per YEAR (s.26G)." 三條已清除項目同晚回忘——間隔重複要加密 |
 | 10/9 | 保溫卷W4 | Q1 rental value 60,000 + s.9(2) ✅、Q2 五份協議之一 → revenue ✅（反向題都啱）、Q3 MPF 18,000 ✅（條文寫 s.26——下次寫全 s.26G）、Q4 s.60(1) 31 Mar 2027 + Yes ✅（第七次交手，連續第二次全對）。Q5：DIPN 21 **回忘**——誤讀 "performed entirely in Hong Kong"（以為係唔喺香港做），答咗 a no tax；正解 c：deemed 2/3 × 2.4m = 1.6m × **8.25%**（公司）= **132,000** | 審題/條文回忘 | "Under DIPN 21, fees for services performed IN Hong Kong paid to a non-resident are deemed taxable at 2/3 of the gross fee — 8.25% for corporations, 7.5% for individuals." 題目關鍵字要圈低：performed **in** Hong Kong = 課稅 |
 | 10/13 | 保溫卷W5 | **5/5 全對** 🎯：DIPN 21 公司版 165,000 ✅（即晚斬殺）、SSD 20% ✅、股票印花稅 gift 市值 ✅、donations 175,000 + s.26C ✅、s.8(1A)(b)(ii) 全離港豁免 ✅ | ✅ 全對 | 首份滿分保溫卷。小疵：Q1 冇寫 governing authority（要寫 DIPN 21）；Q2 括號 (0%,15%,10%) 寫錯——三檔係 20/15/10 |
+| 10/13 | 保溫卷W6 | Q1：s.60(1) **fraud 支線失守**——題目講明 wilful evasion，應用十年檔 **31 March 2032**，佢用咗六年檔 2028（(ii) yes 同 (iii) s.60(1) 啱）。Q2 96,000 啱但條文寫 s.26(G)（應 **s.9(2)**）；Q3 60,000 啱但條文寫 s.20(4) 仲話「i guess」（應 **s.20A(3)**）；Q4 ✅、Q5 ✅ | 條文背誦 | "Fraud or wilful evasion extends the s.60(1) time limit to 10 years after the end of the YA." 金額啱條文亂 = 假熟——條文編號都要默 |
 
 ## 答案卡更正紀錄 (Errata)
 
@@ -113,14 +118,16 @@
 | M7 Ch4 Q2 | 債券價格波動性定理 | ✅ 已剔除（9/23 R14）|
 | M7 Ch4 Q4/Q5 | 半年複利債券計價 + 常識檢查 | ✅ 已剔除（9/23 R15：932.67，有做 sanity check）|
 | M7 Ch2 Q4 | BEY 公式背誦 | ✅ 已剔除（9/25 R16：6.45%，第五次過關）|
-| M9 Ch2 Q5 | additional assessment 要答日期 + 條文編號 | ✅ 已剔除（10/7 保溫卷 W2 Q1：**第六次終於全對**——31 March 2026 + No + s.60(1) 三寶齊 🎉）|
+| M9 Ch2 Q5 | s.60(1)：普通 6 年、**fraud/wilful evasion = 10 年**（proviso）| 🔁 **重返隊列**（10/13 W6 Q1：fraud 支線失守，用咗六年檔答 2028；正解 2032）→ 帶落保溫卷 W7 |
 | M9 保溫卷 W2 Q5 | consignment：s.20A(3) = **1%** of HK-customer gross proceeds | ✅ 已剔除（10/7 W3 Q1：80,000 啱；條文寫 s.20(A)——下次寫全 **s.20A(3)**）|
 | M9 Ch4 Q4（W3 Q2）| rental value = **10% of income**（s.9(2)），唔係實際租金 | ✅ 已剔除（10/9 W4 Q1：60,000 + s.9(2) 全對）|
 | M9 Ch3 Q1（W3 Q4）| capital vs revenue：**sole** = capital；眾多中一份 = revenue | ✅ 已剔除（10/9 W4 Q2：五份協議之一 → revenue，反向題啱）|
 | M9 保溫卷 W3 Q5 | MPF 全年 cap 18,000（s.26G）| ✅ 已剔除（10/9 W4 Q3：24,000 > cap → 18,000 啱；條文寫 s.26，下次寫全 **s.26G**）|
 | M9 Ch3 Q3（W4 Q5）| DIPN 21：服務**喺香港** performed → deemed 2/3 課稅；公司 8.25%、個人 7.5% | ✅ 已剔除（10/13 W5 Q1：3m×2/3×8.25% = **165,000** 即晚斬殺；冇寫 governing authority，下次寫 DIPN 21）|
-| M7 Ch12 Q3 | Relevant cost：sunk costs 同唔變嘅 absorbed fixed OH 一律**唔相關**；只有 future incremental + opportunity costs | 🔁 新增（10/13：揀咗 C「absorbed fixed OH 要計入最低價」；正解 D）→ 帶落 M7 Ch13 Quiz R53 |
-| M7 Ch12 Q4 | Cost-plus with ROI：total cost 要包**全部** fixed OH（manufacturing + S&A）；mark-up = desired profit ÷ total cost | 🔁 新增（10/13：漏咗 manufacturing OH 300,000，答 118.75；正解 132.50）→ 帶落 M7 Ch13 Quiz R54 |
+| M7 Ch12 Q3 | Relevant cost：sunk costs 同唔變嘅 absorbed fixed OH 一律**唔相關** | ✅ 已剔除（10/13 R53：揀 C 排除 absorbed fixed OH，一take過）|
+| M7 Ch12 Q4 | Cost-plus with ROI：利潤**只加一次**（total cost + desired profit = price）| 🔁 **2nd strike**（10/13 R54：砌出 130 已經係答案，但又 ×1.2 雙重計利潤 → 156）→ 帶落 M7 Ch14 Quiz R55 |
+| M7 Ch13 Q4 | NPV：NWC **期初出、期末收回（折現加返）**；兩頭都要計 | 🔁 新增（10/13：漏期初 NWC 40,000，期末收回折現後仲**減**咗；正解 −21,262 reject）→ 帶落 M7 Ch14 Quiz R56 |
+| M7 Ch13 Q5 | Discounted payback：**逐年折現累積**＋尾段插值，唔可以一條式直出 | 🔁 新增（10/13：亂砌 500,000×1.1÷150,000=3.67；正解 4.26 years）→ 帶落 M7 Ch14 Quiz R57 |
 | M9 Ch3 Q1 | capital vs revenue receipt 邊界 | ✅ 已剔除（9/30 R22：唯一零售舖 = capital，第四次過關）|
 | M9 Ch3 Q3 | DIPN 21：買或賣其中一份喺香港 effected = 全數課稅 | ✅ 已剔除（9/28 R9）|
 | M9 Ch3 Q5 | fine 必 add back；DA 喺 assessable profits 步驟扣 | ✅ 已剔除（9/28 R10）|
@@ -174,4 +181,6 @@
 | 10/9 | M7 Ch11 SMA Quiz（主卷 5 題 + Retest R46–R50）| 主卷 **5/5** 🎯、Retest **3/5** | 主卷全對（EOQ、external failure、SMA、target cost 199.20、ROI 25%——答案卡 15% 係 errata，考生啱）；**R46 WACC 第五次終於過關** 🎉、R47 MM2 第四次過關、R49 CCC 第三次過關；R48 shield 用錯 0.7（第 4 次）、R50 EFN NI 用錯 ΔS＋retained 變加（第 2 次）→ R51/R52 注入 Ch12 |
 | 10/13 | M9 保溫卷 W5 | **5/5** 🎯 | 首份滿分保溫卷——DIPN 21 公司版即晚斬殺 ✅，四條輪轉全中。**M9 錯題隊列再次清零** 🎉 |
 | 10/13 | M7 Ch12 Pricing Quiz（主卷 5 題 + Retest R51–R52）| 主卷 **3/5**、Retest **2/2** 🎯 | **R51 MM-with-tax 第五次過關 ✅、R52 EFN 第三次過關 ✅——M7 舊公式債全部清零** 🎉；主卷 Q3 relevant cost 概念錯 + Q4 cost-plus 漏 manufacturing OH → R53/R54 注入 Ch13 |
-| 10/13 | M9 保溫卷 W6 已出（觸發：M7 Ch12 提交）| 待做 | 隊列清零後首份純輪轉卷：s.60(1) fraud 十年檔、rental value、consignment、SSD 18 個月檔、DIPN 21 個人版 |
+| 10/13 | M9 保溫卷 W6 | **4/5** | SSD ✅、DIPN 21 個人版 ✅；**s.60(1) fraud 支線失守**（十年檔 → 帶落 W7）；rental value/consignment 金額啱但條文亂寫（s.26(G)、s.20(4)「i guess」）——條文編號列入默寫範圍 |
+| 10/13 | M7 Ch13 Investment Appraisal Quiz（主卷 5 題 + Retest R53–R54）| 主卷 **3/5**、Retest **1/2** | R53 relevant cost ✅ 清除；R54 cost-plus 雙重計利潤（第 2 次）→ R55；主卷 Q1–Q3 概念全對（mutually exclusive 揀 NPV、sunk/opportunity 分類、discounted vs simple payback）；Q4 NPV NWC 兩頭錯 → R56；Q5a discounted payback 唔識逐年累積法 → R57 |
+| 10/13 | M9 保溫卷 W7 已出（觸發：M7 Ch13 提交）| 待做 | 帶落題：s.60(1) fraud 十年檔（out-of-time 變種）；輪轉：rental value（逼寫條文）、NAV、premium 攤分 s.5B(4)、office 來源規則 |

@@ -4,6 +4,20 @@
 
 ---
 
+**Retest R55** — M7 Ch12 Q4 三度交手（R54 未過）→ 新情境（計算題）
+Lily Products Ltd is pricing a new blender. The per-unit variable cost is HK$80. Fixed manufacturing overhead is HK$500,000 and fixed selling and administrative expenses are HK$300,000. The company has invested HK$2,000,000 and targets a 15% return on investment. Planned production is 20,000 units.
+**Using total cost-plus pricing, calculate the target selling price per unit. (Warning: profit is added ONCE — do not apply the mark-up twice.)**
+
+**Retest R56** — M7 Ch13 Q4 錯（NPV / NWC）→ 新情境（計算題）
+Peng Chau Ltd is appraising a three-year project. Equipment costs HK$200,000 plus an immediate investment in net working capital of HK$50,000 (recovered in full at the end of Year 3). After-tax operating cash inflows are HK$90,000 at the end of each of Years 1–3. No salvage value. Cost of capital is 10%.
+**Calculate the NPV (rounded to the nearest HK dollar) and state accept/reject. (Remember: NWC goes OUT at t₀ and comes back IN, discounted, at the end.)**
+
+**Retest R57** — M7 Ch13 Q5 錯（discounted payback）→ 新情境（計算題）
+Lamma Ltd invests HK$400,000 in a project producing constant after-tax cash inflows of HK$120,000 at the end of each year for five years. The discount rate is 10%.
+**Calculate the discounted payback period (two decimal places). Show the cumulative discounted cash flow year by year.**
+
+---
+
 **Question 1 (MCQ)**
 
 BrightLine Ltd has just completed a capital investment project to automate one of its production lines. The board wants to commission a post-completion audit. Which of the following statements BEST describes the primary purpose of this audit?

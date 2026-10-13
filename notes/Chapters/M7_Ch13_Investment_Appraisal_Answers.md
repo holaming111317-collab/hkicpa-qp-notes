@@ -2,6 +2,18 @@
 
 ---
 
+## Retest R53 — Correct answer: C
+Only **future incremental costs and opportunity costs** are relevant. Absorbed fixed overheads that do not change are NOT relevant (they will be incurred anyway); sunk costs are also irrelevant. (a), (b) and (d) are all relevant — (b) is an opportunity cost, the most commonly missed relevant cost.
+
+## Retest R54 — Correct answer: HK$130.00 per unit
+1. Total cost = variable 60 × 10,000 + fixed manufacturing OH 400,000 + fixed S&A 100,000 = 600,000 + 500,000 = **1,100,000**
+2. Desired profit = 20% × 1,000,000 = **200,000**
+3. Mark-up % = 200,000 ÷ 1,100,000 = **18.18%**
+4. Target price = 1,300,000 ÷ 10,000 = **HK$130.00**（即 unit cost 110 × 1.1818）
+（Ch12 Q4 嘅錯：漏咗 fixed **manufacturing** OH——total cost 要包晒 manufacturing + S&A 兩份。）
+
+---
+
 ## Question 1 — Answer: B
 
 **English Model Answer:**

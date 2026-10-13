@@ -4,6 +4,19 @@
 
 ---
 
+**Retest R53** — M7 Ch12 Q3 錯（relevant cost 概念）→ 新情境（MCQ）
+Peony Ltd is quoting a minimum price for a one-off special order. Which of the following should be **EXCLUDED** from the minimum price?
+a) Incremental material costs for the order
+b) The opportunity cost of using scarce machine hours
+c) Absorbed fixed overheads that will not change whether or not the order is accepted
+d) Incremental delivery costs for the order
+
+**Retest R54** — M7 Ch12 Q4 錯（cost-plus 漏 manufacturing OH）→ 新情境（計算題）
+Orchid Products Ltd is pricing a new kettle. The per-unit variable cost is HK$60. Fixed manufacturing overhead is HK$400,000 and fixed selling and administrative expenses are HK$100,000. The company has invested HK$1,000,000 and targets a 20% return on investment. Planned production is 10,000 units.
+**Using total cost-plus pricing with the mark-up based on the desired ROI, calculate the target selling price per unit. Show: total cost, desired profit, mark-up %, and the price.**
+
+---
+
 **Question 1 (MCQ)**
 
 Kowloon Ventures Ltd is evaluating two **mutually exclusive** projects, Peak and Harbour. Both require an initial outlay of HK$2 million and have conventional cash flows. At the company's 10% cost of capital, Project Peak has an IRR of 18% and an NPV of HK$120,000; Project Harbour has an IRR of 15% and an NPV of HK$210,000. Which of the following is the correct decision and reasoning?

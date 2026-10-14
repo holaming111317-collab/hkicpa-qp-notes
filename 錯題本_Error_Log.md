@@ -57,6 +57,9 @@
 | 10/13 | Ch13 | R54（Retest 第 2 次）：砌出 total cost + profit = 130 **已經係答案**，但又 ×1.2 雙重計利潤 → 156（正確 **130.00**）| 公式誤用 | "Target price = total cost + desired profit — do NOT apply the mark-up again after adding profit." 利潤只加一次 |
 | 10/13 | Ch13 | Q4：NPV 兩錯——(1) NWC 期初 outlay 40,000 漏咗；(2) 期末收回 40,000 折現後應**加**返，佢**減**（仲有 typo Y2 寫 10,000）。正確 **−21,262**（reject）| 公式誤用 | "Working capital: OUT at t₀, recovered (added back, discounted) at the end." NWC 兩頭都要計 |
 | 10/13 | Ch13 | Q5(a)：discounted payback 亂砌 500,000×1.1÷150,000=3.67（正確 **4.26 years**：逐年折現累積——Y4 尾 cum 475,480，差額 24,520 ÷ Y5 折現流 93,138 = 0.26）| 公式背誦 | "Discounted payback: discount EACH year's cash flow, accumulate until the outlay is recovered, then interpolate the fraction." 唔可以一條式直出 |
+| 10/14 | Ch14 | R55（Retest 第 3 次）：cost-plus **全對**——cost/unit 120、profit/unit 15、price **135**（120+15 一次過）✅。小疵：「120*0.125=135」寫法錯（120×0.125=15）；要寫 120×1.125 或 120+15 | ✅ 通過 | 第三次過關 |
+| 10/14 | Ch14 | R56（Retest 第 2 次）：NPV **全對**——outlay 250,000、PV inflows 261,382（NWC 50,000 加入 Y3 折現）、NPV=**+11,382 accept** ✅ | ✅ 通過 | NWC 兩頭啱 |
+| 10/14 | Ch14 | R57（Retest 第 2 次）：discounted payback **全對**——逐年折現累積表齊、插值 4+19,616/74,511=**4.26 years** ✅ | ✅ 通過 | 第二次過關 |
 
 ## M9 Principles of Taxation
 
@@ -96,6 +99,7 @@
 | 10/9 | 保溫卷W4 | Q1 rental value 60,000 + s.9(2) ✅、Q2 五份協議之一 → revenue ✅（反向題都啱）、Q3 MPF 18,000 ✅（條文寫 s.26——下次寫全 s.26G）、Q4 s.60(1) 31 Mar 2027 + Yes ✅（第七次交手，連續第二次全對）。Q5：DIPN 21 **回忘**——誤讀 "performed entirely in Hong Kong"（以為係唔喺香港做），答咗 a no tax；正解 c：deemed 2/3 × 2.4m = 1.6m × **8.25%**（公司）= **132,000** | 審題/條文回忘 | "Under DIPN 21, fees for services performed IN Hong Kong paid to a non-resident are deemed taxable at 2/3 of the gross fee — 8.25% for corporations, 7.5% for individuals." 題目關鍵字要圈低：performed **in** Hong Kong = 課稅 |
 | 10/13 | 保溫卷W5 | **5/5 全對** 🎯：DIPN 21 公司版 165,000 ✅（即晚斬殺）、SSD 20% ✅、股票印花稅 gift 市值 ✅、donations 175,000 + s.26C ✅、s.8(1A)(b)(ii) 全離港豁免 ✅ | ✅ 全對 | 首份滿分保溫卷。小疵：Q1 冇寫 governing authority（要寫 DIPN 21）；Q2 括號 (0%,15%,10%) 寫錯——三檔係 20/15/10 |
 | 10/13 | 保溫卷W6 | Q1：s.60(1) **fraud 支線失守**——題目講明 wilful evasion，應用十年檔 **31 March 2032**，佢用咗六年檔 2028（(ii) yes 同 (iii) s.60(1) 啱）。Q2 96,000 啱但條文寫 s.26(G)（應 **s.9(2)**）；Q3 60,000 啱但條文寫 s.20(4) 仲話「i guess」（應 **s.20A(3)**）；Q4 ✅、Q5 ✅ | 條文背誦 | "Fraud or wilful evasion extends the s.60(1) time limit to 10 years after the end of the YA." 金額啱條文亂 = 假熟——條文編號都要默 |
+| 10/14 | 保溫卷W7 | **5/5 全對** 🎯：s.60(1) fraud out-of-time 變種全對（31 Mar 2025 + No + s.60(1)）、rental value 84,000 + **s.9(2)**（條文終於寫準）、NAV 720,000/720,000、premium 攤分 30,000、office 來源 UK 全中 | ✅ 全對 | 第二份滿分保溫卷；條文默寫起效 |
 
 ## 答案卡更正紀錄 (Errata)
 
@@ -118,16 +122,16 @@
 | M7 Ch4 Q2 | 債券價格波動性定理 | ✅ 已剔除（9/23 R14）|
 | M7 Ch4 Q4/Q5 | 半年複利債券計價 + 常識檢查 | ✅ 已剔除（9/23 R15：932.67，有做 sanity check）|
 | M7 Ch2 Q4 | BEY 公式背誦 | ✅ 已剔除（9/25 R16：6.45%，第五次過關）|
-| M9 Ch2 Q5 | s.60(1)：普通 6 年、**fraud/wilful evasion = 10 年**（proviso）| 🔁 **重返隊列**（10/13 W6 Q1：fraud 支線失守，用咗六年檔答 2028；正解 2032）→ 帶落保溫卷 W7 |
+| M9 Ch2 Q5 | s.60(1)：普通 6 年、**fraud/wilful evasion = 10 年**（proviso）| ✅ 已剔除（10/14 W7 Q1：fraud out-of-time 變種全對——31 March 2025 + No + s.60(1)，一日即斬）|
 | M9 保溫卷 W2 Q5 | consignment：s.20A(3) = **1%** of HK-customer gross proceeds | ✅ 已剔除（10/7 W3 Q1：80,000 啱；條文寫 s.20(A)——下次寫全 **s.20A(3)**）|
 | M9 Ch4 Q4（W3 Q2）| rental value = **10% of income**（s.9(2)），唔係實際租金 | ✅ 已剔除（10/9 W4 Q1：60,000 + s.9(2) 全對）|
 | M9 Ch3 Q1（W3 Q4）| capital vs revenue：**sole** = capital；眾多中一份 = revenue | ✅ 已剔除（10/9 W4 Q2：五份協議之一 → revenue，反向題啱）|
 | M9 保溫卷 W3 Q5 | MPF 全年 cap 18,000（s.26G）| ✅ 已剔除（10/9 W4 Q3：24,000 > cap → 18,000 啱；條文寫 s.26，下次寫全 **s.26G**）|
 | M9 Ch3 Q3（W4 Q5）| DIPN 21：服務**喺香港** performed → deemed 2/3 課稅；公司 8.25%、個人 7.5% | ✅ 已剔除（10/13 W5 Q1：3m×2/3×8.25% = **165,000** 即晚斬殺；冇寫 governing authority，下次寫 DIPN 21）|
 | M7 Ch12 Q3 | Relevant cost：sunk costs 同唔變嘅 absorbed fixed OH 一律**唔相關** | ✅ 已剔除（10/13 R53：揀 C 排除 absorbed fixed OH，一take過）|
-| M7 Ch12 Q4 | Cost-plus with ROI：利潤**只加一次**（total cost + desired profit = price）| 🔁 **2nd strike**（10/13 R54：砌出 130 已經係答案，但又 ×1.2 雙重計利潤 → 156）→ 帶落 M7 Ch14 Quiz R55 |
-| M7 Ch13 Q4 | NPV：NWC **期初出、期末收回（折現加返）**；兩頭都要計 | 🔁 新增（10/13：漏期初 NWC 40,000，期末收回折現後仲**減**咗；正解 −21,262 reject）→ 帶落 M7 Ch14 Quiz R56 |
-| M7 Ch13 Q5 | Discounted payback：**逐年折現累積**＋尾段插值，唔可以一條式直出 | 🔁 新增（10/13：亂砌 500,000×1.1÷150,000=3.67；正解 4.26 years）→ 帶落 M7 Ch14 Quiz R57 |
+| M7 Ch12 Q4 | Cost-plus with ROI：利潤**只加一次** | ✅ 已剔除（10/14 R55：cost/unit 120 + profit/unit 15 = **135** 全對，第三次過關）|
+| M7 Ch13 Q4 | NPV：NWC 期初出、期末收回折現加返 | ✅ 已剔除（10/14 R56：+**11,382** accept 全對——NWC 兩頭啱，第二次過關）|
+| M7 Ch13 Q5 | Discounted payback：逐年折現累積＋插值 | ✅ 已剔除（10/14 R57：累積表全齊，4+19,616/74,511=**4.26 years** 全對，第二次過關）|
 | M9 Ch3 Q1 | capital vs revenue receipt 邊界 | ✅ 已剔除（9/30 R22：唯一零售舖 = capital，第四次過關）|
 | M9 Ch3 Q3 | DIPN 21：買或賣其中一份喺香港 effected = 全數課稅 | ✅ 已剔除（9/28 R9）|
 | M9 Ch3 Q5 | fine 必 add back；DA 喺 assessable profits 步驟扣 | ✅ 已剔除（9/28 R10）|
@@ -183,4 +187,6 @@
 | 10/13 | M7 Ch12 Pricing Quiz（主卷 5 題 + Retest R51–R52）| 主卷 **3/5**、Retest **2/2** 🎯 | **R51 MM-with-tax 第五次過關 ✅、R52 EFN 第三次過關 ✅——M7 舊公式債全部清零** 🎉；主卷 Q3 relevant cost 概念錯 + Q4 cost-plus 漏 manufacturing OH → R53/R54 注入 Ch13 |
 | 10/13 | M9 保溫卷 W6 | **4/5** | SSD ✅、DIPN 21 個人版 ✅；**s.60(1) fraud 支線失守**（十年檔 → 帶落 W7）；rental value/consignment 金額啱但條文亂寫（s.26(G)、s.20(4)「i guess」）——條文編號列入默寫範圍 |
 | 10/13 | M7 Ch13 Investment Appraisal Quiz（主卷 5 題 + Retest R53–R54）| 主卷 **3/5**、Retest **1/2** | R53 relevant cost ✅ 清除；R54 cost-plus 雙重計利潤（第 2 次）→ R55；主卷 Q1–Q3 概念全對（mutually exclusive 揀 NPV、sunk/opportunity 分類、discounted vs simple payback）；Q4 NPV NWC 兩頭錯 → R56；Q5a discounted payback 唔識逐年累積法 → R57 |
-| 10/13 | M9 保溫卷 W7 已出（觸發：M7 Ch13 提交）| 待做 | 帶落題：s.60(1) fraud 十年檔（out-of-time 變種）；輪轉：rental value（逼寫條文）、NAV、premium 攤分 s.5B(4)、office 來源規則 |
+| 10/14 | M9 保溫卷 W7 | **5/5** 🎯 | 第二份滿分保溫卷——s.60(1) fraud 支線一日即斬、條文全部寫準。**M9 隊列維持清零** |
+| 10/14 | M7 Ch14 Post-Appraisal Quiz（主卷 5 題 + Retest R55–R57）| 主卷 **5/5** 🎯、Retest **3/3** 🎯 | 完美之夜：R55 cost-plus ✅、R56 NPV/NWC ✅、R57 discounted payback ✅——**M7 錯題隊列再次清零**；主卷全對（post-completion audit 目的、continuous measurement、sunk cost fallacy、CPI 0.80、SPI 0.75 late）|
+| 10/14 | M9 保溫卷 W8 已出（觸發：M7 Ch14 提交）| 待做 | 純輪轉：s.60(1) 邊界日（issue 日=死線日）、AVD 15%+BSD 非 HKPR、股票轉讓印花稅、capital vs revenue、time apportionment |

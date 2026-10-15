@@ -127,7 +127,7 @@
 | M7 Ch4 Q4/Q5 | 半年複利債券計價 + 常識檢查 | ✅ 已剔除（9/23 R15：932.67，有做 sanity check）|
 | M7 Ch2 Q4 | BEY 公式背誦 | ✅ 已剔除（9/25 R16：6.45%，第五次過關）|
 | M9 Ch2 Q5 | s.60(1)：普通 6 年、**fraud/wilful evasion = 10 年**（proviso）| ✅ 已剔除（10/14 W7 Q1：fraud out-of-time 變種全對——31 March 2025 + No + s.60(1)，一日即斬）|
-| M9 保溫卷 W8 Q3 | 股票轉讓印花稅：contract note **0.1%**（2023 起）＋ IoT **fixed HK$5** | 🔁 **2nd strike**（10/15 W9 Q1：又用錯率——0.01（1%）→ 5,005；正解 500,000 × 0.1% + IoT 5 = **505**）→ 帶落保溫卷 W10 |
+| M9 保溫卷 W8 Q3 | 股票轉讓印花稅：contract note **0.1%**（2023 起）＋ IoT **fixed HK$5** | 🔁 **2nd strike**（10/15 W9 Q1：又用錯率——0.01（1%）→ 5,005；正解 500,000 × 0.1% + IoT 5 = **505**）→ 保溫卷機制停止，改注入 **M9 Mock 1 Q1**（3,000,000 → 3,005）；Mock 2 繼續跟 |
 | M9 保溫卷 W8 Q5 | Time apportionment（s.8(1A)(a)）：應課稅 = 收入 × **留港日數**/365 | ✅ 已剔除（10/15 W9 Q2：912,500 × 219/365 = **547,500** 全對，留港日數方向啱返）|
 | M9 保溫卷 W2 Q5 | consignment：s.20A(3) = **1%** of HK-customer gross proceeds | ✅ 已剔除（10/7 W3 Q1：80,000 啱；條文寫 s.20(A)——下次寫全 **s.20A(3)**）|
 | M9 Ch4 Q4（W3 Q2）| rental value = **10% of income**（s.9(2)），唔係實際租金 | ✅ 已剔除（10/9 W4 Q1：60,000 + s.9(2) 全對）|
@@ -201,3 +201,4 @@
 | 10/15 | M9 保溫卷 W9 | **4/5** | time apportionment ✅ 清除（547,500）；**股票印花稅 2nd strike**——上次 0.026 今次 0.01 → 5,005（正解 505）→ 帶落 W10；處方：默寫「0.1% + HK$5」二十次 |
 | 10/15 | M7 Ch16 Financial Risks Quiz（純主卷 5 題）| 主卷 **5/5** 🎯 | financial risk 分類、風險對策配對、political risk + natural hedge、LTV 70.0%、630,000 全對——**M7 全部 16 章主卷完成** 🎉；M7 進入總複習＋計時操卷階段 |
 | 10/15 | M9 保溫卷 W10 已出（觸發：M7 Ch16 提交）| 待做 | 帶落題 ×1：股票印花稅第 3 次交手（2,000,000 → 2,005）；輪轉：s.60(1) 六年檔（YA 2018/19）、rental value s.9(2)、SSD 40 個月（0%）、MPF cap s.26G |
+| 10/15 | M7 Mock 1 + M9 Mock 1 已出（用戶指示：停出保溫卷，直接出計時綜合卷；official past paper 留返 11/10–19 校準期）| 待做 | 各 20 題 OTQ、限時 60 分鐘、closed-book；股票印花稅 2nd strike 注入 M9 Mock 1 Q1；W10 保溫卷降格為 optional |

@@ -60,6 +60,7 @@
 | 10/14 | Ch14 | R55（Retest 第 3 次）：cost-plus **全對**——cost/unit 120、profit/unit 15、price **135**（120+15 一次過）✅。小疵：「120*0.125=135」寫法錯（120×0.125=15）；要寫 120×1.125 或 120+15 | ✅ 通過 | 第三次過關 |
 | 10/14 | Ch14 | R56（Retest 第 2 次）：NPV **全對**——outlay 250,000、PV inflows 261,382（NWC 50,000 加入 Y3 折現）、NPV=**+11,382 accept** ✅ | ✅ 通過 | NWC 兩頭啱 |
 | 10/14 | Ch14 | R57（Retest 第 2 次）：discounted payback **全對**——逐年折現累積表齊、插值 4+19,616/74,511=**4.26 years** ✅ | ✅ 通過 | 第二次過關 |
+| 10/14 | Ch15 | 主卷 **5/5** 🎯（純主卷）：ROI goal congruence（拒絕 20% 項目）、BSC internal process、lagging measures、ROI 24% + RI 150,000、EVA 1,000,000 全對 | ✅ 全對 | 隊列清零後首份純主卷滿分 |
 
 ## M9 Principles of Taxation
 
@@ -100,6 +101,7 @@
 | 10/13 | 保溫卷W5 | **5/5 全對** 🎯：DIPN 21 公司版 165,000 ✅（即晚斬殺）、SSD 20% ✅、股票印花稅 gift 市值 ✅、donations 175,000 + s.26C ✅、s.8(1A)(b)(ii) 全離港豁免 ✅ | ✅ 全對 | 首份滿分保溫卷。小疵：Q1 冇寫 governing authority（要寫 DIPN 21）；Q2 括號 (0%,15%,10%) 寫錯——三檔係 20/15/10 |
 | 10/13 | 保溫卷W6 | Q1：s.60(1) **fraud 支線失守**——題目講明 wilful evasion，應用十年檔 **31 March 2032**，佢用咗六年檔 2028（(ii) yes 同 (iii) s.60(1) 啱）。Q2 96,000 啱但條文寫 s.26(G)（應 **s.9(2)**）；Q3 60,000 啱但條文寫 s.20(4) 仲話「i guess」（應 **s.20A(3)**）；Q4 ✅、Q5 ✅ | 條文背誦 | "Fraud or wilful evasion extends the s.60(1) time limit to 10 years after the end of the YA." 金額啱條文亂 = 假熟——條文編號都要默 |
 | 10/14 | 保溫卷W7 | **5/5 全對** 🎯：s.60(1) fraud out-of-time 變種全對（31 Mar 2025 + No + s.60(1)）、rental value 84,000 + **s.9(2)**（條文終於寫準）、NAV 720,000/720,000、premium 攤分 30,000、office 來源 UK 全中 | ✅ 全對 | 第二份滿分保溫卷；條文默寫起效 |
+| 10/14 | 保溫卷W8 | Q1 s.60(1) 邊界日全對（issue 日＝死線日 → in time）✅、Q2 AVD+BSD 3.6m ✅、Q4 capital/revenue ✅。Q3：股票印花稅用咗 0.026（離譜）→ 26,000（正確 0.1% = 1,000 + IoT 5 = **1,005**）。Q5：time apportionment **方向倒轉**——乘咗 73/365（離港日數）得 240,000（正確乘 292/365 = **960,000**），仲以為 time apportionment 係畀非香港僱員用 | 概念不清/數字亂 | "Stamp duty on a share transfer = 0.1% on the contract note + fixed HK$5 on the IoT." / "Time apportionment: assessable income = income × days in HK ÷ 365 — multiply by the HONG KONG days, not the days outside." |
 
 ## 答案卡更正紀錄 (Errata)
 
@@ -123,6 +125,8 @@
 | M7 Ch4 Q4/Q5 | 半年複利債券計價 + 常識檢查 | ✅ 已剔除（9/23 R15：932.67，有做 sanity check）|
 | M7 Ch2 Q4 | BEY 公式背誦 | ✅ 已剔除（9/25 R16：6.45%，第五次過關）|
 | M9 Ch2 Q5 | s.60(1)：普通 6 年、**fraud/wilful evasion = 10 年**（proviso）| ✅ 已剔除（10/14 W7 Q1：fraud out-of-time 變種全對——31 March 2025 + No + s.60(1)，一日即斬）|
+| M9 保溫卷 W8 Q3 | 股票轉讓印花稅：contract note **0.1%**（2023 起）＋ IoT **fixed HK$5** | 🔁 新增（10/14：用咗 0.026 → 26,000 離譜；正解 1,005）→ 帶落保溫卷 W9 |
+| M9 保溫卷 W8 Q5 | Time apportionment（s.8(1A)(a)）：應課稅 = 收入 × **留港日數**/365 | 🔁 新增（10/14：方向倒轉乘咗離港日數，答 240,000；正解 960,000）→ 帶落保溫卷 W9 |
 | M9 保溫卷 W2 Q5 | consignment：s.20A(3) = **1%** of HK-customer gross proceeds | ✅ 已剔除（10/7 W3 Q1：80,000 啱；條文寫 s.20(A)——下次寫全 **s.20A(3)**）|
 | M9 Ch4 Q4（W3 Q2）| rental value = **10% of income**（s.9(2)），唔係實際租金 | ✅ 已剔除（10/9 W4 Q1：60,000 + s.9(2) 全對）|
 | M9 Ch3 Q1（W3 Q4）| capital vs revenue：**sole** = capital；眾多中一份 = revenue | ✅ 已剔除（10/9 W4 Q2：五份協議之一 → revenue，反向題啱）|
@@ -189,4 +193,6 @@
 | 10/13 | M7 Ch13 Investment Appraisal Quiz（主卷 5 題 + Retest R53–R54）| 主卷 **3/5**、Retest **1/2** | R53 relevant cost ✅ 清除；R54 cost-plus 雙重計利潤（第 2 次）→ R55；主卷 Q1–Q3 概念全對（mutually exclusive 揀 NPV、sunk/opportunity 分類、discounted vs simple payback）；Q4 NPV NWC 兩頭錯 → R56；Q5a discounted payback 唔識逐年累積法 → R57 |
 | 10/14 | M9 保溫卷 W7 | **5/5** 🎯 | 第二份滿分保溫卷——s.60(1) fraud 支線一日即斬、條文全部寫準。**M9 隊列維持清零** |
 | 10/14 | M7 Ch14 Post-Appraisal Quiz（主卷 5 題 + Retest R55–R57）| 主卷 **5/5** 🎯、Retest **3/3** 🎯 | 完美之夜：R55 cost-plus ✅、R56 NPV/NWC ✅、R57 discounted payback ✅——**M7 錯題隊列再次清零**；主卷全對（post-completion audit 目的、continuous measurement、sunk cost fallacy、CPI 0.80、SPI 0.75 late）|
-| 10/14 | M9 保溫卷 W8 已出（觸發：M7 Ch14 提交）| 待做 | 純輪轉：s.60(1) 邊界日（issue 日=死線日）、AVD 15%+BSD 非 HKPR、股票轉讓印花稅、capital vs revenue、time apportionment |
+| 10/14 | M9 保溫卷 W8 | **3/5** | s.60(1) 邊界日 ✅、AVD/BSD ✅、capital/revenue ✅；**股票印花稅 0.026 離譜**（正解 1,005）＋ **time apportionment 方向倒轉**（乘錯離港日數，240,000 vs 960,000）→ 兩條帶落 W9 |
+| 10/14 | M7 Ch15 Performance Measurement Quiz（純主卷 5 題）| 主卷 **5/5** 🎯 | ROI/RI goal congruence、BSC 四維度、lagging measures、ROI 24%+RI 150,000、EVA 1,000,000 全對；M7 隊列維持清零 |
+| 10/14 | M9 保溫卷 W9 已出（觸發：M7 Ch15 提交）| 待做 | 帶落題 ×2：股票印花稅（500,000 → 505）、time apportionment（912,500 × 219/365 = 547,500）；輪轉：s.60(1)、education benefit（Glynn）、SSD 邊界 12 個月 |
